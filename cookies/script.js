@@ -6,7 +6,7 @@ var app = new Vue({
       chartTitle:
         "Cookies Stored on my Computer from 1 Day of Internet Browsing",
       svgWidth: window.innerWidth * 0.925,
-      svgHeight: window.innerHeight * 0.8,
+      svgHeight: window.innerHeight * 0.9,
       margin: { top: 25, left: 30, bottom: 25, right: 25 },
       data: [{}],
       myFilters: {
