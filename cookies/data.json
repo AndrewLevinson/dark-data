@@ -1,0 +1,137 @@
+{
+  "cookies": [
+    {
+      "name": "cookie 1",
+      "expire": 90,
+      "type": "first party",
+      "site": "",
+      "category": "news"
+    },
+    {
+      "name": "cookie 2",
+      "expire": 4,
+      "type": "first party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 3",
+      "expire": 1,
+      "type": "first party",
+      "site": "",
+      "category": "news"
+    },
+    {
+      "name": "cookie 4",
+      "expire": 2,
+      "type": "first party",
+      "site": "google",
+      "category": "google"
+    },
+    {
+      "name": "cookie 5",
+      "expire": 345,
+      "type": "third party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 6",
+      "expire": 27,
+      "type": "third party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 8",
+      "expire": 234,
+      "type": "third party",
+      "site": "",
+      "category": "news"
+    },
+    {
+      "name": "cookie 9",
+      "expire": 12,
+      "type": "first party",
+      "site": "",
+      "category": "google"
+    },
+    {
+      "name": "cookie 10",
+      "expire": 1,
+      "type": "first party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 11",
+      "expire": 253,
+      "type": "third party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 12",
+      "expire": 23,
+      "type": "first party",
+      "site": "",
+      "category": "ecommerce"
+    },
+    {
+      "name": "cookie 13",
+      "expire": 421,
+      "type": "third party",
+      "site": "",
+      "category": "news"
+    },
+    {
+      "name": "cookie 14",
+      "expire": 302,
+      "type": "third party",
+      "site": "",
+      "category": "news"
+    },
+    {
+      "name": "cookie 15",
+      "expire": 104,
+      "type": "third party",
+      "site": "",
+      "category": "ecommerce"
+    },
+    {
+      "name": "cookie 16",
+      "expire": 27,
+      "type": "first party",
+      "site": "",
+      "category": "ecommerce"
+    },
+    {
+      "name": "cookie 17",
+      "expire": 5,
+      "type": "first party",
+      "site": "",
+      "category": "ecommerce"
+    },
+    {
+      "name": "cookie 18",
+      "expire": 206,
+      "type": "third party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 19",
+      "expire": 230,
+      "type": "third party",
+      "site": "",
+      "category": "social"
+    },
+    {
+      "name": "cookie 20",
+      "expire": 14,
+      "type": "first party",
+      "site": "",
+      "category": "google"
+    }
+  ]
+}

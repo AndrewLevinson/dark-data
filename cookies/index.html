@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cookies</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- provided some basic styles, which elements are transitioned might be interesting to look at -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- D3 here -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- and Vue here -->
+  </head>
+
+  <body>
+    <!-- This is our container div, that we will reference in our script-->
+    <div id="bars">
+      <div id="center">
+        <h3>{{ chartTitle }}</h3>
+        <div>
+          <p>Our inputs here</p>
+          <!-- <input class="red" type="number" v-model="data[0].expire" /> -->
+          <!-- exp date filter -->
+          <select type="dropdown" v-model="myFilters.exp">
+            <option disabled>Filter by Expiration Date</option>
+            <option value="0" :aria-placeholder="myFilters.exp"
+              >All Length</option
+            >
+            <option value="1">More than 1 day</option>
+            <option value="50">More than 50 days</option>
+          </select>
+
+          <!-- party type filter -->
+          <select type="dropdown" v-model="myFilters.type">
+            <option disabled>Filter by Cookie Type</option>
+            <option value="" :aria-placeholder="myFilters.exp"
+              >All Types</option
+            >
+            <option value="first party">First Party Only</option>
+            <option value="third party">Third Party Only</option>
+          </select>
+        </div>
+        <svg :width="svgWidth" :height="svgHeight">
+          <g :transform="`translate(${margin.left}, ${margin.bottom})`">
+            <g v-for="(d, i) in filteredData">
+              <rect
+                :x="scale.x(d.name)"
+                :y="0"
+                :width="scale.x.bandwidth()"
+                :height="scale.y(d.expire)"
+                :name="d.name"
+                :fill="myFill(d.category)"
+                @mouseover="showLabel = i, myTooltip(d)"
+                @mouseleave="showLabel = null"
+              />
+              <text :x="scale.x(d.name)" :y="scale.y(d.expire) + 15">
+                {{ d.expire }}
+              </text>
+            </g>
+
+            <g
+              v-axis:x="scale"
+              :transform="`translate(${0}, ${0})`"
+              class="x-axis"
+            ></g>
+            <g v-axis:y="scale"></g>
+            <text x="5" :y="svgHeight - margin.bottom - margin.top">
+              Days on Computer
+            </text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- It’s important that your script is at the bottom of your body,
+  because we need the DOM to be ready-->
+    <script src="script.js"></script>
+  </body>
+</html>
