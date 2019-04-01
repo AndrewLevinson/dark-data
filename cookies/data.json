@@ -2,136 +2,174 @@
   "cookies": [
     {
       "name": "cookie 1",
+      "site": "Wired",
       "expire": 90,
-      "type": "first party",
-      "site": "",
-      "category": "news"
+      "party": "first party",
+      "purpose": "targeting",
+      "category": "news",
+      "type": "persistent"
     },
     {
       "name": "cookie 2",
+      "site": "Facebook",
       "expire": 4,
-      "type": "first party",
-      "site": "",
-      "category": "social"
+      "party": "first party",
+      "purpose": "performance",
+      "category": "social",
+      "type": "session"
     },
     {
       "name": "cookie 3",
+      "site": "New York Times",
       "expire": 1,
-      "type": "first party",
-      "site": "",
-      "category": "news"
+      "party": "first party",
+      "purpose": "performance",
+      "category": "news",
+      "type": "session"
     },
     {
       "name": "cookie 4",
+      "site": "Google Maps",
       "expire": 2,
-      "type": "first party",
-      "site": "google",
-      "category": "google"
+      "party": "first party",
+      "purpose": "google",
+      "category": "google",
+      "type": "session"
     },
     {
       "name": "cookie 5",
+      "site": "Facebook",
       "expire": 345,
-      "type": "third party",
-      "site": "",
-      "category": "social"
+      "party": "third party",
+      "purpose": "targeting",
+      "category": "social",
+      "type": "persistent"
     },
     {
       "name": "cookie 6",
+      "site": "Twitter",
       "expire": 27,
-      "type": "third party",
-      "site": "",
-      "category": "social"
+      "party": "third party",
+      "purpose": "performance",
+      "category": "social",
+      "type": "persistent"
     },
     {
       "name": "cookie 8",
+      "site": "The New Yorker",
       "expire": 234,
-      "type": "third party",
-      "site": "",
-      "category": "news"
+      "party": "third party",
+      "purpose": "targeting",
+      "category": "news",
+      "type": "persistent"
     },
     {
       "name": "cookie 9",
+      "site": "Gmail",
       "expire": 12,
-      "type": "first party",
-      "site": "",
-      "category": "google"
+      "party": "first party",
+      "purpose": "functionality",
+      "category": "google",
+      "type": "persistent"
     },
     {
       "name": "cookie 10",
+      "site": "Twitter",
       "expire": 1,
-      "type": "first party",
-      "site": "",
-      "category": "social"
+      "party": "first party",
+      "purpose": "performance",
+      "category": "social",
+      "type": "session"
     },
     {
       "name": "cookie 11",
+      "site": "Facebook",
       "expire": 253,
-      "type": "third party",
-      "site": "",
-      "category": "social"
+      "party": "third party",
+      "purpose": "targeting",
+      "category": "social",
+      "type": "persistent"
     },
     {
       "name": "cookie 12",
+      "site": "Amazon",
       "expire": 23,
-      "type": "first party",
-      "site": "",
-      "category": "ecommerce"
+      "party": "first party",
+      "purpose": "functionality",
+      "category": "ecommerce",
+      "type": "persistent"
     },
     {
       "name": "cookie 13",
+      "site": "Wired",
       "expire": 421,
-      "type": "third party",
-      "site": "",
-      "category": "news"
+      "party": "third party",
+      "purpose": "targeting",
+      "category": "news",
+      "type": "persistent"
     },
     {
       "name": "cookie 14",
+      "site": "Wired",
       "expire": 302,
-      "type": "third party",
-      "site": "",
-      "category": "news"
+      "party": "third party",
+      "purpose": "targeting",
+      "category": "news",
+      "type": "persistent"
     },
     {
       "name": "cookie 15",
+      "site": "Etsy",
       "expire": 104,
-      "type": "third party",
-      "site": "",
-      "category": "ecommerce"
+      "party": "third party",
+      "purpose": "functionality",
+      "category": "ecommerce",
+      "type": "persistent"
     },
     {
       "name": "cookie 16",
+      "site": "Amazon",
       "expire": 27,
-      "type": "first party",
-      "site": "",
-      "category": "ecommerce"
+      "party": "first party",
+      "purpose": "necessary",
+      "category": "ecommerce",
+      "type": "persistent"
     },
     {
       "name": "cookie 17",
+      "site": "Amazon",
       "expire": 5,
-      "type": "first party",
-      "site": "",
-      "category": "ecommerce"
+      "party": "first party",
+      "purpose": "necessary",
+      "category": "ecommerce",
+      "type": "session"
     },
     {
       "name": "cookie 18",
+      "site": "Facebook",
       "expire": 206,
-      "type": "third party",
-      "site": "",
-      "category": "social"
+      "party": "third party",
+      "purpose": "targeting",
+      "category": "social",
+      "type": "persistent"
     },
     {
       "name": "cookie 19",
+      "site": "Facebook",
       "expire": 230,
-      "type": "third party",
-      "site": "",
-      "category": "social"
+      "party": "third party",
+      "purpose": "performance",
+      "category": "social",
+      "type": "persistent"
     },
     {
       "name": "cookie 20",
+      "site": "Google Search",
       "expire": 14,
-      "type": "first party",
-      "site": "",
-      "category": "google"
+      "party": "first party",
+      "purpose": "functionality",
+      "category": "google",
+      "type": "persistent"
     }
   ]
 }

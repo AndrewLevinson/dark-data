@@ -1,25 +1,36 @@
 /* global Vue */
 var app = new Vue({
-  el: "#bars",
+  el: "#container",
   data() {
     return {
-      chartTitle: "Cookies",
-      svgWidth: window.innerWidth * 0.9,
+      chartTitle:
+        "Cookies Stored on my Computer from 1 Day of Internet Browsing",
+      svgWidth: window.innerWidth * 0.925,
       svgHeight: window.innerHeight * 0.8,
-      margin: { top: 25, left: 25, bottom: 25, right: 25 },
+      margin: { top: 25, left: 30, bottom: 25, right: 25 },
       data: [{}],
       myFilters: {
         exp: 0,
-        source: "",
-        type: "",
-        purpose: ""
+        party: "all",
+        category: "all",
+        purpose: null
       },
-      showLabel: null
+      showLabel: false,
+      myCount: null
     };
   },
   computed: {
     filteredData() {
-      let filteredData = this.data.filter(el => el.expire > this.myFilters.exp);
+      let filteredData = this.data.filter(
+        el =>
+          el.expire > this.myFilters.exp &&
+          (this.myFilters.party === "all"
+            ? el.party != null
+            : el.party === this.myFilters.party) &&
+          (this.myFilters.category === "all"
+            ? el.category != null
+            : el.category === this.myFilters.category)
+      );
       return filteredData;
     },
     width() {
@@ -27,6 +38,9 @@ var app = new Vue({
     },
     height() {
       return this.svgHeight - this.margin.top - this.margin.bottom;
+    },
+    count() {
+      return (this.myCount = this.data.length);
     },
     scale() {
       const x = d3
@@ -44,6 +58,7 @@ var app = new Vue({
   },
   mounted() {
     this.loadData();
+    this.initTooltip();
   },
   methods: {
     loadData() {
@@ -51,20 +66,7 @@ var app = new Vue({
         return (this.data = d.cookies);
       });
     },
-    myFill(e) {
-      if (e === "news") {
-        return "orange";
-      } else if (e === "social") {
-        return "lightblue";
-      } else if (e === "google") {
-        return "lightgreen";
-      } else if (e === "ecommerce") {
-        return "lightcoral";
-      } else {
-        return "#000";
-      }
-    },
-    myTooltip(d) {
+    initTooltip() {
       tooltip = {
         element: null,
         init: function() {
@@ -72,6 +74,8 @@ var app = new Vue({
             .select("body")
             .append("div")
             .attr("class", "tooltip")
+            .style("right", `0px`)
+            .style("bottom", `50px`)
             .style("opacity", 0);
         },
         show: function(t) {
@@ -79,32 +83,61 @@ var app = new Vue({
             .html(t)
             .transition()
             .duration(200)
-            .style("left", 20 + "px")
-            .style("top", 20 + "px")
+            .style("right", `50px`)
+            .style("bottom", `50px`)
             .style("opacity", 0.9);
         },
         move: function() {
           this.element
             .transition()
             .duration(30)
-            .style("left", 20 + "px")
+            .style("right", 20 + "px")
             .style("top", 20 + "px")
             .style("opacity", 0.9);
         },
         hide: function() {
           this.element
             .transition()
-            .duration(500)
-            .style("opacity", 0);
+            .duration(200)
+            .style("opacity", 0)
+            .delay(400)
+            .style("right", `0px`);
         }
       };
       tooltip.init();
-
-      tooltip.show(
-        `<div class="total double"><h5>Hello</h5></div> ${d.name}<br>${
-          d.category
-        }<br>${d.type}`
-      );
+    },
+    myFill(e) {
+      if (e === "news") {
+        return "var(--cat-news)";
+      } else if (e === "social") {
+        return "var(--cat-social)";
+      } else if (e === "google") {
+        return "var(--cat-google)";
+      } else if (e === "ecommerce") {
+        return "var(--cat-ecommerce)";
+      }
+      if (e === "targeting") {
+        return "var(--targeting)";
+      } else {
+        return "#000";
+      }
+    },
+    myTooltip(d) {
+      if (this.showLabel) {
+        tooltip.show(`<h5 class="total">${d.site}</h5><p>
+        <span class="datum">${d.name}</span> is a <span class="datum">${
+          d.party
+        }</span> cookie used for <span class="datum">${
+          d.purpose
+        }</span> that will be stored on my computer as a <span class="datum">${
+          d.type
+        }</span> type with a duration of <span class="datum">${
+          d.expire
+        }</span> days.
+        </p>`);
+      } else if (!this.showLabel) {
+        tooltip.hide();
+      }
     }
   },
   directives: {
