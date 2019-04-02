@@ -140,7 +140,7 @@ var app = new Vue({
     myTooltip(d) {
       if (this.showLabel) {
         tooltip.show(`<h5 class="total">${d.site}</h5><p>
-        <span class="datum">${d.name}</span> is a <span class="datum">${
+        <span class="datum"><i>cookie name</i></span> is a <span class="datum">${
           d.party
         }</span> cookie used for <span class="datum">${
           d.purpose
@@ -181,6 +181,17 @@ var app = new Vue({
         // el.setAttribute("style", "color: blue");
         this.myFilters.site = "all";
         this.myFilters.party = "third party";
+      }
+      return window.scrollY > el.height;
+    },
+    handleScrollFour(evt, el) {
+      // console.log(evt.path[0].body.children[0].children[2].children[0].id);
+      // console.log(window.scrollY + window.innerHeight - el.height);
+      if (window.scrollY > el.offsetTop) {
+        // el.setAttribute("style", "color: blue");
+        this.myFilters.site = "all";
+        this.myFilters.party = "all";
+        this.showLabel = true;
       }
       return window.scrollY > el.height;
     }
