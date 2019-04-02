@@ -73,6 +73,17 @@
             <option value="google">Google</option>
             <option value="ecommerce">ecommerce</option>
           </select>
+          <!-- site filter -->
+          <select type="dropdown" v-model="myFilters.site">
+            <option disabled>Filter by Site</option>
+            <option value="all" :aria-placeholder="myFilters.site"
+              >All Sites</option
+            >
+            <option value="Facebook">Facebook</option>
+            <option value="Google">Google</option>
+            <option value="Amazon">Amazon</option>
+            <option value="Wired">Wired</option>
+          </select>
         </div>
         <svg :width="svgWidth" :height="svgHeight">
           <g :transform="`translate(${margin.left}, ${margin.bottom})`">
@@ -127,30 +138,39 @@
       </div>
 
       <div class="text-content">
-        <p v-scroll="handleScroll" class="text-area" id="1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto
-          quos tenetur reiciendis, pariatur atque sequi inventore perspiciatis
-          necessitatibus suscipit perferendis et dolorum ea vitae odit quasi non
-          modi blanditiis nostrum quaerat! Exercitationem excepturi in libero
-          corporis. Nostrum sed, at dolor hic odit vitae accusamus sapiente.
-          Excepturi beatae consequuntur ex!
-        </p>
-        <p v-scroll="handleScroll" class="text-area" id="2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto
-          quos tenetur reiciendis, pariatur atque sequi inventore perspiciatis
-          necessitatibus suscipit perferendis et dolorum ea vitae odit quasi non
-          modi blanditiis nostrum quaerat! Exercitationem excepturi in libero
-          corporis. Nostrum sed, at dolor hic odit vitae accusamus sapiente.
-          Excepturi beatae consequuntur ex!
-        </p>
-        <p v-scroll="handleScroll" class="text-area" id="3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto
-          quos tenetur reiciendis, pariatur atque sequi inventore perspiciatis
-          necessitatibus suscipit perferendis et dolorum ea vitae odit quasi non
-          modi blanditiis nostrum quaerat! Exercitationem excepturi in libero
-          corporis. Nostrum sed, at dolor hic odit vitae accusamus sapiente.
-          Excepturi beatae consequuntur ex!
-        </p>
+        <div v-scroll="handleScrollOne" class="text-area">
+          <h5 class="total">Facebook</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            iusto quos tenetur reiciendis, pariatur atque sequi inventore
+            perspiciatis necessitatibus suscipit perferendis et dolorum ea vitae
+            odit quasi non modi blanditiis nostrum quaerat! Exercitationem
+            excepturi in libero corporis. Nostrum sed, at dolor hic odit vitae
+            accusamus sapiente. Excepturi beatae consequuntur ex!
+          </p>
+        </div>
+        <div v-scroll="handleScrollTwo" class="text-area">
+          <h5 class="total">Amazon</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            iusto quos tenetur reiciendis, pariatur atque sequi inventore
+            perspiciatis necessitatibus suscipit perferendis et dolorum ea vitae
+            odit quasi non modi blanditiis nostrum quaerat! Exercitationem
+            excepturi in libero corporis. Nostrum sed, at dolor hic odit vitae
+            accusamus sapiente. Excepturi beatae consequuntur ex!
+          </p>
+        </div>
+        <div v-scroll="handleScrollThree" class="text-area">
+          <h5 class="total">Third Party</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            iusto quos tenetur reiciendis, pariatur atque sequi inventore
+            perspiciatis necessitatibus suscipit perferendis et dolorum ea vitae
+            odit quasi non modi blanditiis nostrum quaerat! Exercitationem
+            excepturi in libero corporis. Nostrum sed, at dolor hic odit vitae
+            accusamus sapiente. Excepturi beatae consequuntur ex!
+          </p>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>

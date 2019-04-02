@@ -108,7 +108,7 @@ div.tooltip {
 }
 .datum {
   font-weight: bold;
-  border-bottom: 2px dashed #3d3d3d;
+  /* border-bottom: 2px dashed #3d3d3d; */
 }
 
 select {

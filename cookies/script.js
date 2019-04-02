@@ -24,7 +24,8 @@ var app = new Vue({
         exp: 0,
         party: "all",
         category: "all",
-        purpose: null
+        purpose: null,
+        site: "all"
       },
       showLabel: false,
       myCount: null
@@ -40,7 +41,10 @@ var app = new Vue({
             : el.party === this.myFilters.party) &&
           (this.myFilters.category === "all"
             ? el.category != null
-            : el.category === this.myFilters.category)
+            : el.category === this.myFilters.category) &&
+          (this.myFilters.site === "all"
+            ? el.site != null
+            : el.site === this.myFilters.site)
       );
       return filteredData;
     },
@@ -150,14 +154,35 @@ var app = new Vue({
         tooltip.hide();
       }
     },
-    handleScroll(evt, el) {
-      console.log(evt.path[0].body.children[0].children[2].children[0].id);
+    handleScrollOne(evt, el) {
+      // console.log(evt.path[0].body.children[0].children[2].children[0].id);
       // console.log(window.scrollY + window.innerHeight - el.height);
       if (window.scrollY > el.offsetTop) {
         // el.setAttribute("style", "color: blue");
-        this.myFilters.category = "news";
+        this.myFilters.site = "Facebook";
+        this.myFilters.party = "all";
       }
-      return window.scrollY > 1000;
+      return window.scrollY > el.height;
+    },
+    handleScrollTwo(evt, el) {
+      // console.log(evt.path[0].body.children[0].children[2].children[0].id);
+      // console.log(window.scrollY + window.innerHeight - el.height);
+      if (window.scrollY > el.offsetTop) {
+        // el.setAttribute("style", "color: blue");
+        this.myFilters.site = "Amazon";
+        this.myFilters.party = "all";
+      }
+      return window.scrollY > el.height;
+    },
+    handleScrollThree(evt, el) {
+      // console.log(evt.path[0].body.children[0].children[2].children[0].id);
+      // console.log(window.scrollY + window.innerHeight - el.height);
+      if (window.scrollY > el.offsetTop) {
+        // el.setAttribute("style", "color: blue");
+        this.myFilters.site = "all";
+        this.myFilters.party = "third party";
+      }
+      return window.scrollY > el.height;
     }
   },
   directives: {
