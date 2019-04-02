@@ -34,9 +34,6 @@ g {
   font-size: 0%;
   color: black;
 }
-.red {
-  color: #c06c84;
-}
 
 #container {
   width: 92.5%;
@@ -61,12 +58,14 @@ path,
 text,
 g,
 line {
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 rect:hover {
-  fill: #c06c84;
+  /* fill: #fff; */
+  /* opacity: 0.5; */
   cursor: pointer;
+  box-shadow: 0px 2px 8px 0px rgba(59, 59, 61, 0.4);
   transition: fill ease-in-out 0.2s;
 }
 
@@ -119,6 +118,7 @@ select:hover {
 }
 
 .text-area {
+  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
   width: 80%;
   max-width: 800px;
   padding: 2rem;

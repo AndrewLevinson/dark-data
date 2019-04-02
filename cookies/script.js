@@ -1,3 +1,14 @@
+Vue.directive("scroll", {
+  inserted: function(el, binding) {
+    let f = function(evt) {
+      if (binding.value(evt, el)) {
+        window.removeEventListener("scroll", f);
+      }
+    };
+    window.addEventListener("scroll", f);
+  }
+});
+
 /* global Vue */
 var app = new Vue({
   el: "#container",
@@ -85,7 +96,7 @@ var app = new Vue({
             .duration(200)
             .style("right", `50px`)
             .style("bottom", `50px`)
-            .style("opacity", 0.9);
+            .style("opacity", 0.925);
         },
         move: function() {
           this.element
@@ -138,6 +149,15 @@ var app = new Vue({
       } else if (!this.showLabel) {
         tooltip.hide();
       }
+    },
+    handleScroll(evt, el) {
+      console.log(evt.path[0].body.children[0].children[2].children[0].id);
+      // console.log(window.scrollY + window.innerHeight - el.height);
+      if (window.scrollY > el.offsetTop) {
+        // el.setAttribute("style", "color: blue");
+        this.myFilters.category = "news";
+      }
+      return window.scrollY > 1000;
     }
   },
   directives: {

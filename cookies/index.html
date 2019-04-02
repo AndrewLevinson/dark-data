@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- lib scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
   </head>
 
   <body>
@@ -121,7 +122,7 @@
       </div>
 
       <div class="text-content">
-        <p class="text-area">
+        <p v-scroll="handleScroll" class="text-area" id="1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto
           quos tenetur reiciendis, pariatur atque sequi inventore perspiciatis
           necessitatibus suscipit perferendis et dolorum ea vitae odit quasi non
@@ -129,7 +130,7 @@
           corporis. Nostrum sed, at dolor hic odit vitae accusamus sapiente.
           Excepturi beatae consequuntur ex!
         </p>
-        <p class="text-area">
+        <p v-scroll="handleScroll" class="text-area" id="2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto
           quos tenetur reiciendis, pariatur atque sequi inventore perspiciatis
           necessitatibus suscipit perferendis et dolorum ea vitae odit quasi non
@@ -137,7 +138,7 @@
           corporis. Nostrum sed, at dolor hic odit vitae accusamus sapiente.
           Excepturi beatae consequuntur ex!
         </p>
-        <p class="text-area">
+        <p v-scroll="handleScroll" class="text-area" id="3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto
           quos tenetur reiciendis, pariatur atque sequi inventore perspiciatis
           necessitatibus suscipit perferendis et dolorum ea vitae odit quasi non
