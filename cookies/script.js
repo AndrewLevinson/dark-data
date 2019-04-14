@@ -69,17 +69,45 @@ var app = new Vue({
         .domain([0, Math.max(...this.data.map(x => x.expire))])
         .rangeRound([0, this.height]); // Already flipped
       return { x, y };
+    },
+    time() {
+      let cookiesSeconds = this.data.exp;
+      let d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+      let updatedD = d.setUTCSeconds(cookiesSeconds);
+      let today = Date.now();
+      let difference = Math.round((updatedD - today) / 86400000);
+
+      return difference;
     }
   },
-  mounted() {
+  created() {
     this.loadData();
+  },
+  mounted() {
     this.initTooltip();
   },
   methods: {
     loadData() {
-      d3.json("data.json").then(d => {
+      d3.json("data/data.json").then(d => {
         return (this.data = d.cookies);
       });
+
+      // d3.csv("data/cookies.csv", d => {
+      //   return {
+      //     id: +d["cookieID"],
+      //     domain: d["mastername2"],
+      //     thirdpartydom: d["ThirdPartyHost"],
+      //     cat: d["Category"],
+      //     site: d["site"],
+      //     exp: +d["exp"],
+      //     type: d["type"],
+      //     purpose: d["purpose"],
+      //     name: d["name"]
+      //   };
+      // }).then(data => {
+      //   console.log(data);
+      //   return (this.data = data.cookies);
+      // });
     },
     initTooltip() {
       tooltip = {
@@ -121,22 +149,7 @@ var app = new Vue({
       };
       tooltip.init();
     },
-    myFill(e) {
-      if (e === "news") {
-        return "var(--cat-news)";
-      } else if (e === "social") {
-        return "var(--cat-social)";
-      } else if (e === "google") {
-        return "var(--cat-google)";
-      } else if (e === "ecommerce") {
-        return "var(--cat-ecommerce)";
-      }
-      if (e === "targeting") {
-        return "var(--targeting)";
-      } else {
-        return "#000";
-      }
-    },
+
     myTooltip(d) {
       if (this.showLabel) {
         tooltip.show(`<h5 class="total">${d.site}</h5><p>
@@ -153,6 +166,32 @@ var app = new Vue({
       } else if (!this.showLabel) {
         tooltip.hide();
       }
+    },
+    myFill(e) {
+      if (e === "news") {
+        return "var(--cat-news)";
+      } else if (e === "social") {
+        return "var(--cat-social)";
+      } else if (e === "google") {
+        return "var(--cat-google)";
+      } else if (e === "ecommerce") {
+        return "var(--cat-ecommerce)";
+      }
+      if (e === "targeting") {
+        return "var(--targeting)";
+      } else {
+        return "#000";
+      }
+    },
+    handleScrollZero(evt, el) {
+      // console.log(evt.path[0].body.children[0].children[2].children[0].id);
+      // console.log(window.scrollY + window.innerHeight - el.height);
+      if (window.scrollY > el.offsetTop) {
+        // el.setAttribute("style", "color: blue");
+        this.myFilters.site = "all";
+        this.myFilters.party = "all";
+      }
+      return window.scrollY > el.height;
     },
     handleScrollOne(evt, el) {
       // console.log(evt.path[0].body.children[0].children[2].children[0].id);
@@ -191,7 +230,6 @@ var app = new Vue({
         // el.setAttribute("style", "color: blue");
         this.myFilters.site = "all";
         this.myFilters.party = "all";
-        this.showLabel = true;
       }
       return window.scrollY > el.height;
     }

@@ -18,7 +18,6 @@ input {
 body {
   width: 100%;
   overflow-x: hidden;
-  position: relative;
 }
 
 svg {
@@ -27,7 +26,6 @@ svg {
 
 #x-axis {
   font-size: 0px;
-  color: blue;
 }
 
 g {
@@ -51,9 +49,7 @@ g {
   padding: 1rem 0 4rem 0;
 }
 
-#chart {
-  /* margin: 0 auto; */
-  /* text-align: center; */
+#graph {
   position: sticky;
   position: -webkit-sticky;
   top: 20px;
