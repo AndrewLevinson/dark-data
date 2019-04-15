@@ -62,6 +62,7 @@
       </div>
       <div id="chart">
         <div id="graph">
+          <div id="graph-title"><h3>Cookie Count by Webstie Domain</h3></div>
           <div id="filters">
             <span>Filters:</span>
             <!-- exp date filter -->
@@ -107,11 +108,29 @@
               <option value="Wired">Wired</option>
             </select>
           </div>
+          <div id="legend">
+            <div class="news">
+              <div></div>
+              <span>News</span>
+            </div>
+            <div class="ent">
+              <div></div>
+              <span>Entertainment</span>
+            </div>
+            <div class="social">
+              <div></div>
+              <span>Social Media</span>
+            </div>
+            <div class="shopping">
+              <div></div>
+              <span>Shopping</span>
+            </div>
+          </div>
           <svg :width="svgWidth" :height="svgHeight">
             <g :transform="`translate(${margin.left}, ${margin.bottom})`">
-              <g v-axis:x="scale"></g>
-              <g v-axis:y="scale"></g>
-              <g v-grid:gridLine="scale"></g>
+              <g v-axis:x="scale" class="x-axis"></g>
+              <g v-axis:y="scale" class="y-axis"></g>
+              <g v-grid:gridlines="scale" class="gridlines"></g>
 
               <g v-for="(d, i) in filteredData">
                 <g v-for="(d, i) in d.values">
@@ -189,6 +208,23 @@
             </p>
           </div>
         </section>
+      </div>
+      <div class="body-text">
+        <p>
+          Cookies are one of the most misunderstood pieces of the modern web.
+          While technically a cookie is just a simple
+          <a href="#">.txt</a> file that gets stored on your computer when you
+          visit websites, it's purposes are often confusing. The same piece of
+          technology that allows basic online shopping functionality to work on
+          the web is the same piece of technology that allows third parties to
+          track your movement across all your online activites.
+        </p>
+        <p>
+          That raw power makes this worthy of a deeper dive. To illustrate this,
+          I browsed the US internet's most popular websites (source) for 1 hour
+          uninteruped and exported the 1,117 cookies that were stored on my
+          computer through a Firefox plugin (link and image).
+        </p>
       </div>
     </div>
     <script src="scripts/script.js"></script>

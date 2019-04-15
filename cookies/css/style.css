@@ -6,6 +6,7 @@
   --cat-social: #3c5a99;
   --cat-google: #0f9d58;
   --cat-ecommerce: #ff9900;
+  --cat-ent: pink;
   --targeting: #d42c2c;
 }
 
@@ -69,16 +70,16 @@ p {
   margin: 3rem auto;
 }
 
-/* chart */
-g {
-  /* font-family: monospace; */
-  font-weight: 300;
-  font-size: 1.3rem;
+.body-text {
+  max-width: 65rem;
+  margin: 3rem auto;
 }
+
+/* chart */
 
 #chart {
   display: grid;
-  grid-template-columns: 55% 44%;
+  grid-template-columns: 55% 45%;
   grid-gap: 150px;
   justify-content: space-between;
   /* position: relative; */
@@ -109,7 +110,7 @@ g {
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
   width: 60%;
   margin-bottom: 40rem;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 @media (max-width: 925px) {
@@ -128,6 +129,71 @@ g {
   }
 }
 
+/* legend and title */
+#legend {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  /* margin-top: -1rem; */
+  font-size: 1.5rem;
+  font-family: "helvetica", sans-serif;
+}
+
+#graph-title,
+#legend {
+  /* margin-left: 120px; */
+  margin-left: 40px;
+}
+
+#legend div div {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.news div {
+  background-color: var(--cat-news);
+}
+
+.ent div {
+  background-color: var(--cat-ent);
+}
+
+.social div {
+  background-color: var(--cat-social);
+}
+
+.shopping div {
+  background-color: var(--cat-ecommerce);
+}
+
+/* graph elements */
+g {
+  font-family: "helvetica", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.x-axis .tick line,
+.y-axis .tick line,
+.x-axis .domain,
+.y-axis .domain,
+.gridlines .domain {
+  display: none;
+  opacity: 0;
+}
+
+.y-axis .tick:first-of-type text {
+  font-weight: bold;
+}
+
+.gridlines {
+  opacity: 0.3;
+  /* stroke-dasharray: 2; */
+}
+
 div,
 rect,
 path,
@@ -142,7 +208,7 @@ circle:hover {
   /* fill: #fff; */
   /* opacity: 0.5; */
   cursor: pointer;
-  box-shadow: 0px 2px 8px 0px rgba(59, 59, 61, 0.4);
+  r: 6;
   transition: fill ease-in-out 0.2s;
 }
 

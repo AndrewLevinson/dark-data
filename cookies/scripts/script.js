@@ -6,7 +6,7 @@ var app = new Vue({
       chartTitle:
         "Cookies Stored on my Computer from 1 Day of Internet Browsing",
       svgWidth: window.innerWidth * 0.55,
-      svgHeight: window.innerHeight * 0.925,
+      svgHeight: window.innerHeight * 0.825,
       margin: { top: 25, left: 130, bottom: 25, right: 25 },
       cookies: [{}],
       myFilters: {
@@ -21,7 +21,7 @@ var app = new Vue({
       nested_data: [{}],
       domainX: {
         min: 0,
-        max: 75
+        max: 65
       },
       filterKey: "3rd Party"
     };
@@ -54,12 +54,17 @@ var app = new Vue({
         .rangeRound([0, this.height])
         .padding(0.6);
 
-      const gridLine = d3
+      // const grid = d3
+      //   .scaleLinear()
+      //   .domain([0, this.domainX.max])
+      //   .rangeRound([0, this.width]);
+
+      const gridlines = d3
         .scaleLinear()
         .domain([0, this.domainX.max])
         .rangeRound([0, this.width]);
 
-      return { x, y, gridLine };
+      return { x, y, gridlines };
     }
   },
   created() {
@@ -192,7 +197,7 @@ var app = new Vue({
       } else if (e === "Shopping") {
         return "var(--cat-ecommerce)";
       } else if (e === "Entertainment & Info") {
-        return "pink";
+        return "var(--cat-ent)";
       }
       if (e === "targeting") {
         return "var(--targeting)";
@@ -220,7 +225,7 @@ var app = new Vue({
               break;
             case 1:
               this.filterKey = null;
-              this.domainX.max = 660;
+              this.domainX.max = 700;
 
               console.log("case 1");
               break;
@@ -240,20 +245,18 @@ var app = new Vue({
       const methodArg = binding.value[axis];
 
       // d3.axisBottom(scale.x)
-      d3.select(el).call(d3[axisMethod](methodArg));
+      d3.select(el).call(d3[axisMethod](methodArg).ticks(5));
     },
     grid(el, binding) {
-      const axis = binding.arg; // gridline
-      const axisMethod = { gridLine: "axisLeft" }[axis];
+      const axis = binding.arg; // x or y
+      const axisMethod = { gridlines: "axisTop" }[axis];
       // The line below assigns the x or y function of the scale object
       const methodArg = binding.value[axis];
-      // console.log(methodArg);
-
       // d3.axisBottom(scale.x)
       d3.select(el).call(
         d3[axisMethod](methodArg)
-          .tickSize(-1000)
           .tickFormat("")
+          .tickSize(-window.innerHeight * 0.74)
           .ticks(5)
       );
     }
