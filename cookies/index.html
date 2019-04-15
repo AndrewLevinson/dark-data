@@ -23,20 +23,42 @@
     <!-- lib scripts -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="scripts/graph-scroll.js"></script>
   </head>
 
   <body>
     <div id="container">
-      <div id="title">
-        <h3>{{ chartTitle }}</h3>
-        <p v-scroll="handleScrollZero">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          repellendus fugit unde aut, commodi maiores in sapiente molestias ex
-          hic voluptate pariatur doloremque quod illum quibusdam quo! Architecto
-          repellat, alias eum accusantium enim dolore, omnis, animi nisi
-          corporis quibusdam dolorum voluptates laudantium incidunt. Laborum nam
-          cupiditate esse recusandae omnis
-        </p>
+      <div id="intro">
+        <div id="title">
+          <h1>What are your favorite websites storing on your computer?</h1>
+          <h4>
+            How just one hour of browsing left
+            <span class="emphasis">1,117</span> cookies on my computer
+          </h4>
+          <p id="by">
+            <a href="https://andrewlevinson.me" target="_blank"
+              >Andrew Levinson</a
+            >
+            | May, 2019
+          </p>
+        </div>
+        <div id="intro-content">
+          <p>
+            Cookies are one of the most misunderstood pieces of the modern web.
+            While technically a cookie is just a simple
+            <a href="#">.txt</a> file that gets stored on your computer when you
+            visit websites, it's purposes are often confusing. The same piece of
+            technology that allows basic online shopping functionality to work
+            on the web is the same piece of technology that allows third parties
+            to track your movement across all your online activites.
+          </p>
+          <p>
+            That raw power makes this worthy of a deeper dive. To illustrate
+            this, I browsed the US internet's most popular websites (source) for
+            1 hour uninteruped and exported the 1,117 cookies that were stored
+            on my computer through a Firefox plugin (link and image).
+          </p>
+        </div>
       </div>
       <div id="chart">
         <div id="graph">
@@ -87,56 +109,38 @@
           </div>
           <svg :width="svgWidth" :height="svgHeight">
             <g :transform="`translate(${margin.left}, ${margin.bottom})`">
+              <g v-axis:x="scale"></g>
+              <g v-axis:y="scale"></g>
+              <g v-grid:gridLine="scale"></g>
+
               <g v-for="(d, i) in filteredData">
-                <rect
-                  :x="scale.x(d.name)"
-                  :y="0"
-                  :width="scale.x.bandwidth()"
-                  :height="scale.y(d.expire)"
-                  :name="d.name"
-                  :fill="myFill(d.category)"
-                  @mouseover="showLabel = !showLabel,
+                <g v-for="(d, i) in d.values">
+                  <circle
+                    :cx="4 + scale.x(i)"
+                    :cy="scale.y(d.domain) + 5"
+                    :r="3"
+                    :name="d.domain"
+                    :fill="myFill(d.cat)"
+                    @mouseover="showLabel = !showLabel,
               myTooltip(d)"
-                  @mouseleave="showLabel = !showLabel, myTooltip(d)"
-                />
-                <rect
-                  :x="scale.x(d.name) - 10"
-                  :y="scale.y(d.expire)"
-                  :width="scale.x.bandwidth() + 20"
-                  :height="3"
-                  :name="d.name"
-                  :fill="myFill(d.purpose)"
-                />
-                <text
-                  :x="scale.x(d.name) + 7"
-                  :y="scale.y(d.expire) + 18"
-                  text-anchor="middle"
-                >
-                  {{ d.expire }}
-                </text>
+                    @mouseleave="showLabel = !showLabel, myTooltip(d)"
+                  />
+                </g>
               </g>
 
-              <g
-                v-axis:x="scale"
-                :transform="`translate(${0}, ${0})`"
-                id="x-axis"
-              ></g>
-              <g v-axis:y="scale"></g>
               <text x="5" :y="svgHeight - margin.bottom - margin.top">
-                Days Stored on Computer
+                Cookies Stored: {{ count() }}
               </text>
               <text
                 :x="svgWidth - margin.right - margin.left - 5"
                 y="-8"
                 text-anchor="end"
-              >
-                Cookies Stored: {{ count }}
-              </text>
+              ></text>
             </g>
           </svg>
         </div>
-        <section class="text-content">
-          <div v-scroll="handleScrollOne" class="text-area">
+        <section id="sections" class="text-content">
+          <div class="text-area">
             <h5 class="total">Facebook</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -148,7 +152,7 @@
               ex!
             </p>
           </div>
-          <div v-scroll="handleScrollTwo" class="text-area">
+          <div class="text-area">
             <h5 class="total">Amazon</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -160,7 +164,7 @@
               ex!
             </p>
           </div>
-          <div v-scroll="handleScrollThree" class="text-area">
+          <div class="text-area">
             <h5 class="total">Third Party</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -172,7 +176,7 @@
               ex!
             </p>
           </div>
-          <div v-scroll="handleScrollFour" class="text-area">
+          <div class="text-area">
             <h5 class="total">All Data</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -187,6 +191,6 @@
         </section>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
