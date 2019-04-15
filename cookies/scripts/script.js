@@ -17,6 +17,7 @@ var app = new Vue({
         site: "all"
       },
       showLabel: false,
+      showLabelAuto: false,
       iSelected: null,
       domainSelected: null,
       special: false,
@@ -104,11 +105,11 @@ var app = new Vue({
       })
         .then(d => {
           // add property for converted expiration time to days
-          let converedData = d.map(d => ({
+          let convertedData = d.map(d => ({
             ...d,
             days: this.timeConvert(d.exp)
           }));
-          return (this.cookies = converedData);
+          return (this.cookies = convertedData);
         })
         .then(d => {
           this.nested_data = d3
@@ -123,7 +124,7 @@ var app = new Vue({
     sort() {
       return this.nested_data.forEach(el => {
         el.values.sort((x, y) => {
-          return d3.ascending(x.cat, y.cat);
+          return d3.descending(x.cat, y.cat);
         });
       });
     },
@@ -175,9 +176,9 @@ var app = new Vue({
         hide: function() {
           this.element
             .transition()
-            .duration(200)
+            .duration(100)
             .style("opacity", 0)
-            .delay(200);
+            .delay(100);
           // .style("right", `0px`);
         }
       };
@@ -186,17 +187,17 @@ var app = new Vue({
 
     myTooltip(d) {
       // console.log(d);
-      if (this.showLabel) {
-        tooltip.show(`<h5 class="total">${d.site}</h5><p>
-        <span class="datum"><i>cookie name</i></span> is a <span class="datum">${
+      if (this.showLabel || this.showLabelAuto) {
+        tooltip.show(`<h5 class="total">${d.domain}</h5><p>
+        <span class="datum"><i>${d.name}</i></span> is a <span class="datum">${
           d.party
         }</span> cookie used for <span class="datum">${
           d.purpose
         }</span> that will be stored on my computer as a <span class="datum">${
           d.type
-        }</span> type with a duration of <span class="datum">${
-          d.expire
-        }</span> days.
+        }</span> type with a duration of <span class="datum">${this.timeConvert(
+          d.exp
+        )}</span> days.
         </p>`);
       } else if (!this.showLabel) {
         tooltip.hide();
@@ -248,7 +249,7 @@ var app = new Vue({
               this.domainX.max = 700;
               // reset active point
               this.select(null);
-              this.showLabel = false;
+              this.showLabelAuto = false;
               this.myTooltip(null);
 
               console.log("case 0");
@@ -270,7 +271,7 @@ var app = new Vue({
               this.filterKey = "3rd Party";
               // reset active point
               this.select(null);
-              this.showLabel = false;
+              this.showLabelAuto = false;
               this.myTooltip(null);
 
               console.log("case 1");
@@ -285,7 +286,7 @@ var app = new Vue({
               // trigger tooltip (could probably refactor)
               const active = this.cookies.map(e => e.id).indexOf(829);
               this.select(829);
-              this.showLabel = true;
+              this.showLabelAuto = true;
               this.myTooltip(this.cookies[active]);
 
               console.log("case 2");
@@ -294,14 +295,14 @@ var app = new Vue({
               this.filterKey = null;
               this.domainX.max = 700;
               this.select(null);
-              this.showLabel = false;
+              this.showLabelAuto = false;
               this.myTooltip(null);
 
               console.log("case 2");
               break;
             default:
               console.log("hi");
-              this.showLabel = false;
+              this.showLabelAuto = false;
               this.myTooltip(null);
 
               break;
