@@ -17,6 +17,9 @@ var app = new Vue({
         site: "all"
       },
       showLabel: false,
+      iSelected: null,
+      domainSelected: null,
+      special: false,
       myCount: null,
       nested_data: [{}],
       domainX: {
@@ -129,6 +132,12 @@ var app = new Vue({
 
       return difference;
     },
+    select(d, i) {
+      this.iSelected = i;
+      this.domainSelected = d;
+      console.log(this.iSelected);
+      console.log(this.domainSelected);
+    },
     initTooltip() {
       tooltip = {
         element: null,
@@ -137,8 +146,8 @@ var app = new Vue({
             .select("body")
             .append("div")
             .attr("class", "tooltip")
-            .style("right", `0px`)
-            .style("bottom", `50px`)
+            .style("left", `30vw`)
+            .style("bottom", `30vh`)
             .style("opacity", 0);
         },
         show: function(t) {
@@ -146,25 +155,25 @@ var app = new Vue({
             .html(t)
             .transition()
             .duration(200)
-            .style("right", `50px`)
-            .style("bottom", `50px`)
+            .style("left", `30vw`)
+            .style("bottom", `30vh`)
             .style("opacity", 0.925);
         },
         move: function() {
           this.element
             .transition()
             .duration(30)
-            .style("right", 20 + "px")
+            .style("left", 20 + "px")
             .style("top", 20 + "px")
-            .style("opacity", 0.9);
+            .style("opacity", 0.925);
         },
         hide: function() {
           this.element
             .transition()
             .duration(200)
             .style("opacity", 0)
-            .delay(400)
-            .style("right", `0px`);
+            .delay(200);
+          // .style("right", `0px`);
         }
       };
       tooltip.init();
@@ -226,10 +235,14 @@ var app = new Vue({
             case 1:
               this.filterKey = null;
               this.domainX.max = 700;
-
+              // this.special = true;
               console.log("case 1");
               break;
             case 2:
+              this.filterKey = null;
+              this.domainX.max = 700;
+              // this.special = true;
+              // this.select("Wired", true);
               console.log("case 2");
               break;
           }
