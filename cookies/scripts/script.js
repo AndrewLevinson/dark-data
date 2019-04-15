@@ -26,7 +26,8 @@ var app = new Vue({
         min: 0,
         max: 65
       },
-      filterKey: "3rd Party"
+      filterKey: "3rd Party",
+      setShown: 0
     };
   },
   computed: {
@@ -89,6 +90,7 @@ var app = new Vue({
       d3.csv("data/cookies.csv", d => {
         return {
           id: +d["cookieID"],
+          party: d["party"],
           domain: d["mastername2"],
           thirdpartydom: d["ThirdPartyHost"],
           cat: d["Category"],
@@ -111,12 +113,8 @@ var app = new Vue({
           this.nested_data = d3
             .nest()
             .key(d => {
-              return d.domain;
+              return d.party;
             })
-            // .sortKeys(function(a, b) {
-            //   console.log(a);
-            //   return b.length - a.length;
-            // })
             .entries(d);
         });
     },
@@ -132,11 +130,9 @@ var app = new Vue({
 
       return difference;
     },
-    select(d, i) {
-      this.iSelected = i;
-      this.domainSelected = d;
-      console.log(this.iSelected);
-      console.log(this.domainSelected);
+    select(id) {
+      this.iSelected = id;
+      // this.domainSelected = d;
     },
     initTooltip() {
       tooltip = {
@@ -180,6 +176,7 @@ var app = new Vue({
     },
 
     myTooltip(d) {
+      // console.log(d);
       if (this.showLabel) {
         tooltip.show(`<h5 class="total">${d.site}</h5><p>
         <span class="datum"><i>cookie name</i></span> is a <span class="datum">${
@@ -227,23 +224,72 @@ var app = new Vue({
         .on("active", i => {
           switch (i) {
             case 0:
-              // offscreen so do nothing / reset with just line
-              this.filterKey = "3rd Party";
-              this.domainX.max = 70;
+              // set shown 0
+              this.setShown = 0;
+              // set nesting for party type
+              this.nested_data = d3
+                .nest()
+                .key(d => {
+                  return d.party;
+                })
+                .entries(this.cookies);
+
+              // this.filterKey = "3rd Party";
+              this.domainX.max = 700;
+              // reset active point
+              this.select(null);
+              this.showLabel = false;
+              this.myTooltip(null);
+
               console.log("case 0");
               break;
             case 1:
-              this.filterKey = null;
-              this.domainX.max = 700;
-              // this.special = true;
+              // set shown 1
+              this.setShown = 1;
+              // set nesting for domain
+              this.nested_data = d3
+                .nest()
+                .key(d => {
+                  return d.domain;
+                })
+                .entries(this.cookies);
+              // only first parties max domain
+              this.domainX.max = 70;
+              // remove third parties
+              this.filterKey = "3rd Party";
+              // reset active point
+              this.select(null);
+              this.showLabel = false;
+              this.myTooltip(null);
+
               console.log("case 1");
               break;
             case 2:
+              this.domainX.max = 70;
+              this.filterKey = "3rd Party";
+
+              // trigger tooltip (could probably refactor)
+              const active = this.cookies.map(e => e.id).indexOf(829);
+              this.select(829);
+              this.showLabel = true;
+              this.myTooltip(this.cookies[active]);
+
+              console.log("case 2");
+              break;
+            case 3:
               this.filterKey = null;
               this.domainX.max = 700;
-              // this.special = true;
-              // this.select("Wired", true);
+              this.select(null);
+              this.showLabel = false;
+              this.myTooltip(null);
+
               console.log("case 2");
+              break;
+            default:
+              console.log("hi");
+              this.showLabel = false;
+              this.myTooltip(null);
+
               break;
           }
         });

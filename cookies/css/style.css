@@ -196,6 +196,7 @@ g {
   /* stroke-dasharray: 2; */
 }
 
+svg,
 div,
 rect,
 path,
@@ -209,14 +210,15 @@ line {
 .circle-up {
   r: 4;
   opacity: 1;
-  stroke: none;
+  stroke: transparent;
+  stroke-width: 4px;
 }
 .circle-active {
   /* fill: #fff; */
   opacity: 1;
   r: 7;
   stroke: var(--main-text-color);
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.15s;
 }
 
 circle:hover {

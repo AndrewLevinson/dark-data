@@ -136,20 +136,20 @@
                 <g v-for="(d, i) in d.values">
                   <circle
                     :cx="5 + scale.x(i)"
-                    :cy="scale.y(d.domain) + 5"
+                    :cy="(setShown == 0 ? (scale.y(d.party) + 43) : (scale.y(d.domain) + 5))"
                     :r="3"
                     :name="d.domain"
                     :fill="myFill(d.cat)"
-                    :class="[(i == iSelected && d.domain == domainSelected) ? 'circle-active' : (iSelected !=null ? 'circle-inactive' : 'circle-up')]"
+                    :class="[d.id == iSelected ? 'circle-active' : (iSelected !=null ? 'circle-inactive' : 'circle-up')]"
                     @mouseover="showLabel = !showLabel,
-              myTooltip(d), select(d.domain, i)"
-                    @mouseleave="showLabel = !showLabel, myTooltip(d), select(null, null)"
+              myTooltip(d), select(d.id)"
+                    @mouseleave="showLabel = !showLabel, myTooltip(d), select(null)"
                   />
                 </g>
               </g>
 
               <text x="5" :y="svgHeight - margin.bottom - margin.top">
-                Cookies Stored: {{ count() }}
+                Total Cookies Stored: {{ count() }}
               </text>
               <text
                 :x="svgWidth - margin.right - margin.left - 5"
@@ -161,37 +161,37 @@
         </div>
         <section id="sections" class="text-content">
           <div class="text-area">
-            <h5 class="total">First Party Cookies</h5>
+            <h5 class="total">Cookie Classifications</h5>
             <p>
               Cookies can be described as either
               <span class="emphasis">first party</span> or
               <span class="emphasis">third party</span>. This distinction is
-              based on whether the website you're on is storing the cookie
-              directly (i.e., Amazon putting an amazon.com cookies) or allowing
-              a third party (i.e. ads.com) to store cookies on your computer.
-              <br /><br />
-              A total of 472 first party cookies were placed on my computer from
-              visiting 25 websites in 1 hour.
+              based on whether the website you're visiting is storing the cookie
+              from their own domain directly (i.e., Amazon storing an
+              "amazon.com" cookie) or allowing a different domain (i.e. ads.com)
+              to store cookies on your computer.
             </p>
-            <div>
-              <p>What do these cookies do?</p>
-              <p>
-                472 cookies sounds like a lot for such a short amount of time,
-                but is it? Let's take a look at some individual cookies to get a
-                sense of their purpose.
-              </p>
-            </div>
+            <p>
+              A total of <span class="emphasis">472</span> first party cookies
+              and <span class="emphasis">660</span> third party cookies were
+              placed on my computer from visiting 25 websites in 1 hour.
+            </p>
+            <p>
+              That sounds like a lot for such a short amount of time. Let's take
+              a look at first party cookies.
+            </p>
           </div>
           <div class="text-area">
-            <h5 class="total">Third Party Cookies</h5>
+            <h5 class="total">First Party Cookies Only</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              iusto quos tenetur reiciendis, pariatur atque sequi inventore
-              perspiciatis necessitatibus suscipit perferendis et dolorum ea
-              vitae odit quasi non modi blanditiis nostrum quaerat!
-              Exercitationem excepturi in libero corporis. Nostrum sed, at dolor
-              hic odit vitae accusamus sapiente. Excepturi beatae consequuntur
-              ex!
+              It looks like <span class="news">news</span> sites like to placed
+              the largest amount of first party cookies on my computer.
+            </p>
+          </div>
+          <div class="text-area">
+            <h5 class="total">Cookie Information</h5>
+            <p>
+              What kind of information do we know about each cookie?
             </p>
           </div>
           <div class="text-area">
