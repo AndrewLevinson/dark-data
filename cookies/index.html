@@ -136,7 +136,7 @@
                 <g v-for="(d, i) in d.values">
                   <circle
                     :cx="5 + scale.x(i)"
-                    :cy="(setShown == 0 ? (scale.y(d.party) + 43) : (scale.y(d.domain) + 5))"
+                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (scale.y(d.domain) + 5))"
                     :r="3"
                     :name="d.domain"
                     :fill="myFill(d.cat)"

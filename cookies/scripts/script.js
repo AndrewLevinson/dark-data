@@ -37,6 +37,7 @@ var app = new Vue({
       );
       return filteredData;
     },
+
     width() {
       return this.svgWidth - this.margin.left - this.margin.right;
     },
@@ -115,8 +116,16 @@ var app = new Vue({
             .key(d => {
               return d.party;
             })
-            .entries(d);
+            .entries(this.cookies);
+          this.sort();
         });
+    },
+    sort() {
+      return this.nested_data.forEach(el => {
+        el.values.sort((x, y) => {
+          return d3.ascending(x.cat, y.cat);
+        });
+      });
     },
     timeConvert(e) {
       // used to convert unix seconds to number of days until expiration
@@ -233,6 +242,7 @@ var app = new Vue({
                   return d.party;
                 })
                 .entries(this.cookies);
+              this.sort();
 
               // this.filterKey = "3rd Party";
               this.domainX.max = 700;
@@ -253,6 +263,7 @@ var app = new Vue({
                   return d.domain;
                 })
                 .entries(this.cookies);
+
               // only first parties max domain
               this.domainX.max = 70;
               // remove third parties
@@ -265,6 +276,9 @@ var app = new Vue({
               console.log("case 1");
               break;
             case 2:
+              // presorting for smoother animation in case 3
+              this.sort();
+
               this.domainX.max = 70;
               this.filterKey = "3rd Party";
 

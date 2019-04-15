@@ -101,17 +101,20 @@ p {
 
 #sections > div {
   opacity: 0.3;
+  transition: all 0.3s ease-in;
 }
 
 #sections div.graph-scroll-active {
   opacity: 1;
+  transition: all 0.3s ease-in;
 }
 
 .text-area {
   transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
-  width: 60%;
+  width: 70%;
   margin-bottom: 40rem;
   margin-top: 10rem;
+  font-size: 90%;
 }
 
 @media (max-width: 925px) {
@@ -187,9 +190,9 @@ g {
   opacity: 0;
 }
 
-.y-axis .tick:first-of-type text {
+/* .y-axis .tick:first-of-type text {
   font-weight: bold;
-}
+} */
 
 .gridlines {
   opacity: 0.3;
@@ -204,7 +207,11 @@ text,
 circle,
 g,
 line {
-  transition: all 0.7s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+circle {
+  transition: all 0.9s ease-in-out;
 }
 
 .circle-up {
@@ -212,23 +219,27 @@ line {
   opacity: 1;
   stroke: transparent;
   stroke-width: 4px;
+  /* transition: all ease-in-out 0.15s; */
 }
+
 .circle-active {
   /* fill: #fff; */
   opacity: 1;
   r: 7;
   stroke: var(--main-text-color);
-  transition: all ease-in-out 0.15s;
+  /* transition: all ease-in-out 0.15s; */
 }
 
 circle:hover {
   cursor: pointer;
+  /* transition: all ease-in-out 0.15s; */
 }
 
 .circle-inactive {
   r: 3;
-  opacity: 0.5;
+  opacity: 0.4;
   stroke: none;
+  /* transition: all ease-in-out 0.15s; */
 }
 
 /* tooltip */
