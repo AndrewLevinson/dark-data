@@ -188,7 +188,9 @@ var app = new Vue({
     myTooltip(d) {
       // console.log(d);
       if (this.showLabel || this.showLabelAuto) {
-        tooltip.show(`<h5 class="total">${d.domain}</h5><p>
+        tooltip.show(`<div id="tip-band"></div><h5 class="total">${
+          d.domain
+        }</h5><p>
         <span class="datum"><i>${d.name}</i></span> is a <span class="datum">${
           d.party
         }</span> cookie used for <span class="datum">${
@@ -199,6 +201,10 @@ var app = new Vue({
           d.exp
         )}</span> days.
         </p>`);
+        document.documentElement.style.setProperty(
+          "--active-tip",
+          this.myFill(d.cat)
+        );
       } else if (!this.showLabel) {
         tooltip.hide();
       }
@@ -223,6 +229,20 @@ var app = new Vue({
     },
     count() {
       return this.cookies.length;
+    },
+    randomID() {
+      // trigger tooltip (could probably refactor)
+      const randomPick = Math.floor(Math.random() * 473);
+
+      const activeValue = this.cookies
+        .filter(x => x.party === "First Party")
+        .map(e => e.id)[randomPick];
+
+      const activeIndex = this.cookies.map(e => e.id).indexOf(activeValue);
+
+      this.select(activeValue);
+      this.showLabelAuto = true;
+      this.myTooltip(this.cookies[activeIndex]);
     },
     scrollTrigger() {
       d3.graphScroll()
@@ -283,11 +303,7 @@ var app = new Vue({
               this.domainX.max = 70;
               this.filterKey = "3rd Party";
 
-              // trigger tooltip (could probably refactor)
-              const active = this.cookies.map(e => e.id).indexOf(829);
-              this.select(829);
-              this.showLabelAuto = true;
-              this.myTooltip(this.cookies[active]);
+              this.randomID();
 
               console.log("case 2");
               break;

@@ -13,12 +13,17 @@ html {
 body {
   font-size: 1.7em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 300;
   font-family: "Playfair Display", serif;
   color: #3b3b3d;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.text-area {
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
 /* g {
   font-size: 1.25rem;
@@ -105,7 +110,7 @@ h6 {
   }
   body {
     font-size: 2rem;
-    line-height: 1.6;
+    line-height: 1.45;
   }
   /* .text-content > p {
     font-size: 1.8rem;
