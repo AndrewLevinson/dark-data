@@ -38,6 +38,19 @@ button:hover {
   filter: drop-shadow(0px 2px 3px rgba(59, 59, 61, 0.25));
 }
 
+button:after {
+  /* content: url("../assets/refresh.svg"); */
+  content: url("../assets/refresh.svg");
+  width: 24px;
+  float: right;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+button:hover:after {
+  content: url("../assets/refresh_hover.svg");
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
@@ -152,7 +165,8 @@ p {
 /* legend and title */
 #legend {
   display: flex;
-  width: 450px;
+  width: 100%;
+  max-width: 600px;
   justify-content: space-between;
   padding-bottom: 1.5rem;
   margin-top: -0.5rem;
@@ -188,6 +202,10 @@ p {
 
 .shopping div {
   background-color: var(--cat-ecommerce);
+}
+
+.google div {
+  background-color: var(--cat-google);
 }
 
 /* graph elements */

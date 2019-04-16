@@ -252,6 +252,7 @@ var app = new Vue({
         .sections(d3.selectAll("#sections > div"))
         .eventId("uniqueId1")
         .on("active", i => {
+          console.log("case", i);
           switch (i) {
             case 0:
               // set shown 0
@@ -272,9 +273,35 @@ var app = new Vue({
               this.showLabelAuto = false;
               this.myTooltip(null);
 
-              console.log("case 0");
               break;
+
             case 1:
+              // set shown 2
+              this.setShown = 2;
+              this.nested_data = d3
+                .nest()
+                .key(d => {
+                  return d.cat;
+                })
+                .entries(this.cookies);
+
+              // this.nested_data = this.nested_data.filter(el => {
+              //   el.key != "";
+              // });
+
+              // this.nested_data
+              this.sort();
+
+              // only first parties max domain
+              this.domainX.max = 250;
+              // remove third parties
+              this.filterKey = "3rd Party";
+              // reset active point
+              this.select(null);
+              this.showLabelAuto = false;
+              this.myTooltip(null);
+              break;
+            case 2:
               // set shown 1
               this.setShown = 1;
               // set nesting for domain
@@ -294,9 +321,10 @@ var app = new Vue({
               this.showLabelAuto = false;
               this.myTooltip(null);
 
-              console.log("case 1");
               break;
-            case 2:
+            case 3:
+              // set shown 1
+              this.setShown = 1;
               // presorting for smoother animation in case 3
               this.sort();
 
@@ -305,19 +333,22 @@ var app = new Vue({
 
               this.randomID();
 
-              console.log("case 2");
               break;
-            case 3:
+            case 4:
+              // set shown 1
+              this.setShown = 1;
+              // show third parties
               this.filterKey = null;
               this.domainX.max = 700;
               this.select(null);
               this.showLabelAuto = false;
               this.myTooltip(null);
 
-              console.log("case 2");
               break;
             default:
-              console.log("hi");
+              console.log(
+                "hi im the default...something didn't fire correctly"
+              );
               this.showLabelAuto = false;
               this.myTooltip(null);
 

@@ -123,7 +123,11 @@
             </div>
             <div class="shopping">
               <div></div>
-              <span>Shopping</span>
+              <span>E-commerce</span>
+            </div>
+            <div class="google">
+              <div></div>
+              <span>Google Products</span>
             </div>
           </div>
           <svg :width="svgWidth" :height="svgHeight">
@@ -136,7 +140,7 @@
                 <g v-for="(d, i) in d.values">
                   <circle
                     :cx="5 + scale.x(i)"
-                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (scale.y(d.domain) + 5))"
+                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (setShown == 1? (scale.y(d.domain) + 5) : (scale.y(d.cat) + 10)))"
                     :r="3"
                     :name="d.domain"
                     :fill="myFill(d.cat)"
@@ -184,16 +188,29 @@
           <div class="text-area">
             <h5 class="total">First Party Cookies Only</h5>
             <p>
-              It looks like <span class="news">news</span> sites like to placed
-              the largest amount of first party cookies on my computer.
+              When categorizing by site type, it's clear that both
+              <span class="emphasis">News</span> and
+              <span class="emphasis">Entertainment</span> related websites
+              placed the largest amount of first party cookies on my computer.
             </p>
           </div>
           <div class="text-area">
-            <h5 class="total">Cookie Information</h5>
+            <!-- <h5 class="total">First Party Cookies Only</h5> -->
+            <p>
+              Breaking down the first party cookies by domain, it looks like
+              every site I visited placed at least 2 first party cookies on my
+              computer. The least amount of cookies was Yahoo with just 2 while
+              Wired.com placed 60 while I was reading a single article.
+            </p>
+          </div>
+          <div class="text-area">
+            <!-- <h5 class="total">Cookie Information</h5> -->
             <p>
               What kind of information do we know about each cookie?
             </p>
-            <button @click="randomID()">Show me another cookie</button>
+            <button @click="randomID()">
+              Show me another cookie
+            </button>
           </div>
           <div class="text-area">
             <h5 class="total">Third Party</h5>
