@@ -166,7 +166,7 @@ p {
 #legend {
   display: flex;
   width: 100%;
-  max-width: 600px;
+  /* max-width: 600px; */
   justify-content: space-between;
   padding-bottom: 1.5rem;
   margin-top: -0.5rem;
@@ -188,24 +188,38 @@ p {
   border-radius: 100%;
 }
 
+#legend div {
+  /* white-space: pre-wrap; */
+}
+
 .news div {
   background-color: var(--cat-news);
+  /* white-space: nowrap; */
 }
 
 .ent div {
   background-color: var(--cat-ent);
+  /* white-space: nowrap; */
 }
 
 .social div {
   background-color: var(--cat-social);
+  /* white-space: nowrap; */
 }
 
 .shopping div {
   background-color: var(--cat-ecommerce);
+  /* white-space: nowrap; */
 }
 
 .google div {
   background-color: var(--cat-google);
+  /* white-space: nowrap; */
+}
+
+.unknown div {
+  background-color: #000;
+  /* white-space: nowrap; */
 }
 
 /* graph elements */
