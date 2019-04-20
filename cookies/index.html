@@ -149,11 +149,11 @@
               <g v-axis:y="scale" class="y-axis"></g>
               <g v-grid:gridlines="scale" class="gridlines"></g>
 
-              <g v-for="(d, i) in filteredData">
+              <g v-if="setShown != 4" v-for="(d, i) in filteredData">
                 <g v-for="(d, i) in d.values">
                   <circle
                     :cx="5 + scale.x(i)"
-                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (setShown == 1? (scale.y(d.domain) + 5) : (setShown == 3 ? (scale.y(d.type)):(scale.y(d.cat) + 20))))"
+                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (setShown == 1? (scale.y(d.domain) + 5) : (setShown == 3 ? (scale.y(d.type) + (height * 0.08)):(scale.y(d.cat) + 20))))"
                     :r="3"
                     :name="d.domain"
                     :fill="myFill(d.cat)"
@@ -163,6 +163,22 @@
                     @mouseleave="showLabel = !showLabel, myTooltip(d), select(null)"
                   />
                 </g>
+              </g>
+
+              <g v-else v-for="(d, i) in filteredData">
+                  <g v-for="(d, i) in d.values">
+                  <circle
+                    :cx="5 + scale.x(d.days)"
+                    :cy="scale.y(d.party)"
+                    :r="3"
+                    :name="d.domain"
+                    :fill="myFill(d.cat)"
+                    :class="[d.id == iSelected ? 'circle-active' : (iSelected !=null ? 'circle-inactive' : 'circle-up')]"
+                    @mouseover="showLabel = !showLabel,
+              myTooltip(d), select(d.id)"
+                    @mouseleave="showLabel = !showLabel, myTooltip(d), select(null)"
+                  />
+         </g>
               </g>
 
               <text x="5" :y="svgHeight - margin.bottom - margin.top">
@@ -178,7 +194,7 @@
         </div>
         <section id="sections" class="text-content">
           <div class="text-area">
-            <h5 class="total">Cookie Classifications</h5>
+            <h5 class="total">Cookie Classifications by Party</h5>
             <p>
               Cookies can be described as either
               <span class="emphasis">first party</span> or
@@ -238,7 +254,33 @@
             </p>
           </div>
           <div class="text-area">
-            <h5 class="total">Expiration Dates</h5>
+            <h5 class="total">Cookie Classifications by Type</h5>
+            <p>
+              In addition to classifying cookies as first party vs. third party,
+              cookies can also be classified as
+              <span class="emphasis">persistent</span> vs.
+              <span class="emphasis">session</span>. Session cookies are only
+              stored on your computed while you're browsing and are deleted as
+              soon as you close your window. Persistent cookies, on the other
+              hand, have an expiration date. During my one hour of browsing,
+              <span class="emphasis">92%</span> of the cookies stored were the
+              persistent type.
+            </p>
+            <p>
+              In general, session cookies are used for functional purposes like
+              keeping you logged into a website or maintining the state of your
+              shopping cart across pages on a single domain. On the other hand,
+              persistent cookies are often used for targetting and advertising
+              purposes.
+            </p>
+            <p>
+              As of this writing, there are no laws or rules that limit
+              expiration dates of cookies. Let's take a look at how long these
+              1,029 persistent cookies will be stored on my computer.
+            </p>
+          </div>
+          <div class="text-area">
+            <h5 class="total">Persistent Cookies Expiration</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               iusto quos tenetur reiciendis, pariatur atque sequi inventore
@@ -252,14 +294,74 @@
         </section>
       </div>
       <div class="body-text">
-        <h5 class="total">Expiration Dates</h5>
+        <!-- <h5 class="total">Expiration Dates</h5> -->
         <p>
-          In addition to classifying cookies as first party vs. third party,
-          cookies can also be classified as persistent vs. session. Session
-          cookies are only stored on your computed while your browser it open
-          (during a single session) and are deleted as soon as you close your
-          web browser. Persistent cookies, on the other hand, have an expiration
-          date. As of this writing, there are no rules
+          Summary Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, placeat non perferendis laborum rem ducimus
+          exercitationem excepturi eius laudantium maxime ad eveniet eligendi
+          eos? Commodi ratione harum consectetur corrupti fugit dolorem incidunt
+          veniam quae nihil, veritatis quod eveniet facere quis atque omnis odio
+          necessitatibus? Sint, quos tempora modi enim veritatis nisi ipsum
+          similique ad, voluptate consectetur tenetur rem id est fuga iusto
+          accusantium ea, cupiditate dolores dicta repellat magnam quaerat?
+          Harum sit obcaecati eum inventore delectus, nisi accusamus
+          perspiciatis dolores. Laboriosam cumque in explicabo repellat dolorem
+          odit eveniet deleniti harum consectetur et. Ad excepturi qui ea
+          dolorem explicabo aliquam dolore.
+        </p>
+      </div>
+      <div class="footnotes">
+        <hr class="footer" />
+        <h6>Methodology, Sources, and Footnotes</h6>
+        <p>
+          This story was created by
+          <a href="http://andrewlevinson.me/" target="_blank"
+            >Andrew Levinson</a
+          >
+          for an academic publication written by the students of Parsons School of Design // The New School.
+        </p>
+        <p>
+          Data was collected using the
+      
+        </p>
+        <p>
+          The scroll events were made possible by use of the
+          <a href="https://github.com/1wheel/graph-scroll" target="_blank"
+            >graph-scroll.js</a
+          >
+          JavaScript library.
+        </p>
+        <p>Footnotes:</p>
+        <ol>
+          <li>
+     
+          </li>
+          <li>
+         
+          </li>
+          <li>
+       
+          </li>
+        </ol>
+        <p>Sources:</p>
+        <ol>
+          <li>
+        
+          </li>
+          
+          </li>
+          <li>
+          
+          </li>
+          <li>
+           
+          </li>
+        </ol>
+        <p>
+          Feel free to <a href="https://github.com/AndrewLevinson/dark-data/tree/master/cookies" target="_blank">check out the code</a
+            > or 
+          <a href="mailto:andrewlevins@gmail.com" target="_blank">email me</a
+          >.
         </p>
       </div>
     </div>

@@ -36,8 +36,8 @@ var app = new Vue({
         el =>
           el.key !== this.filterKey &&
           el.key !== "" &&
-          el.key != "Various" &&
-          el.key != "Technical"
+          el.key !== "Various" &&
+          el.key !== "Technical"
       );
       return filteredData;
     },
@@ -58,6 +58,11 @@ var app = new Vue({
 
       const y = d3
         .scaleBand()
+        // .domain(
+        //   this.setShown != 4
+        //     ? this.filteredData.map(y => y.key)
+        //     : this.cookies.map(y => y.site)
+        // )
         .domain(this.filteredData.map(y => y.key))
         // https://github.com/d3/d3-scale/blob/master/README.md#band_rangeRound
         .rangeRound([0, this.height])
@@ -353,6 +358,14 @@ var app = new Vue({
               this.graphTitle = "All Cookies by Website";
               // set shown 1
               this.setShown = 1;
+              // set nesting for domain
+              this.nested_data = d3
+                .nest()
+                .key(d => {
+                  return d.domain;
+                })
+                .entries(this.cookies);
+              this.sort();
               // show third parties
               this.filterKey = null;
               this.domainX.max = 700;
@@ -365,7 +378,7 @@ var app = new Vue({
 
             case 5:
               this.graphTitle = "Cookies by Type";
-              // set shown 1
+              // set shown 3
               this.setShown = 3;
               // show third parties
               this.filterKey = null;
@@ -379,10 +392,25 @@ var app = new Vue({
                 .entries(this.cookies);
               this.sort();
               break;
+            case 6:
+              this.graphTitle = "Persistent Cookies by Expiration";
+              // set shown 4
+              this.domainX.max = 40000;
 
+              this.setShown = 4;
+
+              this.nested_data = d3
+                .nest()
+                .key(d => {
+                  return d.party;
+                })
+                .entries(this.cookies);
+              this.sort();
+
+              break;
             default:
               console.log(
-                "hi im the default...something didn't fire correctly"
+                "hi im the default case...something didn't fire correctly"
               );
               this.showLabelAuto = false;
               this.myTooltip(null);
