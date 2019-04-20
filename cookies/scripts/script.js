@@ -27,7 +27,8 @@ var app = new Vue({
         max: 65
       },
       filterKey: "3rd Party",
-      setShown: 0
+      setShown: 0,
+      xAxisLabel: "Number of Cookies Stored"
     };
   },
   computed: {
@@ -378,6 +379,8 @@ var app = new Vue({
 
             case 5:
               this.graphTitle = "Cookies by Type";
+              this.xAxisLabel = "Number of Cookies Stored";
+
               // set shown 3
               this.setShown = 3;
               // show third parties
@@ -394,15 +397,16 @@ var app = new Vue({
               break;
             case 6:
               this.graphTitle = "Persistent Cookies by Expiration";
+              this.xAxisLabel = "Days Stored on Computer";
               // set shown 4
-              this.domainX.max = 40000;
+              this.domainX.max = 100;
 
               this.setShown = 4;
 
               this.nested_data = d3
                 .nest()
                 .key(d => {
-                  return d.party;
+                  return d.domain;
                 })
                 .entries(this.cookies);
               this.sort();

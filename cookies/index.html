@@ -149,11 +149,11 @@
               <g v-axis:y="scale" class="y-axis"></g>
               <g v-grid:gridlines="scale" class="gridlines"></g>
 
-              <g v-if="setShown != 4" v-for="(d, i) in filteredData">
+              <g v-for="(d, i) in filteredData">
                 <g v-for="(d, i) in d.values">
                   <circle
-                    :cx="5 + scale.x(i)"
-                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (setShown == 1? (scale.y(d.domain) + 5) : (setShown == 3 ? (scale.y(d.type) + (height * 0.08)):(scale.y(d.cat) + 20))))"
+                    :cx="setShown !== 4 ? (5 + scale.x(i)) : (5 + scale.x(d.days))"
+                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : ((setShown == 1 || setShown == 4) ? (scale.y(d.domain) + 5) : (setShown == 3 ? (scale.y(d.type) + (height * 0.08)):(scale.y(d.cat) + 20))))"
                     :r="3"
                     :name="d.domain"
                     :fill="myFill(d.cat)"
@@ -165,30 +165,9 @@
                 </g>
               </g>
 
-              <g v-else v-for="(d, i) in filteredData">
-                  <g v-for="(d, i) in d.values">
-                  <circle
-                    :cx="5 + scale.x(d.days)"
-                    :cy="scale.y(d.party)"
-                    :r="3"
-                    :name="d.domain"
-                    :fill="myFill(d.cat)"
-                    :class="[d.id == iSelected ? 'circle-active' : (iSelected !=null ? 'circle-inactive' : 'circle-up')]"
-                    @mouseover="showLabel = !showLabel,
-              myTooltip(d), select(d.id)"
-                    @mouseleave="showLabel = !showLabel, myTooltip(d), select(null)"
-                  />
-         </g>
-              </g>
-
               <text x="5" :y="svgHeight - margin.bottom - margin.top">
-                Total Cookies Stored: {{ count() }}
+                {{ xAxisLabel }}
               </text>
-              <text
-                :x="svgWidth - margin.right - margin.left - 5"
-                y="-8"
-                text-anchor="end"
-              ></text>
             </g>
           </svg>
         </div>
@@ -242,7 +221,7 @@
             </button>
           </div>
           <div class="text-area">
-            <h5 class="total">Third Party</h5>
+            <h5 class="total">Including Third Party</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               iusto quos tenetur reiciendis, pariatur atque sequi inventore
@@ -290,6 +269,13 @@
               hic odit vitae accusamus sapiente. Excepturi beatae consequuntur
               ex!
             </p>
+            <input
+              type="range"
+              min="0"
+              max="40000"
+              value="100"
+              v-model="domainX.max"
+            />
           </div>
         </section>
       </div>
@@ -318,11 +304,11 @@
           <a href="http://andrewlevinson.me/" target="_blank"
             >Andrew Levinson</a
           >
-          for an academic publication written by the students of Parsons School of Design // The New School.
+          for an academic publication written by the students of Parsons School
+          of Design // The New School.
         </p>
         <p>
           Data was collected using the
-      
         </p>
         <p>
           The scroll events were made possible by use of the
@@ -333,35 +319,26 @@
         </p>
         <p>Footnotes:</p>
         <ol>
-          <li>
-     
-          </li>
-          <li>
-         
-          </li>
-          <li>
-       
-          </li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ol>
         <p>Sources:</p>
         <ol>
-          <li>
-        
-          </li>
-          
-          </li>
-          <li>
-          
-          </li>
-          <li>
-           
-          </li>
+          <li></li>
+
+          <li></li>
+          <li></li>
         </ol>
         <p>
-          Feel free to <a href="https://github.com/AndrewLevinson/dark-data/tree/master/cookies" target="_blank">check out the code</a
-            > or 
-          <a href="mailto:andrewlevins@gmail.com" target="_blank">email me</a
-          >.
+          Feel free to
+          <a
+            href="https://github.com/AndrewLevinson/dark-data/tree/master/cookies"
+            target="_blank"
+            >check out the code</a
+          >
+          or
+          <a href="mailto:andrewlevins@gmail.com" target="_blank">email me</a>.
         </p>
       </div>
     </div>
