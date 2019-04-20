@@ -10,20 +10,27 @@
     <link rel="shortcut icon" type="image/png" href="favicon.ico" />
 
     <!-- style -->
+    <!-- google font -->
     <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900"
       rel="stylesheet"
     />
-
+    <!-- local sheets -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- lib scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="scripts/graph-scroll.js"></script>
+    <!-- vue -->
+    <script src="scripts/libs/vue.js"></script>
+    <!-- use minified vue in production -->
+    <!-- <script src="scripts/vue.min.js"></script> -->
+    <!-- d3 v5 -->
+    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+    <script src="scripts/libs/d3.js"></script>
+    <!-- scroll library -->
+    <script src="scripts/libs/graph-scroll.js"></script>
   </head>
 
   <body>
@@ -62,7 +69,9 @@
       </div>
       <div id="chart">
         <div id="graph">
-          <div id="graph-title"><h3>Cookie Count by Webstie Domain</h3></div>
+          <div id="graph-title">
+            <h3>{{ graphTitle }}</h3>
+          </div>
           <div id="filters">
             <span>Filters:</span>
             <!-- exp date filter -->
@@ -129,10 +138,10 @@
               <div></div>
               <span>Google Products</span>
             </div>
-            <!-- <div class="unknown">
+            <div class="unknown">
               <div></div>
               <span>Unknown</span>
-            </div> -->
+            </div>
           </div>
           <svg :width="svgWidth" :height="svgHeight">
             <g :transform="`translate(${margin.left}, ${margin.bottom})`">
@@ -144,7 +153,7 @@
                 <g v-for="(d, i) in d.values">
                   <circle
                     :cx="5 + scale.x(i)"
-                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (setShown == 1? (scale.y(d.domain) + 5) : (scale.y(d.cat) + 10)))"
+                    :cy="(setShown == 0 ? (scale.y(d.party) + (height * 0.08)) : (setShown == 1? (scale.y(d.domain) + 5) : (setShown == 3 ? (scale.y(d.type)):(scale.y(d.cat) + 20))))"
                     :r="3"
                     :name="d.domain"
                     :fill="myFill(d.cat)"
@@ -229,7 +238,7 @@
             </p>
           </div>
           <div class="text-area">
-            <h5 class="total">All Data</h5>
+            <h5 class="total">Expiration Dates</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               iusto quos tenetur reiciendis, pariatur atque sequi inventore
@@ -244,19 +253,13 @@
       </div>
       <div class="body-text">
         <h5 class="total">Expiration Dates</h5>
-
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum hic
-          saepe ad officiis aperiam, quod dolor fugit similique laborum, porro
-          nulla id ipsum a aut excepturi voluptatibus sunt eaque nesciunt odit
-          harum maiores! Totam, dolore. Quae, at sunt consequuntur quo amet
-          saepe reprehenderit ipsam tenetur doloremque possimus adipisci
-          excepturi blanditiis mollitia beatae? Neque libero quisquam tempore
-          eaque quos non at quis deleniti quo error, repellat laborum iste odio
-          ea facilis natus voluptates? Officia, aspernatur ipsam delectus
-          temporibus quod, modi eius eum, laudantium asperiores voluptates
-          natus? Veritatis blanditiis fuga tempore odit accusamus ut obcaecati.
-          Amet quas ipsum expedita possimus voluptatem blanditiis.
+          In addition to classifying cookies as first party vs. third party,
+          cookies can also be classified as persistent vs. session. Session
+          cookies are only stored on your computed while your browser it open
+          (during a single session) and are deleted as soon as you close your
+          web browser. Persistent cookies, on the other hand, have an expiration
+          date. As of this writing, there are no rules
         </p>
       </div>
     </div>

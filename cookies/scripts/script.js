@@ -3,8 +3,7 @@ var app = new Vue({
   el: "#container",
   data() {
     return {
-      chartTitle:
-        "Cookies Stored on my Computer from 1 Day of Internet Browsing",
+      graphTitle: "Cookies",
       svgWidth: window.innerWidth * 0.55,
       svgHeight: window.innerHeight * 0.825,
       margin: { top: 25, left: 130, bottom: 25, right: 25 },
@@ -34,7 +33,11 @@ var app = new Vue({
   computed: {
     filteredData() {
       let filteredData = this.nested_data.filter(
-        el => el.key !== this.filterKey
+        el =>
+          el.key !== this.filterKey &&
+          el.key !== "" &&
+          el.key != "Various" &&
+          el.key != "Technical"
       );
       return filteredData;
     },
@@ -111,7 +114,7 @@ var app = new Vue({
           }));
           return (this.cookies = convertedData);
         })
-        .then(d => {
+        .then(() => {
           this.nested_data = d3
             .nest()
             .key(d => {
@@ -136,7 +139,7 @@ var app = new Vue({
       // april 14 (need to subtract 1 since data was collected april 13)
       let today = 1555277525106;
       // let today = Date.now();
-      let difference = Math.floor((updatedD - today + 1) / 86400000);
+      let difference = Math.round((updatedD - today) / 86400000) + 1;
 
       return difference;
     },
@@ -191,15 +194,19 @@ var app = new Vue({
         tooltip.show(`<div id="tip-band"></div><h5 class="total">${
           d.domain
         }</h5><p>
-        <span class="datum"><i>${d.name}</i></span> is a <span class="datum">${
-          d.party
+        <span class="datum"><i>"${
+          d.name
+        }"</i></span> is a <span class="datum">${d.party.toLowerCase()} ${
+          d.type
         }</span> cookie used for <span class="datum">${
           d.purpose
-        }</span> that will be stored on my computer as a <span class="datum">${
-          d.type
-        }</span> type with a duration of <span class="datum">${this.timeConvert(
-          d.exp
-        )}</span> days.
+        }––</span> that will be stored on my computer for <span class="datum">${
+          d.type == "session"
+            ? "the length of my browser session"
+            : this.timeConvert(d.exp) == 0
+            ? "less than one day"
+            : this.timeConvert(d.exp) + " days"
+        }</span>.
         </p>`);
         document.documentElement.style.setProperty(
           "--active-tip",
@@ -231,15 +238,19 @@ var app = new Vue({
       return this.cookies.length;
     },
     randomID() {
-      // trigger tooltip (could probably refactor)
+      // trigger tooltip with random FIRST PARTY cookie
+      // pick random cookie from 472 options (first party amount)
       const randomPick = Math.floor(Math.random() * 473);
 
+      // first party only, id of randomPick
       const activeValue = this.cookies
         .filter(x => x.party === "First Party")
         .map(e => e.id)[randomPick];
 
+      // find index of randomly selected cookie id
       const activeIndex = this.cookies.map(e => e.id).indexOf(activeValue);
 
+      // use activeIndex to sect active index, show label, and fire tooltip method
       this.select(activeValue);
       this.showLabelAuto = true;
       this.myTooltip(this.cookies[activeIndex]);
@@ -255,6 +266,7 @@ var app = new Vue({
           console.log("case", i);
           switch (i) {
             case 0:
+              this.graphTitle = "Cookies by Party";
               // set shown 0
               this.setShown = 0;
               // set nesting for party type
@@ -276,6 +288,7 @@ var app = new Vue({
               break;
 
             case 1:
+              this.graphTitle = "First Party Cookies by Category";
               // set shown 2
               this.setShown = 2;
               this.nested_data = d3
@@ -302,6 +315,7 @@ var app = new Vue({
               this.myTooltip(null);
               break;
             case 2:
+              this.graphTitle = "First Party Cookies by Website";
               // set shown 1
               this.setShown = 1;
               // set nesting for domain
@@ -323,9 +337,10 @@ var app = new Vue({
 
               break;
             case 3:
+              this.graphTitle = "First Party Cookies by Website";
               // set shown 1
               this.setShown = 1;
-              // presorting for smoother animation in case 3
+              // presorting for smoother animation in next case
               this.sort();
 
               this.domainX.max = 70;
@@ -335,16 +350,36 @@ var app = new Vue({
 
               break;
             case 4:
+              this.graphTitle = "All Cookies by Website";
               // set shown 1
               this.setShown = 1;
               // show third parties
               this.filterKey = null;
               this.domainX.max = 700;
+              // reset and hide tooltip
               this.select(null);
               this.showLabelAuto = false;
               this.myTooltip(null);
 
               break;
+
+            case 5:
+              this.graphTitle = "Cookies by Type";
+              // set shown 1
+              this.setShown = 3;
+              // show third parties
+              this.filterKey = null;
+              this.domainX.max = 1200;
+              // set nesting for domain
+              this.nested_data = d3
+                .nest()
+                .key(d => {
+                  return d.type;
+                })
+                .entries(this.cookies);
+              this.sort();
+              break;
+
             default:
               console.log(
                 "hi im the default...something didn't fire correctly"
