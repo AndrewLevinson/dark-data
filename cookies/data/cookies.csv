@@ -1110,9 +1110,9 @@
 140,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,#HttpOnly_.wikipedia.org,TRUE,/,TRUE,1557964800,persistent,,WMF-Last-Access-Global,43569
 141,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,.wikipedia.org,TRUE,/,TRUE,0,session,,GeoIP,US:NY:New_York:40.74:-73.99:v4
 142,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,en.wikipedia.org,FALSE,/,FALSE,1560386956,persistent,,mwPhp7Seed,e95
-1057,Mozilla,Mozilla,4,,Technical,First Party,#HttpOnly_addons.mozilla.org,FALSE,/,TRUE,0,session,,taarId,dfa33bc2c16d1d1adc8df77eb66d08aaea330cc4285a57a270496d76da9ac5c5
-1058,Mozilla,Mozilla,4,,Technical,First Party,.mozilla.org,TRUE,/,FALSE,1618270820,persistent,,_ga,GA1.2.218236735.1555198820
-1059,Mozilla,Mozilla,4,,Technical,First Party,.mozilla.org,TRUE,/,FALSE,1555285220,persistent,,_gid,GA1.2.1268325900.1555198820
-1060,Mozilla,Mozilla,4,,Technical,First Party,.mozilla.org,TRUE,/,FALSE,1555198880,persistent,,_gat,1
+1057,Mozilla,Mozilla,4,,Entertainment & Info,First Party,#HttpOnly_addons.mozilla.org,FALSE,/,TRUE,0,session,,taarId,dfa33bc2c16d1d1adc8df77eb66d08aaea330cc4285a57a270496d76da9ac5c5
+1058,Mozilla,Mozilla,4,,Entertainment & Info,First Party,.mozilla.org,TRUE,/,FALSE,1618270820,persistent,,_ga,GA1.2.218236735.1555198820
+1059,Mozilla,Mozilla,4,,Entertainment & Info,First Party,.mozilla.org,TRUE,/,FALSE,1555285220,persistent,,_gid,GA1.2.1268325900.1555198820
+1060,Mozilla,Mozilla,4,,Entertainment & Info,First Party,.mozilla.org,TRUE,/,FALSE,1555198880,persistent,,_gat,1
 413,Yahoo,Yahoo,2,,Entertainment & Info,First Party,.finance.yahoo.com,TRUE,/,FALSE,1618317478,persistent,,PRF,t%3DFB
 414,Yahoo,Yahoo,2,,Entertainment & Info,First Party,.yahoo.com,TRUE,/,FALSE,1586739718,persistent,,B,24k3cldeb4s5l&b=3&s=09

@@ -61,9 +61,10 @@
           </p>
           <p>
             That raw power makes this worthy of a deeper dive. To illustrate
-            this, I browsed the US internet's most popular websites (source) for
-            1 hour uninteruped and exported the 1,117 cookies that were stored
-            on my computer through a Firefox plugin (link and image).
+            this, I browsed the US internet's most popular websites
+            <sup>[1]</sup>
+            for one uninteruped hour and exported the 1,117 cookies that were
+            stored on my computer through a Firefox plugin (link and image).
           </p>
         </div>
       </div>
@@ -177,16 +178,15 @@
             <p>
               Cookies can be described as either
               <span class="emphasis">first party</span> or
-              <span class="emphasis">third party</span>. This distinction is
-              based on whether the website you're visiting is storing the cookie
-              from their own domain directly (i.e., Amazon storing an
-              "amazon.com" cookie) or allowing a different domain (i.e. ads.com)
-              to store cookies on your computer.
+              <span class="emphasis">third party</span>. The distinction is
+              based on whether the cookie comes from the domain of the website
+              you're visiting (the website displayed in the URL bar) or whether
+              it comes from a different, third party domain (i.e. ads.com).
             </p>
             <p>
               A total of <span class="emphasis">472</span> first party cookies
               and <span class="emphasis">660</span> third party cookies were
-              placed on my computer from visiting 25 websites in 1 hour.
+              placed on my computer from visiting 25 websites in one hour.
             </p>
             <p>
               That sounds like a lot for such a short amount of time. Let's take
@@ -205,9 +205,8 @@
           <div class="text-area">
             <!-- <h5 class="total">First Party Cookies Only</h5> -->
             <p>
-              Breaking down the first party cookies by domain, it looks like
-              every site I visited placed at least 2 first party cookies on my
-              computer. The least amount of cookies was Yahoo with just 2 while
+              Every site I visited placed at least 2 first party cookies on my
+              computer. Yahoo stored just two cookies on my computer while
               Wired.com placed 60 while I was reading a single article.
             </p>
           </div>
@@ -216,20 +215,28 @@
             <p>
               What kind of information do we know about each cookie?
             </p>
+            <p>
+              Click the button below to select a random cookie or hover over any
+              point on the graph to explore.
+            </p>
             <button @click="randomID()">
               Show me another cookie
             </button>
+            <div>
+              <a :href="cookieQuery" target="_blank"
+                >Show me the purpose of this cookie on Cookiepedia</a
+              >
+            </div>
           </div>
           <div class="text-area">
             <h5 class="total">Including Third Party</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              iusto quos tenetur reiciendis, pariatur atque sequi inventore
-              perspiciatis necessitatibus suscipit perferendis et dolorum ea
-              vitae odit quasi non modi blanditiis nostrum quaerat!
-              Exercitationem excepturi in libero corporis. Nostrum sed, at dolor
-              hic odit vitae accusamus sapiente. Excepturi beatae consequuntur
-              ex!
+              The first thing you notice if we include third party cookies in
+              this plot—aside from the volume—is that many of these have unknown
+              origins. While some context clues can help determine what category
+              of domain I was browsing, there is no easy way to definitevly say
+              what site I was on when these third party cookies were plaed on my
+              computer.
             </p>
           </div>
           <div class="text-area">
@@ -269,13 +276,20 @@
               hic odit vitae accusamus sapiente. Excepturi beatae consequuntur
               ex!
             </p>
-            <input
-              type="range"
-              min="0"
-              max="40000"
-              value="100"
-              v-model="domainX.max"
-            />
+            <div id="slider">
+              <label for="domainXSlider"
+                >Use the slider to change day range to zoom in or out</label
+              ><br />
+              <p id="slider-value">Value: {{ domainX.max }}</p>
+              <input
+                name="domainXSlider"
+                type="range"
+                min="0"
+                max="40000"
+                value="40000"
+                v-model="domainX.max"
+              />
+            </div>
           </div>
         </section>
       </div>
@@ -319,7 +333,12 @@
         </p>
         <p>Footnotes:</p>
         <ol>
-          <li></li>
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/List_of_most_popular_websites"
+              >Wikipedia List of Most Popular Websites in the US</a
+            >
+          </li>
           <li></li>
           <li></li>
         </ol>

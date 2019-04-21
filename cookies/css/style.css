@@ -25,6 +25,20 @@ select:hover {
   cursor: pointer;
 }
 
+#slider {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+#slider p {
+  margin-top: 2.5rem;
+  font-family: "helvetica", sans-serif;
+}
+#slider input {
+  /* margin-top: 0.5rem; */
+  width: 50%;
+}
+
 button {
   border-radius: 4px;
   text-align: center;
@@ -63,6 +77,11 @@ a {
 a:hover {
   color: var(--emphasis);
   transition: all 0.3s ease-in;
+}
+
+sup {
+  color: var(--link-color);
+  font-weight: 600;
 }
 
 p {

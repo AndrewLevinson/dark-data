@@ -18,6 +18,7 @@ var app = new Vue({
       showLabel: false,
       showLabelAuto: false,
       iSelected: null,
+      activeIndex: 0,
       domainSelected: null,
       special: false,
       myCount: null,
@@ -80,6 +81,11 @@ var app = new Vue({
         .rangeRound([0, this.width]);
 
       return { x, y, gridlines };
+    },
+    cookieQuery() {
+      return `https://cookiepedia.co.uk/cookies/${
+        this.cookies[this.activeIndex].name
+      }`;
     }
   },
   created() {
@@ -254,12 +260,11 @@ var app = new Vue({
         .map(e => e.id)[randomPick];
 
       // find index of randomly selected cookie id
-      const activeIndex = this.cookies.map(e => e.id).indexOf(activeValue);
-
+      this.activeIndex = this.cookies.map(e => e.id).indexOf(activeValue);
       // use activeIndex to sect active index, show label, and fire tooltip method
       this.select(activeValue);
       this.showLabelAuto = true;
-      this.myTooltip(this.cookies[activeIndex]);
+      this.myTooltip(this.cookies[this.activeIndex]);
     },
     scrollTrigger() {
       d3.graphScroll()
@@ -399,7 +404,7 @@ var app = new Vue({
               this.graphTitle = "Persistent Cookies by Expiration";
               this.xAxisLabel = "Days Stored on Computer";
               // set shown 4
-              this.domainX.max = 100;
+              this.domainX.max = 40000;
 
               this.setShown = 4;
 
