@@ -224,7 +224,7 @@
             </button>
             <div class="link-contain">
               <a :href="cookieQuery" target="_blank"
-                >Show me the purpose of this cookie on Cookiepedia</a
+                >Show me the purpose of this cookie on Cookiepedia ⇗</a
               >
             </div>
           </div>
@@ -268,19 +268,19 @@
           <div class="text-area">
             <h5 class="total">Persistent Cookies Expiration</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              iusto quos tenetur reiciendis, pariatur atque sequi inventore
-              perspiciatis necessitatibus suscipit perferendis et dolorum ea
-              vitae odit quasi non modi blanditiis nostrum quaerat!
-              Exercitationem excepturi in libero corporis. Nostrum sed, at dolor
-              hic odit vitae accusamus sapiente. Excepturi beatae consequuntur
-              ex!
+              The average duration for each persistent cookie was [[calculate]]
+              days with the longest being a 3rd party cookie that will be on my
+              machine for 36,500 days (100 years).
             </p>
+
             <div id="slider">
               <label for="domainXSlider"
-                >Use the slider to change day range to zoom in or out</label
+                >Try using the slider below to zoom into the smaller
+                values</label
               ><br />
-              <p id="slider-value">Value: {{ domainX.max }}</p>
+              <p id="slider-value">
+                Max-value: {{ numFormater(domainX.max) }} days
+              </p>
               <input
                 name="domainXSlider"
                 type="range"

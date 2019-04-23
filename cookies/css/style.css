@@ -36,7 +36,7 @@ select:hover {
 }
 #slider input {
   /* margin-top: 0.5rem; */
-  width: 50%;
+  width: 75%;
 }
 
 button {
@@ -81,6 +81,7 @@ a:hover {
 
 .link-contain {
   margin-top: 2rem;
+  width: 80%;
 }
 
 sup {

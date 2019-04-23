@@ -199,7 +199,6 @@ var app = new Vue({
       };
       tooltip.init();
     },
-
     myTooltip(d) {
       // console.log(d);
       if (this.showLabel || this.showLabelAuto) {
@@ -210,14 +209,12 @@ var app = new Vue({
           d.name
         }"</i></span> is a <span class="datum">${d.party.toLowerCase()} ${
           d.type
-        }</span> cookie used for <span class="datum">${
-          d.purpose
-        }––</span> that will be stored on my computer for <span class="datum">${
+        }</span> cookie that will be stored on my computer for <span class="datum">${
           d.type == "session"
             ? "the length of my browser session"
             : this.timeConvert(d.exp) == 0
             ? "less than one day"
-            : this.timeConvert(d.exp) + " days"
+            : this.numFormater(this.timeConvert(d.exp)) + " days"
         }</span>.
         </p>`);
         document.documentElement.style.setProperty(
@@ -248,6 +245,10 @@ var app = new Vue({
     },
     count() {
       return this.cookies.length;
+    },
+    numFormater(el) {
+      const numFormatT = d3.format(",d");
+      return numFormatT(el);
     },
     randomID() {
       // trigger tooltip with random FIRST PARTY cookie
