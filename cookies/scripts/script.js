@@ -8,15 +8,17 @@ var app = new Vue({
       svgHeight: window.innerHeight * 0.825,
       margin: { top: 25, left: 130, bottom: 25, right: 25 },
       cookies: [{}],
-      myFilters: {
-        exp: 0,
-        party: "all",
-        category: "all",
-        purpose: null,
-        site: "all"
-      },
       showLabel: false,
       showLabelAuto: false,
+      showHoverTip: false,
+      links: {
+        txtImg: "./assets/crop/cookietxt.png",
+        everOne: "./assets/crop/everlane.png",
+        everTwo: "./assets/crop/everlane2.png",
+        everThree: "./assets/crop/everlane3.png",
+        everFour: "./assets/crop/everlane4.png"
+      },
+      activeLink: null,
       iSelected: null,
       activeIndex: 0,
       domainSelected: null,
@@ -167,8 +169,6 @@ var app = new Vue({
             .select("body")
             .append("div")
             .attr("class", "tooltip")
-            .style("left", `30vw`)
-            .style("bottom", `30vh`)
             .style("opacity", 0);
         },
         show: function(t) {
@@ -176,24 +176,24 @@ var app = new Vue({
             .html(t)
             .transition()
             .duration(200)
-            .style("left", `30vw`)
-            .style("bottom", `30vh`)
+            .style("left", `${event.x + 30}px`)
+            .style("bottom", `${window.innerHeight - event.y + 10}px`)
             .style("opacity", 0.925);
         },
         move: function() {
           this.element
             .transition()
             .duration(30)
-            .style("left", 20 + "px")
-            .style("top", 20 + "px")
+            .style("left", `${event.x + 30}px`)
+            .style("bottom", `${window.innerHeight - event.y + 10}px`)
             .style("opacity", 0.925);
         },
         hide: function() {
           this.element
             .transition()
             .duration(100)
-            .style("opacity", 0)
-            .delay(100);
+            .style("opacity", 0);
+          // .delay(100);
           // .style("right", `0px`);
         }
       };
@@ -225,6 +225,16 @@ var app = new Vue({
         tooltip.hide();
       }
     },
+    hoverTip(x) {
+      this.activeLink = x;
+      if (this.showHoverTip) {
+        tooltip.show(
+          `<img src="${this.links[this.activeLink]}" width="100%"/>`
+        );
+      } else if (!this.showHoverTip) {
+        tooltip.hide();
+      }
+    },
     myFill(e) {
       if (e === "News") {
         return "var(--cat-news)";
@@ -234,7 +244,7 @@ var app = new Vue({
         return "var(--cat-google)";
       } else if (e === "Shopping") {
         return "var(--cat-ecommerce)";
-      } else if (e === "Entertainment & Info") {
+      } else if (e === "Entertainment") {
         return "var(--cat-ent)";
       }
       if (e === "targeting") {

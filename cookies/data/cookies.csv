@@ -34,7 +34,7 @@
 150,,3rd Party,645,,,Third Party,.schwab.demdex.net,TRUE,/,FALSE,1570755635,persistent,,schwab,1.79E+37
 151,,3rd Party,645,,,Third Party,.wellsfargobankna.demdex.net,TRUE,/,FALSE,1570755637,persistent,,wellsfargobankna,1.79E+37
 152,,3rd Party,645,,,Third Party,.dpm.demdex.net,TRUE,/,FALSE,1570755726,persistent,,dpm,1.79E+37
-153,,3rd Party,645,Wall Street Journal,News,Third Party,.demdex.net,TRUE,/,FALSE,1570755931,persistent,,demdex,1.79E+37
+153,,3rd Party,645,WSJ,News,Third Party,.demdex.net,TRUE,/,FALSE,1570755931,persistent,,demdex,1.79E+37
 154,,3rd Party,645,,,Third Party,.weborama.com,TRUE,/,FALSE,1555807487,persistent,,wam-sync,ok
 155,,3rd Party,645,,,Third Party,.weborama.com,TRUE,/,FALSE,1562978775,persistent,,wui,C2EDC778-4278-3823-8A7F-8012A01A749B
 156,,3rd Party,645,,,Third Party,c.conversionlogic.net,FALSE,/,FALSE,1586739355,persistent,,sp,64eb2afd-32cf-49f4-9ccd-1d0d083886aa
@@ -49,53 +49,53 @@
 165,,3rd Party,645,,,Third Party,.eyeviewads.com,TRUE,/,FALSE,1744419715,persistent,,__ev_uid,c44a9dfa85b59072e47b8982fd070146
 166,,3rd Party,645,,,Third Party,.surveywall-api.survata.com,TRUE,/,FALSE,1571014555,persistent,,svResp,586bb7b0-7383-3c93-28de-c66f078bf0fe
 167,,3rd Party,645,,,Third Party,www.cdn-net.com,FALSE,/,FALSE,1570755603,persistent,,_cc-x,YzcxNjIwNDUtZWE0Mi00ZWYzLWIwNzUtYjU4MGY0MmUwY2RiOjE1NTUyMDM2MDM0MTY
-168,,3rd Party,645,Reddit,Entertainment & Info,Third Party,pixel.rubiconproject.com,FALSE,/,FALSE,0,session,,c,1
-169,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557617371,persistent,,put_2054,3e14e71a-1d14-4287-ad0b-2d31b7f43743
-170,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,0,session,,rsid,1|A9CvY0wN/eSQXSinyc0uIRX2rLIMFKuSvDF8Isq4VQt1ruqSOwTgQcScZ9WJiOOkWhmstFOrDwurFSicA0mhDB+0pVYRuQw19gMkasvdREJwzG+oEKZcP6+TV6baKVeZCb/xkn8kfn+fzJAw
-171,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557706361,persistent,,put_3778,XLJyVAAAFrAsFhGW
-172,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557619961,persistent,,put_2132,F1673DA9FD73B25C7EF1492002F5CD6F
-173,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621658,persistent,,put_2861,f7ece12f-5e4d-11e9-aeb8-51f7b6672454
-174,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708058,persistent,,put_2676,5.70E+18
-175,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621658,persistent,,put_2596,9.97E+17
-176,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708059,persistent,,put_4968,3.47E+18
-177,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_2313,R1B341_B5D8C859_243E2FD79
-178,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_2238,21b05b16-7813-4350-918c-0b2494f42259
-179,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_1523,wpUsvPGG1Hfs5u5
-180,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_1185,8.04E+18
-181,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621879,persistent,,put_2149,3e14e71a-1d14-4287-ad0b-2d31b7f43743
-182,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621891,persistent,,put_2249,CAESEBnP5GJ4-cudBneUeIY5p40
-183,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_5466,3.47E+18
-184,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_4628,s1m54Rfka1b
-185,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_5454,u_36583290-70d7-4c32-a009-fac59f20167b
-186,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622015,persistent,,put_1197,86da642c-d124-445e-be0b-084a8c0c94fc
-187,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_2046,AAAGR0PbIVP8AQNisJanAAAAAAA
-188,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555289215,persistent,,put_3956,0341220307213af508bb7965
-189,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses15,17647^1&134454^1&137886^3&196712^13&202078^2&233308^1
-190,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557709187,persistent,,put_2974,6.10E+18
-191,,3rd Party,645,Reddit,Entertainment & Info,Third Party,pixel.rubiconproject.com,FALSE,/exchange/,FALSE,1586739635,persistent,,audit,ar49wXtptWRdQvchN250qnmzP21H6HYD2g/ciJ8g3u068lWHH5e4Ywap3etM+eWL8tK4zswo3kvvlBleHF2Osg==
-192,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses2,17647^1&100278^1&135890^1&146458^1&188422^1&196712^3&202078^20
-193,,3rd Party,645,Reddit,Entertainment & Info,Third Party,eus.rubiconproject.com,FALSE,/,FALSE,1562979691,persistent,,pux,1185%3D81355%261197%3D81355%261512%3D81355%261902%3D81356%262046%3D81355%262082%3D81356%262132%3D81355%262238%3D81355%262249%3D81355%262271%3D81355%262307%3D81355%262313%3D81355%262528%3D81355%262596%3D81355%262650%3D81355%262676%3D81355%262861%3D81355%262974%3D81355%263632%3D81356%263684%3D81356%263778%3D81355%263956%3D81355%263992%3D81355%264032%3D81355%264112%3D81356%264114%3D81356%264192%3D81355%264628%3D81355%264804%3D81355%264968%3D81355%265446%3D81356%265454%3D81355%265466%3D81355%26brx%3D81355%26goog%3D81355%26w55c%3D81355%26bk%3D81355%26turn%3D81355%261523ext%3D81355%26tapad-crossdevice%3D81356%26
-194,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622896,persistent,,put_2082,4.49E+11
-195,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622908,persistent,,put_1512,727b5cb2-6bcc-4800-9fe8-d21f5f888b81
-196,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622910,persistent,,put_3632,JDCR6Io3COq30_04c4ayXA
-197,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622910,persistent,,put_5446,fa2fef40-4be1-e76b-58551b0c
-198,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622911,persistent,,put_4114,AAhYAE65ZQMAABiNYMg-YA
-199,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557709311,persistent,,put_1902,yrirn8jr_pnS7P2Umejky8i_8ZTSvv6Vy72I8tDA
-200,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622912,persistent,,put_4112,RX-2f2dc025-3814-4696-a792-393a1e67e915
-201,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557709318,persistent,,put_1986,3.47E+18
-202,,3rd Party,645,Reddit,Entertainment & Info,Third Party,pixel-us-east.rubiconproject.com,FALSE,/exchange/,FALSE,1586739721,persistent,,audit,F2XbslNSPWwZoIQLC1v2SA47+UO7svOgpHXiWbHaVRuPR8VWawacpNaxOJfSdcDNkgUHjF2j+z/Iwsup3bkx1dX7SJw1Nez04vE5xr9z314=
-203,,3rd Party,645,Reddit,Entertainment & Info,Third Party,pixel.rubiconproject.com,FALSE,/,FALSE,1586739792,persistent,,audit,ar49wXtptWRdQvchN250qnmzP21H6HYD2g/ciJ8g3u068lWHH5e4Ywap3etM+eWL8tK4zswo3kvvlBleHF2Osg==
-204,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1586739793,persistent,,khaos,JUG4TBYL-16-DGKE
-205,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557795793,persistent,,rpb,7206%3D1%266286%3D1%26324610%3D1%267751%3D1%2631950%3D1%2613490%3D1%26564534%3D1%26183462%3D1%264212%3D1%265421%3D1%264210%3D1%26123034%3D1%2670596%3D1%2614240%3D1%266434%3D1%2614321%3D1%26191940%3D1%265672%3D1%26186028%3D1%26538100%3D1%26554870%3D1%267430%3D1%264894%3D1%26377322%3D1%264939%3D1%264222%3D1%2617149%3D1%268981%3D1
-206,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622993,persistent,,put_2307,5cd41894-c302-4cd4-a5a0-d693c38cfea1
-207,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.pixel.rubiconproject.com,TRUE,/,FALSE,1557795793,persistent,,rpx,7206%3D81352%2C0%2C1%2C%2C%266286%3D81352%2C0%2C1%2C%2C%26324610%3D81352%2C0%2C1%2C%2C%267751%3D81352%2C0%2C0%2C%2C%2631950%3D81352%2C0%2C0%2C%2C%2613490%3D81352%2C0%2C1%2C%2C%26564534%3D81352%2C0%2C1%2C%2C%26183462%3D81353%2C0%2C1%2C%2C%264212%3D81352%2C0%2C1%2C%2C%265421%3D81351%2C0%2C0%2C%2C%264210%3D81352%2C0%2C1%2C%2C%26123034%3D81352%2C0%2C1%2C%2C%2670596%3D81353%2C0%2C1%2C%2C%2614240%3D81352%2C0%2C1%2C%2C%266434%3D81352%2C0%2C0%2C%2C%2614321%3D81352%2C0%2C1%2C%2C%26191940%3D81352%2C0%2C1%2C%2C%265672%3D81353%2C0%2C1%2C%2C%26186028%3D81353%2C0%2C1%2C%2C%26538100%3D81353%2C0%2C1%2C%2C%26554870%3D81352%2C0%2C1%2C%2C%267430%3D81352%2C0%2C1%2C%2C%264894%3D81353%2C0%2C1%2C%2C%26377322%3D81352%2C0%2C1%2C%2C%264939%3D81353%2C0%2C1%2C%2C%264222%3D81353%2C0%2C0%2C%2C%2617149%3D81352%2C0%2C1%2C%2C%268981%3D81352%2C1%2C2%2C%2C
-208,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis2,17647^2&100278^1&135890^1&146458^1&180604^1&181424^4&188422^1&196712^9&202078^20&208726^4
-209,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses57,17647^1&100278^2&137886^2&146458^4&196712^10&202078^3&208726^4&233308^1
-210,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis57,17647^1&100278^2&137886^2&146458^4&181424^2&196712^11&202078^3&208726^5&233308^2
-211,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses10,17647^3&137886^1&196712^9&202078^2
-212,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis10,17647^3&137886^1&180604^1&181424^1&186360^1&196712^11&202078^2
-213,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis15,17647^4&134454^2&135890^1&137886^3&181424^4&186360^2&196712^18&202078^2&208726^1&233308^1
-214,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.rubiconproject.com,TRUE,/,FALSE,1586739939,persistent,,audit,1|qMXCiqys/Qumbhy4QRLxz6qhoKrlg36pCr2G6KVUuc9PB9NJ6e1980DOE3eMytA4j7qIWXE3mW+4cNfkgUUYHcy+1+GPVAuwZCxfKz6ahWfQD5U7tEfUTQ==
+168,,3rd Party,645,Reddit,Entertainment,Third Party,pixel.rubiconproject.com,FALSE,/,FALSE,0,session,,c,1
+169,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557617371,persistent,,put_2054,3e14e71a-1d14-4287-ad0b-2d31b7f43743
+170,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,0,session,,rsid,1|A9CvY0wN/eSQXSinyc0uIRX2rLIMFKuSvDF8Isq4VQt1ruqSOwTgQcScZ9WJiOOkWhmstFOrDwurFSicA0mhDB+0pVYRuQw19gMkasvdREJwzG+oEKZcP6+TV6baKVeZCb/xkn8kfn+fzJAw
+171,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557706361,persistent,,put_3778,XLJyVAAAFrAsFhGW
+172,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557619961,persistent,,put_2132,F1673DA9FD73B25C7EF1492002F5CD6F
+173,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621658,persistent,,put_2861,f7ece12f-5e4d-11e9-aeb8-51f7b6672454
+174,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708058,persistent,,put_2676,5.70E+18
+175,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621658,persistent,,put_2596,9.97E+17
+176,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708059,persistent,,put_4968,3.47E+18
+177,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_2313,R1B341_B5D8C859_243E2FD79
+178,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_2238,21b05b16-7813-4350-918c-0b2494f42259
+179,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_1523,wpUsvPGG1Hfs5u5
+180,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621659,persistent,,put_1185,8.04E+18
+181,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621879,persistent,,put_2149,3e14e71a-1d14-4287-ad0b-2d31b7f43743
+182,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557621891,persistent,,put_2249,CAESEBnP5GJ4-cudBneUeIY5p40
+183,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_5466,3.47E+18
+184,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_4628,s1m54Rfka1b
+185,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_5454,u_36583290-70d7-4c32-a009-fac59f20167b
+186,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622015,persistent,,put_1197,86da642c-d124-445e-be0b-084a8c0c94fc
+187,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557708415,persistent,,put_2046,AAAGR0PbIVP8AQNisJanAAAAAAA
+188,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555289215,persistent,,put_3956,0341220307213af508bb7965
+189,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses15,17647^1&134454^1&137886^3&196712^13&202078^2&233308^1
+190,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557709187,persistent,,put_2974,6.10E+18
+191,,3rd Party,645,Reddit,Entertainment,Third Party,pixel.rubiconproject.com,FALSE,/exchange/,FALSE,1586739635,persistent,,audit,ar49wXtptWRdQvchN250qnmzP21H6HYD2g/ciJ8g3u068lWHH5e4Ywap3etM+eWL8tK4zswo3kvvlBleHF2Osg==
+192,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses2,17647^1&100278^1&135890^1&146458^1&188422^1&196712^3&202078^20
+193,,3rd Party,645,Reddit,Entertainment,Third Party,eus.rubiconproject.com,FALSE,/,FALSE,1562979691,persistent,,pux,1185%3D81355%261197%3D81355%261512%3D81355%261902%3D81356%262046%3D81355%262082%3D81356%262132%3D81355%262238%3D81355%262249%3D81355%262271%3D81355%262307%3D81355%262313%3D81355%262528%3D81355%262596%3D81355%262650%3D81355%262676%3D81355%262861%3D81355%262974%3D81355%263632%3D81356%263684%3D81356%263778%3D81355%263956%3D81355%263992%3D81355%264032%3D81355%264112%3D81356%264114%3D81356%264192%3D81355%264628%3D81355%264804%3D81355%264968%3D81355%265446%3D81356%265454%3D81355%265466%3D81355%26brx%3D81355%26goog%3D81355%26w55c%3D81355%26bk%3D81355%26turn%3D81355%261523ext%3D81355%26tapad-crossdevice%3D81356%26
+194,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622896,persistent,,put_2082,4.49E+11
+195,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622908,persistent,,put_1512,727b5cb2-6bcc-4800-9fe8-d21f5f888b81
+196,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622910,persistent,,put_3632,JDCR6Io3COq30_04c4ayXA
+197,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622910,persistent,,put_5446,fa2fef40-4be1-e76b-58551b0c
+198,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622911,persistent,,put_4114,AAhYAE65ZQMAABiNYMg-YA
+199,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557709311,persistent,,put_1902,yrirn8jr_pnS7P2Umejky8i_8ZTSvv6Vy72I8tDA
+200,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622912,persistent,,put_4112,RX-2f2dc025-3814-4696-a792-393a1e67e915
+201,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557709318,persistent,,put_1986,3.47E+18
+202,,3rd Party,645,Reddit,Entertainment,Third Party,pixel-us-east.rubiconproject.com,FALSE,/exchange/,FALSE,1586739721,persistent,,audit,F2XbslNSPWwZoIQLC1v2SA47+UO7svOgpHXiWbHaVRuPR8VWawacpNaxOJfSdcDNkgUHjF2j+z/Iwsup3bkx1dX7SJw1Nez04vE5xr9z314=
+203,,3rd Party,645,Reddit,Entertainment,Third Party,pixel.rubiconproject.com,FALSE,/,FALSE,1586739792,persistent,,audit,ar49wXtptWRdQvchN250qnmzP21H6HYD2g/ciJ8g3u068lWHH5e4Ywap3etM+eWL8tK4zswo3kvvlBleHF2Osg==
+204,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1586739793,persistent,,khaos,JUG4TBYL-16-DGKE
+205,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557795793,persistent,,rpb,7206%3D1%266286%3D1%26324610%3D1%267751%3D1%2631950%3D1%2613490%3D1%26564534%3D1%26183462%3D1%264212%3D1%265421%3D1%264210%3D1%26123034%3D1%2670596%3D1%2614240%3D1%266434%3D1%2614321%3D1%26191940%3D1%265672%3D1%26186028%3D1%26538100%3D1%26554870%3D1%267430%3D1%264894%3D1%26377322%3D1%264939%3D1%264222%3D1%2617149%3D1%268981%3D1
+206,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1557622993,persistent,,put_2307,5cd41894-c302-4cd4-a5a0-d693c38cfea1
+207,,3rd Party,645,Reddit,Entertainment,Third Party,.pixel.rubiconproject.com,TRUE,/,FALSE,1557795793,persistent,,rpx,7206%3D81352%2C0%2C1%2C%2C%266286%3D81352%2C0%2C1%2C%2C%26324610%3D81352%2C0%2C1%2C%2C%267751%3D81352%2C0%2C0%2C%2C%2631950%3D81352%2C0%2C0%2C%2C%2613490%3D81352%2C0%2C1%2C%2C%26564534%3D81352%2C0%2C1%2C%2C%26183462%3D81353%2C0%2C1%2C%2C%264212%3D81352%2C0%2C1%2C%2C%265421%3D81351%2C0%2C0%2C%2C%264210%3D81352%2C0%2C1%2C%2C%26123034%3D81352%2C0%2C1%2C%2C%2670596%3D81353%2C0%2C1%2C%2C%2614240%3D81352%2C0%2C1%2C%2C%266434%3D81352%2C0%2C0%2C%2C%2614321%3D81352%2C0%2C1%2C%2C%26191940%3D81352%2C0%2C1%2C%2C%265672%3D81353%2C0%2C1%2C%2C%26186028%3D81353%2C0%2C1%2C%2C%26538100%3D81353%2C0%2C1%2C%2C%26554870%3D81352%2C0%2C1%2C%2C%267430%3D81352%2C0%2C1%2C%2C%264894%3D81353%2C0%2C1%2C%2C%26377322%3D81352%2C0%2C1%2C%2C%264939%3D81353%2C0%2C1%2C%2C%264222%3D81353%2C0%2C0%2C%2C%2617149%3D81352%2C0%2C1%2C%2C%268981%3D81352%2C1%2C2%2C%2C
+208,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis2,17647^2&100278^1&135890^1&146458^1&180604^1&181424^4&188422^1&196712^9&202078^20&208726^4
+209,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses57,17647^1&100278^2&137886^2&146458^4&196712^10&202078^3&208726^4&233308^1
+210,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis57,17647^1&100278^2&137886^2&146458^4&181424^2&196712^11&202078^3&208726^5&233308^2
+211,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,ses10,17647^3&137886^1&196712^9&202078^2
+212,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis10,17647^3&137886^1&180604^1&181424^1&186360^1&196712^11&202078^2
+213,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1555243199,persistent,,vis15,17647^4&134454^2&135890^1&137886^3&181424^4&186360^2&196712^18&202078^2&208726^1&233308^1
+214,,3rd Party,645,Reddit,Entertainment,Third Party,.rubiconproject.com,TRUE,/,FALSE,1586739939,persistent,,audit,1|qMXCiqys/Qumbhy4QRLxz6qhoKrlg36pCr2G6KVUuc9PB9NJ6e1980DOE3eMytA4j7qIWXE3mW+4cNfkgUUYHcy+1+GPVAuwZCxfKz6ahWfQD5U7tEfUTQ==
 215,,3rd Party,645,,,Third Party,.fwmrm.net,TRUE,/,FALSE,1586738331,persistent,,_uid,g066_6679543150308097780
 216,,3rd Party,645,,,Third Party,.app.link,TRUE,/,FALSE,1586739778,persistent,,_s,FzMHvDROOmRu98V%2BoqTfbFNfJf9qc9c6OxHwLXrURFzQmuEuCv7kVX6k5n3IcpKv
 217,,3rd Party,645,,,Third Party,.teenvogue.com,TRUE,/,FALSE,1569717512,persistent,,CN_xid,a3caa1cc-1899-4362-9296-321564acf737
@@ -125,7 +125,7 @@
 241,,3rd Party,645,,,Third Party,.wikimedia.org,TRUE,/,TRUE,0,session,,GeoIP,US:NY:New_York:40.74:-73.99:v4
 242,,3rd Party,645,,,Third Party,.ipredictive.com,TRUE,/,FALSE,1586739725,persistent,,cu,f7ece12f-5e4d-11e9-aeb8-51f7b6672454|1555202457650
 243,,3rd Party,645,,,Third Party,#HttpOnly_ws.sessioncam.com,FALSE,/,FALSE,0,session,,sc.ASP.NET_SESSIONID,rgllxw2ypo5ekgtsrix4br3g
-244,,3rd Party,645,Wall Street Journal,News,Third Party,.krxd.net,TRUE,/,FALSE,1570756062,persistent,,_kuid_,Mn625m80
+244,,3rd Party,645,WSJ,News,Third Party,.krxd.net,TRUE,/,FALSE,1570756062,persistent,,_kuid_,Mn625m80
 245,,3rd Party,645,,,Third Party,.tremorhub.com,TRUE,/,FALSE,1618317487,persistent,,tv_UISCX,3aeeffeb60f6fbb0f04f1555203685224
 246,,3rd Party,645,,,Third Party,connatix-supply-partners.tremorhub.com,FALSE,/,FALSE,1555203708,persistent,,AWSELB,BD5F01E3168F81D64F20FC737D53DAE6B1E3FB62EC003A2447B895F687C88D64599C4CC4AF79EE203BA3CB561FD8B2512BB4B9B47BD332AF4511FB7D57F03DB40F10640E77
 247,,3rd Party,645,,,Third Party,.tremorhub.com,TRUE,/,FALSE,1586760945,persistent,,tvid,1f691658f5d3443a91a6efc73d8a2690
@@ -215,12 +215,12 @@
 342,,3rd Party,645,New York Times,News,Third Party,.bluekai.com,TRUE,/,FALSE,1570750138,persistent,,bkdc,phx
 343,,3rd Party,645,New York Times,News,Third Party,.bluekai.com,TRUE,/,FALSE,1570755727,persistent,,bku,uUW99noyLk08XEWI
 344,,3rd Party,645,,,Third Party,.placed.com,TRUE,/api/v2/sync/,FALSE,1618275670,persistent,,Subject-Id,d7216c0e-4549-419c-99d5-97a89fe60336
-345,,3rd Party,645,IMDB,Entertainment & Info,Third Party,#HttpOnly_.amazon-adsystem.com,TRUE,/,FALSE,1577840786,persistent,,ad-id,A69eJXT5FUSQp0_1Xh-qDps
-346,,3rd Party,645,IMDB,Entertainment & Info,Third Party,#HttpOnly_.amazon-adsystem.com,TRUE,/,FALSE,1577840786,persistent,,ad-privacy,0
+345,,3rd Party,645,IMDB,Entertainment,Third Party,#HttpOnly_.amazon-adsystem.com,TRUE,/,FALSE,1577840786,persistent,,ad-id,A69eJXT5FUSQp0_1Xh-qDps
+346,,3rd Party,645,IMDB,Entertainment,Third Party,#HttpOnly_.amazon-adsystem.com,TRUE,/,FALSE,1577840786,persistent,,ad-privacy,0
 347,,3rd Party,645,,,Third Party,#HttpOnly_.embed.ly,TRUE,/,FALSE,1586739351,persistent,,__cfduid,d4214dd67d683564dbb7e234e5f8e892c1555203351
 348,,3rd Party,645,,,Third Party,static01.nyt.com,FALSE,/,FALSE,1555202545,persistent,,nyt-check3pc,TRUE
 349,,3rd Party,645,,,Third Party,pixel.keywee.co,FALSE,/,FALSE,1586738949,persistent,,sp,5aa2e66c-493d-4407-aacc-912a698763d2
-350,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.simpli.fi,TRUE,/,FALSE,1586821373,persistent,,uid,qT1n8Vyyc/0gSfF+b831Ag==
+350,,3rd Party,645,Reddit,Entertainment,Third Party,.simpli.fi,TRUE,/,FALSE,1586821373,persistent,,uid,qT1n8Vyyc/0gSfF+b831Ag==
 351,,3rd Party,645,,,Third Party,.pippio.com,TRUE,/,FALSE,1586734551,persistent,,did,XKJ6A9EDYbNqP5Tz
 352,,3rd Party,645,,,Third Party,.pippio.com,TRUE,/,FALSE,1586734551,persistent,,didts,1555198551
 353,,3rd Party,645,,,Third Party,.pippio.com,TRUE,/,FALSE,1560382551,persistent,,nnls,
@@ -282,54 +282,54 @@
 438,,3rd Party,645,,,Third Party,data.cmcore.com,FALSE,/,FALSE,0,session,,50200000_login,1.56E+27
 439,,3rd Party,645,,,Third Party,data.cmcore.com,FALSE,/,FALSE,0,session,,50200000_reset,1555202461
 440,,3rd Party,645,,,Third Party,.cntraveler.com,TRUE,/,FALSE,1569717511,persistent,,CN_xid,a3caa1cc-1899-4362-9296-321564acf737
-455,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557803684,persistent,,KRTBCOOKIE_97,3385-uid:3e14e71a-1d14-4287-ad0b-2d31b7f43743
-456,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557790268,persistent,,KRTBCOOKIE_260,4754-uid:3e14e71a-1d14-4287-ad0b-2d31b7f43743
+455,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557803684,persistent,,KRTBCOOKIE_97,3385-uid:3e14e71a-1d14-4287-ad0b-2d31b7f43743
+456,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557790268,persistent,,KRTBCOOKIE_260,4754-uid:3e14e71a-1d14-4287-ad0b-2d31b7f43743
 457,,3rd Party,645,,,Third Party,image6.pubmatic.com,FALSE,/AdServer/,FALSE,0,session,,f5_cspm,1234
-458,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1570754679,persistent,,KRTBCOOKIE_188,3189-21b05b16-7813-4350-918c-0b2494f42259&KRTB&22716-21b05b16-7813-4350-918c-0b2494f42259
-459,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978679,persistent,,KRTBCOOKIE_218,4056-XLJyVAAAFrAsFhGW&KRTB&22922-XLJyVAAAFrAsFhGW&KRTB&22978-XLJyVAAAFrAsFhGW
+458,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1570754679,persistent,,KRTBCOOKIE_188,3189-21b05b16-7813-4350-918c-0b2494f42259&KRTB&22716-21b05b16-7813-4350-918c-0b2494f42259
+459,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978679,persistent,,KRTBCOOKIE_218,4056-XLJyVAAAFrAsFhGW&KRTB&22922-XLJyVAAAFrAsFhGW&KRTB&22978-XLJyVAAAFrAsFhGW
 460,,3rd Party,645,,,Third Party,simage2.pubmatic.com,FALSE,/AdServer/,FALSE,0,session,,f5_cspm,1234
-461,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794679,persistent,,KRTBCOOKIE_315,5527-uid:3e14e71a-1d14-4287-ad0b-2d31b7f43743
-462,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794679,persistent,,KRTBCOOKIE_22,14911-8038890736059368349&KRTB&16087-8038890736059368349&KRTB&23049-8038890736059368349
-463,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978679,persistent,,KRTBCOOKIE_80,16514-CAESEHmPhg7BDABq3Cdc9AKNs3E&KRTB&22987-CAESEHmPhg7BDABq3Cdc9AKNs3E&KRTB&22995-CAESEHmPhg7BDABq3Cdc9AKNs3E
-464,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978708,persistent,,DPSync2,1555286400%3A174%7C1556409600%3A201_200_197%7C1555804800%3A164
-465,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794708,persistent,,KRTBCOOKIE_148,19421-uid:F1673DA9FD73B25C7EF1492002F5CD6F
-466,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978708,persistent,,KRTBCOOKIE_153,19420-gKUGBoL2UwCY8VAN0_VJUoKiXA2Yo1MMgaCy7Wlk&KRTB&22979-gKUGBoL2UwCY8VAN0_VJUoKiXA2Yo1MMgaCy7Wlk
-467,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978708,persistent,,KRTBCOOKIE_57,22767-3470578288963135121&KRTB&22776-3470578288963135121
-468,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794738,persistent,,KRTBCOOKIE_759,15681-614a652e7c2a436c905a5752
-469,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978738,persistent,,KRTBCOOKIE_32,11175-AAAGRGxCnuA7DwMPSHgPAAAAAAA&KRTB&22714-AAAGRGxCnuA7DwMPSHgPAAAAAAA&KRTB&22715-AAAGRGxCnuA7DwMPSHgPAAAAAAA
-470,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794738,persistent,,KRTBCOOKIE_52,22772-R1B341_B5D8C859_243E2FD79&KRTB&23092-R1B341_B5D8C859_243E2FD79
-471,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794738,persistent,,KRTBCOOKIE_466,16530-b63295dc-f06f-428e-adf8-dc2505bd415a&KRTB&16532-b63295dc-f06f-428e-adf8-dc2505bd415a
-472,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978786,persistent,,KRTBCOOKIE_286,5193-Q6084852471154326273
-473,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_1030,22848-um8flOR6nqDH
-474,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_391,22924-5700616493387507284
-475,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_653,12443-1743a2ce-9455-472e-8c09-63d9aa3d3367&KRTB&15210-1743a2ce-9455-472e-8c09-63d9aa3d3367
+461,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794679,persistent,,KRTBCOOKIE_315,5527-uid:3e14e71a-1d14-4287-ad0b-2d31b7f43743
+462,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794679,persistent,,KRTBCOOKIE_22,14911-8038890736059368349&KRTB&16087-8038890736059368349&KRTB&23049-8038890736059368349
+463,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978679,persistent,,KRTBCOOKIE_80,16514-CAESEHmPhg7BDABq3Cdc9AKNs3E&KRTB&22987-CAESEHmPhg7BDABq3Cdc9AKNs3E&KRTB&22995-CAESEHmPhg7BDABq3Cdc9AKNs3E
+464,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978708,persistent,,DPSync2,1555286400%3A174%7C1556409600%3A201_200_197%7C1555804800%3A164
+465,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794708,persistent,,KRTBCOOKIE_148,19421-uid:F1673DA9FD73B25C7EF1492002F5CD6F
+466,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978708,persistent,,KRTBCOOKIE_153,19420-gKUGBoL2UwCY8VAN0_VJUoKiXA2Yo1MMgaCy7Wlk&KRTB&22979-gKUGBoL2UwCY8VAN0_VJUoKiXA2Yo1MMgaCy7Wlk
+467,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978708,persistent,,KRTBCOOKIE_57,22767-3470578288963135121&KRTB&22776-3470578288963135121
+468,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794738,persistent,,KRTBCOOKIE_759,15681-614a652e7c2a436c905a5752
+469,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978738,persistent,,KRTBCOOKIE_32,11175-AAAGRGxCnuA7DwMPSHgPAAAAAAA&KRTB&22714-AAAGRGxCnuA7DwMPSHgPAAAAAAA&KRTB&22715-AAAGRGxCnuA7DwMPSHgPAAAAAAA
+470,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794738,persistent,,KRTBCOOKIE_52,22772-R1B341_B5D8C859_243E2FD79&KRTB&23092-R1B341_B5D8C859_243E2FD79
+471,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794738,persistent,,KRTBCOOKIE_466,16530-b63295dc-f06f-428e-adf8-dc2505bd415a&KRTB&16532-b63295dc-f06f-428e-adf8-dc2505bd415a
+472,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978786,persistent,,KRTBCOOKIE_286,5193-Q6084852471154326273
+473,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_1030,22848-um8flOR6nqDH
+474,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_391,22924-5700616493387507284
+475,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_653,12443-1743a2ce-9455-472e-8c09-63d9aa3d3367&KRTB&15210-1743a2ce-9455-472e-8c09-63d9aa3d3367
 476,,3rd Party,645,,,Third Party,image2.pubmatic.com,FALSE,/AdServer/,FALSE,0,session,,f5_cspm,1234
-477,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_1074,22956-u_36583290-70d7-4c32-a009-fac59f20167b
-478,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978786,persistent,,KRTBCOOKIE_107,1471-uid:wpUsvPGG1Hfs5u5&KRTB&23129-uid:wpUsvPGG1Hfs5u5
-479,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_279,22890-f7ece12f-5e4d-11e9-aeb8-51f7b6672454
-480,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794787,persistent,,KRTBCOOKIE_1051,22884-18072662407723292860
-481,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794787,persistent,,KRTBCOOKIE_734,15208-uid:9d0dadc1-4ee0-426c-9259-e0904a2ca2a8-tuct3abf5fb
-482,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978787,persistent,,KRTBCOOKIE_594,17105-RX-2f2dc025-3814-4696-a792-393a1e67e915
-483,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978790,persistent,,KRTBCOOKIE_1003,22761-d58c4dbe-5e4d-11e9-b2c4-e913820055d9
-484,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_330,22938-f1714fe0cf2afaae7ad02edb6cbcb70e&KRTB&22939-f1714fe0cf2afaae7ad02edb6cbcb70e
-485,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_1015,22806-s1m54Rfka1b
-486,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_945,19558-uid:vWVcm4RfMf-5QtX-fWP2
-487,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_1110,23048-3470578288963135121
-488,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794791,persistent,,KRTBCOOKIE_372,10662-uid:T71V4gsW7idKNU-ihcS9BKDqqCU
-489,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794791,persistent,,KRTBCOOKIE_1123,23102-01ca63f8-640d-46b9-b414-6f0596ab43f7
-490,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978794,persistent,,SyncRTB2,1556064000%3A63%7C1555459200%3A160%7C1556496000%3A35%7C1556409600%3A196_178_48_195_170_166_22_93_76_64_99_92_165_21_207_176_189_71_7_86_204_3_104_78_56_5_55_8_13_80_54_52%7C1555804800%3A15_2_38_67
-491,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794796,persistent,,KRTBCOOKIE_629,11487-AcGbDkr6Fl4Gks8ACE9O4ySQrM8AAAFqGU9pJw
-492,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.ads.pubmatic.com,TRUE,/,FALSE,1555289202,persistent,,pubsyncexp,1.56E+12
-493,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.ads.pubmatic.com,TRUE,/,FALSE,1555289224,persistent,,repi,1
-494,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795300,persistent,,KRTBCOOKIE_699,22727-AAhYAE65ZQMAABiNYMg-YA&KRTB&22744-AAhYAE65ZQMAABiNYMg-YA&KRTB&22745-AAhYAE65ZQMAABiNYMg-YA
-495,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1555203543,persistent,,ipc,156084^https%3A%2F%2Fimage4.pubmatic.com%2FAdServer%2FSPug%3Fp%3D156084%26pmc%3DPM_PMC%26pr%3Dhttps%253A%252F%252Fads.yahoo.com%252Fuser-match%253Fnid%253D10000010106%2526eid%253D%2523PMUID%2526isrmxstore%253D1%2526y%253DMGOV04U8SiIho7pHuJBuIuAr3uUZhWsTtLBajA--^0^0
-496,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979540,persistent,,KADUSERCOOKIE,B7535995-2E84-438D-A851-F468FF52A22F
-497,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795541,persistent,,SPugT,1555203541
-498,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795710,persistent,,KRTBCOOKIE_27,16735-uid:727b5cb2-6bcc-4800-9fe8-d21f5f888b81&KRTB&16736-uid:727b5cb2-6bcc-4800-9fe8-d21f5f888b81
-499,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979724,persistent,,KTPCACOOKIE,YES
-500,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979793,persistent,,KRTBCOOKIE_377,6810-5cd41894-c302-4cd4-a5a0-d693c38cfea1&KRTB&22918-5cd41894-c302-4cd4-a5a0-d693c38cfea1&KRTB&23031-5cd41894-c302-4cd4-a5a0-d693c38cfea1
-501,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795793,persistent,,PugT,1555203793
-502,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979793,persistent,,PUBMDCID,1
+477,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_1074,22956-u_36583290-70d7-4c32-a009-fac59f20167b
+478,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978786,persistent,,KRTBCOOKIE_107,1471-uid:wpUsvPGG1Hfs5u5&KRTB&23129-uid:wpUsvPGG1Hfs5u5
+479,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794786,persistent,,KRTBCOOKIE_279,22890-f7ece12f-5e4d-11e9-aeb8-51f7b6672454
+480,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794787,persistent,,KRTBCOOKIE_1051,22884-18072662407723292860
+481,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794787,persistent,,KRTBCOOKIE_734,15208-uid:9d0dadc1-4ee0-426c-9259-e0904a2ca2a8-tuct3abf5fb
+482,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978787,persistent,,KRTBCOOKIE_594,17105-RX-2f2dc025-3814-4696-a792-393a1e67e915
+483,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978790,persistent,,KRTBCOOKIE_1003,22761-d58c4dbe-5e4d-11e9-b2c4-e913820055d9
+484,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_330,22938-f1714fe0cf2afaae7ad02edb6cbcb70e&KRTB&22939-f1714fe0cf2afaae7ad02edb6cbcb70e
+485,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_1015,22806-s1m54Rfka1b
+486,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_945,19558-uid:vWVcm4RfMf-5QtX-fWP2
+487,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794790,persistent,,KRTBCOOKIE_1110,23048-3470578288963135121
+488,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794791,persistent,,KRTBCOOKIE_372,10662-uid:T71V4gsW7idKNU-ihcS9BKDqqCU
+489,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794791,persistent,,KRTBCOOKIE_1123,23102-01ca63f8-640d-46b9-b414-6f0596ab43f7
+490,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562978794,persistent,,SyncRTB2,1556064000%3A63%7C1555459200%3A160%7C1556496000%3A35%7C1556409600%3A196_178_48_195_170_166_22_93_76_64_99_92_165_21_207_176_189_71_7_86_204_3_104_78_56_5_55_8_13_80_54_52%7C1555804800%3A15_2_38_67
+491,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557794796,persistent,,KRTBCOOKIE_629,11487-AcGbDkr6Fl4Gks8ACE9O4ySQrM8AAAFqGU9pJw
+492,,3rd Party,645,Yahoo,Entertainment,Third Party,.ads.pubmatic.com,TRUE,/,FALSE,1555289202,persistent,,pubsyncexp,1.56E+12
+493,,3rd Party,645,Yahoo,Entertainment,Third Party,.ads.pubmatic.com,TRUE,/,FALSE,1555289224,persistent,,repi,1
+494,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795300,persistent,,KRTBCOOKIE_699,22727-AAhYAE65ZQMAABiNYMg-YA&KRTB&22744-AAhYAE65ZQMAABiNYMg-YA&KRTB&22745-AAhYAE65ZQMAABiNYMg-YA
+495,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1555203543,persistent,,ipc,156084^https%3A%2F%2Fimage4.pubmatic.com%2FAdServer%2FSPug%3Fp%3D156084%26pmc%3DPM_PMC%26pr%3Dhttps%253A%252F%252Fads.yahoo.com%252Fuser-match%253Fnid%253D10000010106%2526eid%253D%2523PMUID%2526isrmxstore%253D1%2526y%253DMGOV04U8SiIho7pHuJBuIuAr3uUZhWsTtLBajA--^0^0
+496,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979540,persistent,,KADUSERCOOKIE,B7535995-2E84-438D-A851-F468FF52A22F
+497,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795541,persistent,,SPugT,1555203541
+498,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795710,persistent,,KRTBCOOKIE_27,16735-uid:727b5cb2-6bcc-4800-9fe8-d21f5f888b81&KRTB&16736-uid:727b5cb2-6bcc-4800-9fe8-d21f5f888b81
+499,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979724,persistent,,KTPCACOOKIE,YES
+500,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979793,persistent,,KRTBCOOKIE_377,6810-5cd41894-c302-4cd4-a5a0-d693c38cfea1&KRTB&22918-5cd41894-c302-4cd4-a5a0-d693c38cfea1&KRTB&23031-5cd41894-c302-4cd4-a5a0-d693c38cfea1
+501,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1557795793,persistent,,PugT,1555203793
+502,,3rd Party,645,Yahoo,Entertainment,Third Party,.pubmatic.com,TRUE,/,FALSE,1562979793,persistent,,PUBMDCID,1
 503,,3rd Party,645,,,Third Party,#HttpOnly_.placelocal.com,TRUE,/,TRUE,1618275593,persistent,,telogicalId,e6d7a790-8cbc-4837-bf54-cf2eb5fb26a1
 504,,3rd Party,645,,,Third Party,#HttpOnly_.placelocal.com,TRUE,/,TRUE,1618275593,persistent,,sync_openadid_val,3.47E+18
 505,,3rd Party,645,,,Third Party,#HttpOnly_.tru.am,TRUE,/,FALSE,1586734549,persistent,,__cfduid,d998412117af1513ed542a94871bfcb671555198549
@@ -524,10 +524,10 @@
 898,,3rd Party,645,"Tech Crunch, Accuweather, OpenTable",Various,Third Party,.casalemedia.com,TRUE,/,FALSE,1562979941,persistent,,CMPRO,32
 899,,3rd Party,645,"Tech Crunch, Accuweather, OpenTable",Various,Third Party,.casalemedia.com,TRUE,/,FALSE,1586739941,persistent,,CMSUM,415cb2813e05a0AAAGXaWsHoSp0AMCImZkAAAAAAA
 900,,3rd Party,645,"Tech Crunch, Accuweather, OpenTable",Various,Third Party,.casalemedia.com,TRUE,/,FALSE,1586739941,persistent,,CMRUM3,5a5cb281602760F1673DA9FD73B25C7EF1492002F5CD6F&a65cb281882760614a652e7c2a436c905a5752&585cb2813d2760XLJyVAAAFrAsFhGW&485cb2876505a0&375cb2876505a0&1b5cb2876500b4&be5cb2810a27603470578288963135121&1c5cb281b027601743a2ce-9455-472e-8c09-63d9aa3d3367&9c5cb2818827602f21a253-1a40-4d55-8655-e24c2bb10989&285cb2813e27604e35c3b4-a27e-4942-9ef6-edab99b303f5&395cb2810a2760997336212812447923&145cb2827727603e14e71a-1d14-4287-ad0b-2d31b7f43743&ac5cb287522760c8a955e8-d15c-421f-9b67-56d1b2489032&975cb287522760c261cd41-5e43-11e9-8fcb-0a580a440704&0a5cb2824e2760449200818543&1f5cb281b02760Q6084852471154326273&985cb281602760620cb85f-b635-4d38-8995-39d07a1741bc&825cb281602760AAhYAE65ZQMAABiNYMg-YA&835cb2818a276018072662407723292860&b55cb2810c2760RX-2f2dc025-3814-4696-a792-393a1e67e915&4d5cb281af2760c44a9dfa85b59072e47b8982fd070146&2e5cb2816027603470578288963135121&9d5cb281af2760MVyb82r2JE1gevAZ&415cb2813e05a0AAAGXaWsHoSp0AMCImZkAAAAAAA&695cb2818805a00&955cb287652760OlaaLGAjMYLb1k1MzYq0kEwxglluegU7sQNlQYoMRjo%3D&275cb2813d27605cd41894-c302-4cd4-a5a0-d693c38cfea1&035cb286762760727b5cb2-6bcc-4800-9fe8-d21f5f888b81&405cb28162276021b05b16-7813-4350-918c-0b2494f42259&6f5cb2813d27605700616493387507284&295cb281882760d58c4dbe-5e4d-11e9-b2c4-e913820055d9&2f5cb2813d2760wpUsvPGG1Hfs5u5&b05cb2825a2760di_7b8d2d4298484cd9a55c8&265cb287654ec0&515cb2816027605GGMnuYy2Zj8NdqVtzHDyuZm1pX8Z9mU5WTV1XxF&045cb2810a27608038890736059368349&495cb2810705a00&2d5cb281182760CAESEEzOaXBLwdz9lDadzfLNDd8
-901,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.mathtag.com,TRUE,/,FALSE,1589153746,persistent,,uuid,727b5cb2-6bcc-4800-9fe8-d21f5f888b81
-902,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.mathtag.com,TRUE,/,FALSE,1589153751,persistent,,uuidc,zf7PKEhe24osUN+luGCLpvVdxItuLb9nZMXSj4CrqKOyQVechYaz7AzdoHUH6F62PvgzWpRHNcpPYPIkR2GF4M4GIns5ngqTw32W5VOAoYs=
-903,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.mathtag.com,TRUE,/,FALSE,1557795717,persistent,,mt_misc,mt_bt:1555203717
-904,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.mathtag.com,TRUE,/,FALSE,1557795717,persistent,,mt_mop,4:1555198729|10:1555203573|5:1555203707|9:1555203707|15:1555203699|10054:1555203707|3:1555203707|10010:1555203699|13:1555203707
+901,,3rd Party,645,Yahoo,Entertainment,Third Party,.mathtag.com,TRUE,/,FALSE,1589153746,persistent,,uuid,727b5cb2-6bcc-4800-9fe8-d21f5f888b81
+902,,3rd Party,645,Yahoo,Entertainment,Third Party,.mathtag.com,TRUE,/,FALSE,1589153751,persistent,,uuidc,zf7PKEhe24osUN+luGCLpvVdxItuLb9nZMXSj4CrqKOyQVechYaz7AzdoHUH6F62PvgzWpRHNcpPYPIkR2GF4M4GIns5ngqTw32W5VOAoYs=
+903,,3rd Party,645,Yahoo,Entertainment,Third Party,.mathtag.com,TRUE,/,FALSE,1557795717,persistent,,mt_misc,mt_bt:1555203717
+904,,3rd Party,645,Yahoo,Entertainment,Third Party,.mathtag.com,TRUE,/,FALSE,1557795717,persistent,,mt_mop,4:1555198729|10:1555203573|5:1555203707|9:1555203707|15:1555203699|10054:1555203707|3:1555203707|10010:1555203699|13:1555203707
 905,,3rd Party,645,,,Third Party,.rfihub.com,TRUE,/,FALSE,0,session,,ruds,H4sIAAAAAAAAAOMSsrQ0NzY2MzI0sjA0MjExtzQyFuIz1E0xCzAqNSv0dDR0zwAAQ1LidCQAAAA
 906,,3rd Party,645,,,Third Party,.rfihub.com,TRUE,/,FALSE,0,session,,euds,H4sIAAAAAAAAAOOSMXR2dA12dcsLqsrJTjL3MQ2xdAkzTIxM9ou0KBcSNjYxNzA1tzCysLA0MzY0NjU0MvzErGKclmyQlGJgomtgYmSsa2JhYKSbmGZhpmuZZpBmYpKSkmSYaA4A85gTU1oAAAA
 907,,3rd Party,645,,,Third Party,.rfihub.com,TRUE,/,FALSE,1588899718,persistent,,smd,H4sIAAAAAAAAAOPiNTQ1NTW0tLC0NDIzs7QCc40MjM0NLYyMLAGczEoLHgAAAA
@@ -572,7 +572,7 @@
 947,,3rd Party,645,,,Third Party,.ml314.com,TRUE,/,FALSE,1555202794,persistent,,u,aHR0cHM6Ly9jZG4ua3J4ZC5uZXQvcGFydG5lcmpzL3hkaS9wcm94eS4zZDIxMDBmZDcxMDcyNjJlY2I1NWNlNjg0N2YwMWZhNS5odG1sIyFreGNpZD1xcml4eDA2ZDAma3h0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZWF0bGFudGljLmNvbSZreGNsPWNkbiZreHA9
 948,,3rd Party,645,,,Third Party,.ml314.com,TRUE,/,FALSE,1586825179,persistent,,pi,5.98E+18
 949,,3rd Party,645,,,Third Party,#HttpOnly_www.medtargetsystem.com,FALSE,/,FALSE,0,session,,DMDSESSID,jkmv3qtqt31qbeugca1ihvr7q5
-957,,3rd Party,645,Yahoo,Entertainment & Info,Third Party,.yimg.com,TRUE,/,FALSE,1555290007,persistent,,ypcdb,ef3c8e8196b8c71dd97f961c82be9898
+957,,3rd Party,645,Yahoo,Entertainment,Third Party,.yimg.com,TRUE,/,FALSE,1555290007,persistent,,ypcdb,ef3c8e8196b8c71dd97f961c82be9898
 958,,3rd Party,645,,,Third Party,.iasds01.com,TRUE,/,FALSE,1616719128,persistent,,AC,1
 959,,3rd Party,645,,,Third Party,.iasds01.com,TRUE,/,FALSE,1616719129,persistent,,DMADT,4prsOnsATJybRbji1Mxjew
 960,,3rd Party,645,,,Third Party,.iasds01.com,TRUE,/,FALSE,1556411948,persistent,,UT,
@@ -583,17 +583,17 @@
 965,,3rd Party,645,,,Third Party,#HttpOnly_.ibillboard.com,TRUE,/,FALSE,1586825205,persistent,,ibbid,BBID-01-02299168058329768-15629688
 966,,3rd Party,645,,,Third Party,trib.al,FALSE,/,FALSE,2020202020,persistent,,tribal,3bQgdHQEQyulyzh8kienhQ==
 967,,3rd Party,645,,,Third Party,.nanigans.com,TRUE,/,FALSE,1586734535,persistent,,NaN_hash,d50818029KQPU1555198535614148
-978,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.serving-sys.com,TRUE,/,FALSE,1562963828,persistent,,D3,
-979,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.serving-sys.com,TRUE,/,FALSE,1562963829,persistent,,C6,
+978,,3rd Party,645,Reddit,Entertainment,Third Party,.serving-sys.com,TRUE,/,FALSE,1562963828,persistent,,D3,
+979,,3rd Party,645,Reddit,Entertainment,Third Party,.serving-sys.com,TRUE,/,FALSE,1562963829,persistent,,C6,
 980,,3rd Party,645,,,Third Party,.bs.serving-sys.com,TRUE,/,FALSE,1562963829,persistent,,eyeblaster,FLV=-1&RES=1024
 981,,3rd Party,645,,,Third Party,bs.serving-sys.com,FALSE,/serving/,FALSE,1555331940,persistent,,S_27965048,2.49E+18
 982,,3rd Party,645,,,Third Party,bs.serving-sys.com,FALSE,/serving/,FALSE,0,session,,r1,1555187972_1
-983,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.serving-sys.com,TRUE,/,FALSE,1562964060,persistent,,ActivityInfo2,00332buhK0_
+983,,3rd Party,645,Reddit,Entertainment,Third Party,.serving-sys.com,TRUE,/,FALSE,1562964060,persistent,,ActivityInfo2,00332buhK0_
 984,,3rd Party,645,,,Third Party,bs.serving-sys.com,FALSE,/Serving/,FALSE,1555332240,persistent,,S_1074536789,1.48E+18
 985,,3rd Party,645,,,Third Party,bs.serving-sys.com,FALSE,/Serving/,FALSE,1555203540,persistent,,CISI_3238,ei=1076643886_asi=0_di=0_il=16_sid=4231229166579206545
-986,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.serving-sys.com,TRUE,/,FALSE,1562965320,persistent,,t1,43aca2a4-c66d-4ffb-b522-658517259fb44pf110
-987,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.serving-sys.com,TRUE,/,FALSE,1562965320,persistent,,u2,0a1217e9-022c-40eb-87a3-3cbfc1899ddb4pf31g
-988,,3rd Party,645,Reddit,Entertainment & Info,Third Party,.serving-sys.com,TRUE,/,FALSE,1562965320,persistent,,A6,10b4h.qFon000MP.00001000010b4iPqFon000MP.00001000010b4wKqFos000aSB00002000010baGZqFoK10024v00001000010bJ.kqFon1003Nr00001000003tYFuqFom000nBc00000000003uATvqFoE000FZy00001000003uS3cqFol000x8Y00000000003uSauqFol000IIf000040000
+986,,3rd Party,645,Reddit,Entertainment,Third Party,.serving-sys.com,TRUE,/,FALSE,1562965320,persistent,,t1,43aca2a4-c66d-4ffb-b522-658517259fb44pf110
+987,,3rd Party,645,Reddit,Entertainment,Third Party,.serving-sys.com,TRUE,/,FALSE,1562965320,persistent,,u2,0a1217e9-022c-40eb-87a3-3cbfc1899ddb4pf31g
+988,,3rd Party,645,Reddit,Entertainment,Third Party,.serving-sys.com,TRUE,/,FALSE,1562965320,persistent,,A6,10b4h.qFon000MP.00001000010b4iPqFon000MP.00001000010b4wKqFos000aSB00002000010baGZqFoK10024v00001000010bJ.kqFon1003Nr00001000003tYFuqFom000nBc00000000003uATvqFoE000FZy00001000003uS3cqFol000x8Y00000000003uSauqFol000IIf000040000
 989,,3rd Party,645,,,Third Party,#HttpOnly_mpsnare.iesnare.com,FALSE,/,TRUE,1586734068,persistent,,io_token_7c6a6574-f011-4c9a-abdd-9894a102ccef,vWSHrWlzRBZ1zOhBEpKoOe8BxdQNwYtiatB7TMoCR08=
 990,,3rd Party,645,,,Third Party,.insightexpressai.com,TRUE,/,FALSE,1618274630,persistent,,DW,00000000-0000-0043-5f1a-da1555202630
 991,,3rd Party,645,,,Third Party,.insightexpressai.com,TRUE,/,FALSE,1618315200,persistent,,IXAI36341,FTF
@@ -747,47 +747,47 @@
 121,Everlane,Everlane,43,,Shopping,First Party,www.everlane.com,FALSE,/,TRUE,1555198867,persistent,,engagement_id,c29222fc613d8cf85a1ac7671c1d09e5
 122,Everlane,Everlane,43,,Shopping,First Party,www.everlane.com,FALSE,/,FALSE,1586734267,persistent,,sailthru_content,aa4f6d5935819b29f03664dfe9c076bb387e3ef62c05a0276a8d8d6e7dc05b46
 123,Everlane,Everlane,43,,Shopping,First Party,#HttpOnly_.everlane.com,TRUE,/,TRUE,0,session,,_everlane_session,VGJVMXloOWRNRkovUmtOd3QwdEtCc1ZxdFJSbXJLd0ZEcG16Z0dsTnZnUlJIM3RTOHB0dzN3VGhtTlVqeVRMR3BjVzFtZnUvbFZhWW1Vc0NFNnpIcFdpYXhEd0VkUTRrZWE5SEJsY2IvbDhJR2xRRXVBQTdMekExZ3pLR0syNWVUUUZsdXp0SjFuOHZQOFFaeXZ3b240dS9XSW5CcFRyRHU1M2dscE9TK3BGZWdtdjloVGxBRXhRSXhoQ2NGWXVOVlE4MFExMHRpbjB6aGpranZTd0FlOWxVUW9VcFFVNkVuTTd2em9MNXhEcUJ3cFZaa1VMbWN3Q1Y5SG9KNTBEYm5GTkVnbmx6YnFpQ3NUR1oxZUY4UTkzUnBORmVkSmxqUmpiWFRJL3hzeEZkblh2MGgzUUNCV3Z1eUJCVWQ0dTNpZjhWZ0ZKWC9keW1kREoxdWYrdXVaalc1SytISzRDRldaek9pMkRQNkpwYVNYVyswc0JzUlg0S3llalhoSU5BTlJrVmdnNzh6cE8ya3BuTXpuSDRYTWMwM21ETEt0WHQ2Nms5VVNmVnQ3NFhLZ0Y4M1B0SVp0VFhOeCtxSTVZOU9RMnNxQ294SGErR2FDdXFMWHJ3TjlzMDRoVzdHTlhZSFI4VUF3eUxYekNCRE1iODNpZEl1S0RwMGpsRmdEVlBZRHhwWmV5N3owVk9iaGQxd0FlYUEwQ3FNKys3NmRaK3JIZk9EQlgwK0E1OGhzT0lqVmIxQlVUeWxHeDNMZTU3SUh4ZXRRNVl2OFNvWDBkSUd4UnhOUXBPdUhpUE9reU55L2JQZTJZMnM5VlRaL0h5SnlCNDBraFQ2REhIdGJXNkdtUytIRW1maTFXOTgzVXJ6emVaT1JwaU5zc1FCaDFpV1czaURWcnZoRnltd2t4TGlFekswOFp4UkVWL3lpazVVWHBibE5EbFJLb3dGUlg5MFB5R2J3M1Y4MG1ubVlqUW9ZWEQ4WVpxOFFWbUtpRktpaVhhd2NkcVBucHY2UmNtV09MVUxuMk9MdnIzVkN2aUlZa1NQWUp3MDBGUTB2RmU2NWJhdzZkYitzK3lXazA5K0xkUDkycDhhamtRWFVqTXllQTUxaGxoVkQreHE5N2x3a1hRVEE9PS0tRC94ZWxubG9ibWNBUUEzenYyS0l0UT09--d5d89778a6f5ab58cc661c67320512f1833b242f
-1013,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1586739676,persistent,,AID,1bc2460a-23ec-468e-b6d1-e90e0b876e78
-1014,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1555205476,persistent,,aco,pt=accuweather&il=1&vip=0&pv=1&gkey=349727&gdma=501&gct=New York&gst=NY&gzp=10007&gcc=US
-1015,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1555204276,persistent,,ADCConditionsV1,tp=72%c2%b0&cc=Cloudy&df=N&tp2=72&ic2=7&ism=0&rftp=70¬∞&rftp2=70
-1016,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1586739676,persistent,,DeviceV2,br=Unknown&mo=Unknown&isM=0&isT=0&isTab=0&allowTab=0&MarketingName=Unknown&gif=2&w=800&h=600
-1017,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1870563680,persistent,,awcreatdat,43568
-1018,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1586739680,persistent,,acm2,lid=1&lgi=en-us&pt=accuweather&ptu=&pti=&pty=&mt=0&tm=0&bl=0&st=0&lf=&af=0&aat=1&lc0=349727&cc0=US&ct0=New York&cn0=United States&rg0=nam&st0=NY&an0=New York&on0=New York&uf0=NYC&zp0=10017&ls0=-1&dp0=n&uglat0=0&uglon0=0&dma=501&lc1=347936&cc1=US&ct1=Miami&cn1=United States&rg1=nam&st1=FL&an1=Florida&on1=Miami&uf1=MIA&zp1=33128&ls1=-1&dp1=n&uglat1=0&uglon1=0&lc2=347625&cc2=US&ct2=Los Angeles&cn2=United States&rg2=nam&st2=CA&an2=California&on2=Los Angeles&uf2=59L&zp2=90012&ls2=-1&dp2=n&uglat2=0&uglon2=0&rco0=United States&rcn0=United States&rcc0=us&rrn0=North America&rrc0=nam&rro0=North America&rco1=China&rcn1=China&rcc1=cn&rrn1=Asia&rrc1=asi&rro1=Asia&rco2=United Kingdom&rcn2=United Kingdom&rcc2=gb&rrn2=Europe&rrc2=eur&rro2=Europe&gm0=4&ixe=
-1019,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1586739680,persistent,,_sessionLocations,349727
-1020,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1586739681,persistent,,__vrz,1.15.5
-1021,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1586739681,persistent,,minVersion,"{""experiment"":-593334009,""minFlavor"":""jwplayermi-1.12.0.7.js100""}"
-1022,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1557795683,persistent,,CUID,"N,1555203681744:ALHGLuQAAAAPTiwxNTU1MjAzNjgxNzQ0WIgPFQt+3C0MK2KJ2v8vV/riSwwEqENxFDmVoZAdBjuzlURWg5G22MNH/60IXYstmDLNss3VYfnEUQDI5VCzTKZmv1gVZtUVuX3KYXBoniT/kwt8VgQXkgoU/KtK6waaXKhNbv6G3YED7jCB6n9xDaCLHUIiT/3FpfSywvay9bM/lPPOWBuwkxXtbJ1OabRMygotlBh7AdJT90HAjcbYAQyfETC0qW8SUA8I8btQGEPLHfm7IXPnPEOFCh1sng5wc7yT59kfsT4aOrs7aGZJ+XE6Sk4bO8/txaZQOBTdp5OUQXISx98f83Mn7LN6PTjIaDrxPtsMCsI/NoXeeQ+TrA=="
-1023,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1586739684,persistent,,nzcynj,AKsRol_pTQJlsQdENcoP1SWxXtRFP08vG9DaGdJf32k0IwDKc8iE6FYm-Hfeo-D54YGk4CHN9bCzGSOHaoRAovAdwlHHQKprsw
-1024,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1557795685,persistent,,cuid,3aeeffeb60f6fbb0f04f1555203685224_1557795685224
-1025,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1870563687,persistent,,beemraycookie_beemray,%221506482572136240627%22
-1026,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1618275689,persistent,,_scp,1.56E+12
-1027,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1555290089,persistent,,_scs,1.56E+12
-1028,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1618275686,persistent,,__gads,ID=c7f0b18aef9efba9:T=1555203686:S=ALNI_MZ3QpDow1uNFS7rGl89GrL2C3YoCw
-1029,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1589331690,persistent,,_cb_ls,1
-1030,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1589331690,persistent,,_cb,DhBCKkClszurDuNCAs
-1031,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1589331690,persistent,,_chartbeat2,.1555203690618.1555203690618.1.CIsV-BDYEs2ZBgNjYaCucB36DZ3GZl.1
-1032,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1618275690,persistent,,_ga,GA1.2.876739360.1555203686
-1033,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1555290090,persistent,,_gid,GA1.2.1684885105.1555203691
-1034,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1555203751,persistent,,_gat_awTracker,1
-1035,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1555205493,persistent,,bounceClientVisit3020v,N4IgNgDiBcIBYBcEQM4FIDMBBNAmAYnvgO6kB0AhgMZUCuxAphQnAwE5lUD2AtkSABoQbGCFLEyAcy5dJYBp14gAvkA
-1036,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1589331695,persistent,,_v__chartbeat3,BDCPemabLw5CGGdGV
-1037,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1555205495,persistent,,_cb_svref,https%3A%2F%2Fwww.google.com%2F
-1038,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1589331695,persistent,,__idcontext,eyJjb29raWVJRCI6IlRUUERVSlM0TEM0VUlWS1U2UVdRWUZNNkhFNU9BTUdEVlpKUUo1TU8zNU5RPT09PSIsImRldmljZUlEIjoiVFRQRFVKUzRMUFJWU1QySVhCWVRLT1c3SFU2UEdFNjJUUUNCNTNGQTJOU1E9PT09IiwiaXYiOiIzWUxZQ05RWkVRVVdGQjJFWTdVVVhJV1pWST09PT09PSIsInYiOjF9
-1039,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1555808514,persistent,,DigiTrust.v1.identity,eyJpZCI6IlMzY3F1VktDWUJ0R2VCM3B0c1pGOXdoOG1rYmlyWG1mQXBiNmNGNnN3N3I1THBkaFlJbXFNWUdGeS93UDVHTWF3aVY4QXljdzFTcFZZYXhuRkdsNVlDcHJKYUI4MjhoTnV3TjRqeUNyL1UxaTU5WGZoNnpaWlZaR1IwMkFJUFB6VWVnelVMWHJVMzBhTlBBc1ZERUdybGRraVlYKzZuNHdCSHRrMEY2Y3RDS0ZnYkd3Zjl2cFFGWjBWVEFtSWNQTGlVMm9EVzBUd0pydjRTejRpWi9ucm9vTnhGbWFXM1FHOVArTE1WTW5ic1VPOWtJYXk5ZjlZNDVxM05HQS91TjYvTkw4RytpeGg3dWUvcDB4Y1cySng1T2k5b0s4ZWU4dHloYjZTSTB5Q1p1SC9hc1BRZTF4QTcwYXNvdGNMUk5USjNVL3lCd3pNNGdtcFhpU0FqQlBzUT09IiwidmVyc2lvbiI6MiwicHJvZHVjZXIiOiIxQ3JzZFVOQW82IiwicHJpdmFjeSI6eyJvcHRvdXQiOmZhbHNlfSwia2V5diI6NH0%3D
-1040,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1588899715,persistent,,cto_lwid,e76d6f6a-6482-43ba-b00a-b73f13fc5d63
-1041,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1588899716,persistent,,cto_idcpy,3e14e71a-1d14-4287-ad0b-2d31b7f43743
-1042,Accuweather,Accuweather,41,,Entertainment & Info,First Party,#HttpOnly_.accuweather.com,TRUE,/,FALSE,1555210875,persistent,,ak_bmsc,007CF655B9DA8DC39AF5AEFF5CF9182817DDEF25D45400005B86B25CD6D51D44~plTXasGWdisV4mD7VLWZBSfwf4F4T6hqkSwkXuE+BEEKd2nfm1x8qLwXcaUFCUb98wb7cOW6/eBR9RTnq3+rl8XiEGRRa9pTf5DRIvYlDXGs7M30CsrypeVAL7BE8MStcdhiBxS9cxXRxM+GCB28EbacIB+tEMxAwemuFiZjnao8Bqer6iO6/1qRWxf3BjOSTScQNTO/DIfByXwr/1st+ZP4ffGrNeUm5tUlyaNKyOKigfB4xHS9Vrwi0SJuf/sJm5
-1043,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1557795720,persistent,,__beaconTrackerID,g904tviug
-1044,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.www.accuweather.com,TRUE,/,FALSE,1555204320,persistent,,_pageviewUUID,89689308-6fc4-4d7b-8563-aaa248904469
-1045,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,0,session,,_ctz_plugin_opt,0
-1046,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,2185923729,persistent,,awx_ckpolicy,1
-1047,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.accuweather.com,TRUE,/,FALSE,1555203790,persistent,,_gali,wrap-content
-1048,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.www.accuweather.com,TRUE,/,FALSE,1586739760,persistent,,minUniq,"{""minUID"":""c936eec905-f9a70e9b16-cb3424a3a9-96129be8af-898beb34d4""}"
-1049,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.www.accuweather.com,TRUE,/,FALSE,1555205560,persistent,,minSession,"{""minSID"":""6e4d5823bd-f61a64d9e8-69aba484b8-beca4f0956-2133ddf131"",""minSessionSent"":true}"
-1050,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,FALSE,1555204600,persistent,,_v__SUPERFLY_lockout,1
-1051,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.www.accuweather.com,TRUE,/,FALSE,1555808847,persistent,,RT,z=1&dm=www.accuweather.com&si=a1d72c95-269c-41ab-a85b-13104a344a5d&ss=jug8440c&sl=1&tt=vbd&bcn=%2F%2F173c5b0a.akstat.io%2F
-1052,Accuweather,Accuweather,41,,Entertainment & Info,First Party,.www.accuweather.com,TRUE,/,FALSE,1586740061,persistent,,minBuffer,"{""minAnalytics"":""{\""clicks\"":[]}"",""_minEE1"":""[]""}"
-1053,Accuweather,Accuweather,41,,Entertainment & Info,First Party,www.accuweather.com,FALSE,/,TRUE,0,session,,GED_PLAYLIST_ACTIVITY,W3sidSI6Ijg2UzgiLCJ0c2wiOjE1NTUyMDQwNjEsIm52IjowLCJ1cHQiOjE1NTUyMDM2NzgsImx0IjoxNTU1MjA0MDQxfV0.
+1013,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1586739676,persistent,,AID,1bc2460a-23ec-468e-b6d1-e90e0b876e78
+1014,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1555205476,persistent,,aco,pt=accuweather&il=1&vip=0&pv=1&gkey=349727&gdma=501&gct=New York&gst=NY&gzp=10007&gcc=US
+1015,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1555204276,persistent,,ADCConditionsV1,tp=72%c2%b0&cc=Cloudy&df=N&tp2=72&ic2=7&ism=0&rftp=70¬∞&rftp2=70
+1016,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1586739676,persistent,,DeviceV2,br=Unknown&mo=Unknown&isM=0&isT=0&isTab=0&allowTab=0&MarketingName=Unknown&gif=2&w=800&h=600
+1017,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1870563680,persistent,,awcreatdat,43568
+1018,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1586739680,persistent,,acm2,lid=1&lgi=en-us&pt=accuweather&ptu=&pti=&pty=&mt=0&tm=0&bl=0&st=0&lf=&af=0&aat=1&lc0=349727&cc0=US&ct0=New York&cn0=United States&rg0=nam&st0=NY&an0=New York&on0=New York&uf0=NYC&zp0=10017&ls0=-1&dp0=n&uglat0=0&uglon0=0&dma=501&lc1=347936&cc1=US&ct1=Miami&cn1=United States&rg1=nam&st1=FL&an1=Florida&on1=Miami&uf1=MIA&zp1=33128&ls1=-1&dp1=n&uglat1=0&uglon1=0&lc2=347625&cc2=US&ct2=Los Angeles&cn2=United States&rg2=nam&st2=CA&an2=California&on2=Los Angeles&uf2=59L&zp2=90012&ls2=-1&dp2=n&uglat2=0&uglon2=0&rco0=United States&rcn0=United States&rcc0=us&rrn0=North America&rrc0=nam&rro0=North America&rco1=China&rcn1=China&rcc1=cn&rrn1=Asia&rrc1=asi&rro1=Asia&rco2=United Kingdom&rcn2=United Kingdom&rcc2=gb&rrn2=Europe&rrc2=eur&rro2=Europe&gm0=4&ixe=
+1019,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1586739680,persistent,,_sessionLocations,349727
+1020,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1586739681,persistent,,__vrz,1.15.5
+1021,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1586739681,persistent,,minVersion,"{""experiment"":-593334009,""minFlavor"":""jwplayermi-1.12.0.7.js100""}"
+1022,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1557795683,persistent,,CUID,"N,1555203681744:ALHGLuQAAAAPTiwxNTU1MjAzNjgxNzQ0WIgPFQt+3C0MK2KJ2v8vV/riSwwEqENxFDmVoZAdBjuzlURWg5G22MNH/60IXYstmDLNss3VYfnEUQDI5VCzTKZmv1gVZtUVuX3KYXBoniT/kwt8VgQXkgoU/KtK6waaXKhNbv6G3YED7jCB6n9xDaCLHUIiT/3FpfSywvay9bM/lPPOWBuwkxXtbJ1OabRMygotlBh7AdJT90HAjcbYAQyfETC0qW8SUA8I8btQGEPLHfm7IXPnPEOFCh1sng5wc7yT59kfsT4aOrs7aGZJ+XE6Sk4bO8/txaZQOBTdp5OUQXISx98f83Mn7LN6PTjIaDrxPtsMCsI/NoXeeQ+TrA=="
+1023,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1586739684,persistent,,nzcynj,AKsRol_pTQJlsQdENcoP1SWxXtRFP08vG9DaGdJf32k0IwDKc8iE6FYm-Hfeo-D54YGk4CHN9bCzGSOHaoRAovAdwlHHQKprsw
+1024,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1557795685,persistent,,cuid,3aeeffeb60f6fbb0f04f1555203685224_1557795685224
+1025,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1870563687,persistent,,beemraycookie_beemray,%221506482572136240627%22
+1026,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1618275689,persistent,,_scp,1.56E+12
+1027,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1555290089,persistent,,_scs,1.56E+12
+1028,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1618275686,persistent,,__gads,ID=c7f0b18aef9efba9:T=1555203686:S=ALNI_MZ3QpDow1uNFS7rGl89GrL2C3YoCw
+1029,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1589331690,persistent,,_cb_ls,1
+1030,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1589331690,persistent,,_cb,DhBCKkClszurDuNCAs
+1031,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1589331690,persistent,,_chartbeat2,.1555203690618.1555203690618.1.CIsV-BDYEs2ZBgNjYaCucB36DZ3GZl.1
+1032,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1618275690,persistent,,_ga,GA1.2.876739360.1555203686
+1033,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1555290090,persistent,,_gid,GA1.2.1684885105.1555203691
+1034,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1555203751,persistent,,_gat_awTracker,1
+1035,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1555205493,persistent,,bounceClientVisit3020v,N4IgNgDiBcIBYBcEQM4FIDMBBNAmAYnvgO6kB0AhgMZUCuxAphQnAwE5lUD2AtkSABoQbGCFLEyAcy5dJYBp14gAvkA
+1036,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1589331695,persistent,,_v__chartbeat3,BDCPemabLw5CGGdGV
+1037,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1555205495,persistent,,_cb_svref,https%3A%2F%2Fwww.google.com%2F
+1038,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1589331695,persistent,,__idcontext,eyJjb29raWVJRCI6IlRUUERVSlM0TEM0VUlWS1U2UVdRWUZNNkhFNU9BTUdEVlpKUUo1TU8zNU5RPT09PSIsImRldmljZUlEIjoiVFRQRFVKUzRMUFJWU1QySVhCWVRLT1c3SFU2UEdFNjJUUUNCNTNGQTJOU1E9PT09IiwiaXYiOiIzWUxZQ05RWkVRVVdGQjJFWTdVVVhJV1pWST09PT09PSIsInYiOjF9
+1039,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1555808514,persistent,,DigiTrust.v1.identity,eyJpZCI6IlMzY3F1VktDWUJ0R2VCM3B0c1pGOXdoOG1rYmlyWG1mQXBiNmNGNnN3N3I1THBkaFlJbXFNWUdGeS93UDVHTWF3aVY4QXljdzFTcFZZYXhuRkdsNVlDcHJKYUI4MjhoTnV3TjRqeUNyL1UxaTU5WGZoNnpaWlZaR1IwMkFJUFB6VWVnelVMWHJVMzBhTlBBc1ZERUdybGRraVlYKzZuNHdCSHRrMEY2Y3RDS0ZnYkd3Zjl2cFFGWjBWVEFtSWNQTGlVMm9EVzBUd0pydjRTejRpWi9ucm9vTnhGbWFXM1FHOVArTE1WTW5ic1VPOWtJYXk5ZjlZNDVxM05HQS91TjYvTkw4RytpeGg3dWUvcDB4Y1cySng1T2k5b0s4ZWU4dHloYjZTSTB5Q1p1SC9hc1BRZTF4QTcwYXNvdGNMUk5USjNVL3lCd3pNNGdtcFhpU0FqQlBzUT09IiwidmVyc2lvbiI6MiwicHJvZHVjZXIiOiIxQ3JzZFVOQW82IiwicHJpdmFjeSI6eyJvcHRvdXQiOmZhbHNlfSwia2V5diI6NH0%3D
+1040,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1588899715,persistent,,cto_lwid,e76d6f6a-6482-43ba-b00a-b73f13fc5d63
+1041,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1588899716,persistent,,cto_idcpy,3e14e71a-1d14-4287-ad0b-2d31b7f43743
+1042,Accuweather,Accuweather,41,,Entertainment,First Party,#HttpOnly_.accuweather.com,TRUE,/,FALSE,1555210875,persistent,,ak_bmsc,007CF655B9DA8DC39AF5AEFF5CF9182817DDEF25D45400005B86B25CD6D51D44~plTXasGWdisV4mD7VLWZBSfwf4F4T6hqkSwkXuE+BEEKd2nfm1x8qLwXcaUFCUb98wb7cOW6/eBR9RTnq3+rl8XiEGRRa9pTf5DRIvYlDXGs7M30CsrypeVAL7BE8MStcdhiBxS9cxXRxM+GCB28EbacIB+tEMxAwemuFiZjnao8Bqer6iO6/1qRWxf3BjOSTScQNTO/DIfByXwr/1st+ZP4ffGrNeUm5tUlyaNKyOKigfB4xHS9Vrwi0SJuf/sJm5
+1043,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1557795720,persistent,,__beaconTrackerID,g904tviug
+1044,Accuweather,Accuweather,41,,Entertainment,First Party,.www.accuweather.com,TRUE,/,FALSE,1555204320,persistent,,_pageviewUUID,89689308-6fc4-4d7b-8563-aaa248904469
+1045,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,0,session,,_ctz_plugin_opt,0
+1046,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,2185923729,persistent,,awx_ckpolicy,1
+1047,Accuweather,Accuweather,41,,Entertainment,First Party,.accuweather.com,TRUE,/,FALSE,1555203790,persistent,,_gali,wrap-content
+1048,Accuweather,Accuweather,41,,Entertainment,First Party,.www.accuweather.com,TRUE,/,FALSE,1586739760,persistent,,minUniq,"{""minUID"":""c936eec905-f9a70e9b16-cb3424a3a9-96129be8af-898beb34d4""}"
+1049,Accuweather,Accuweather,41,,Entertainment,First Party,.www.accuweather.com,TRUE,/,FALSE,1555205560,persistent,,minSession,"{""minSID"":""6e4d5823bd-f61a64d9e8-69aba484b8-beca4f0956-2133ddf131"",""minSessionSent"":true}"
+1050,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,FALSE,1555204600,persistent,,_v__SUPERFLY_lockout,1
+1051,Accuweather,Accuweather,41,,Entertainment,First Party,.www.accuweather.com,TRUE,/,FALSE,1555808847,persistent,,RT,z=1&dm=www.accuweather.com&si=a1d72c95-269c-41ab-a85b-13104a344a5d&ss=jug8440c&sl=1&tt=vbd&bcn=%2F%2F173c5b0a.akstat.io%2F
+1052,Accuweather,Accuweather,41,,Entertainment,First Party,.www.accuweather.com,TRUE,/,FALSE,1586740061,persistent,,minBuffer,"{""minAnalytics"":""{\""clicks\"":[]}"",""_minEE1"":""[]""}"
+1053,Accuweather,Accuweather,41,,Entertainment,First Party,www.accuweather.com,FALSE,/,TRUE,0,session,,GED_PLAYLIST_ACTIVITY,W3sidSI6Ijg2UzgiLCJ0c2wiOjE1NTUyMDQwNjEsIm52IjowLCJ1cHQiOjE1NTUyMDM2NzgsImx0IjoxNTU1MjA0MDQxfV0.
 526,The Atlantic,The Atlantic,39,,News,First Party,www.theatlantic.com,FALSE,/,FALSE,1557794676,persistent,,adsgeo,"{""city"":""new york"",""country"":""USA"",""continent"":""NA"",""is_gdpr"":false,""speed"":""broadband"",""latitude"":""40.817"",""longitude"":""-73.942"",""timezone"":""-400""}"
 527,The Atlantic,The Atlantic,39,,News,First Party,.theatlantic.com,TRUE,/,FALSE,2147483647,persistent,,atl_uuid,9cafc59f-f0a6-4a84-a432-f1d5f3d637e3
 528,The Atlantic,The Atlantic,39,,News,First Party,.theatlantic.com,TRUE,/,FALSE,1555206276,persistent,,AMP_TOKEN,%24NOT_FOUND
@@ -827,42 +827,42 @@
 562,The Atlantic,The Atlantic,39,,News,First Party,.theatlantic.com,TRUE,/,FALSE,1589366922,persistent,,_parsely_visitor,{%22id%22:%22b16750ae-4f7e-43a5-bcd7-85fc19a14480%22%2C%22session_count%22:1%2C%22last_session_ts%22:1555202681693}
 563,The Atlantic,The Atlantic,39,,News,First Party,.theatlantic.com,TRUE,/,FALSE,1588898949,persistent,,_sp_id.0500,44294e8d-aeab-4419-a47a-eff9b4fceeb7.1555202683.1.1555202950.1555202683.d883d5e0-ef9b-42d6-9393-e8193c9b2585
 564,The Atlantic,The Atlantic,39,,News,First Party,.theatlantic.com,TRUE,/,FALSE,1555204749,persistent,,_sp_ses.0500,*
-37,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1870558535,persistent,,usr_bkt,91GjW1q7Zg
-38,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734535,persistent,,ab_uuid,d5ce1c1e-580f-4116-b199-037b000870d2
-39,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,AMCVS_CB68E4BA55144CAA0A4C98A5%40AdobeOrg,1
-40,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,s_cc,TRUE
-41,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1589067351,persistent,,__qca,P0-2006738067-1555198551673
-42,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/,FALSE,1589385251,persistent,,_sctr,1|1555128000000
-43,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,cX_S,jug52draninf2i99
-44,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734556,persistent,,cX_G,cx%3A24fp2ss8mmarv21ah8bvf060hs%3Aqmisnx67qi84
-45,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/,TRUE,1589385260,persistent,,_scid,31e71d4f-6def-40d6-a4a4-64877f467ae6
-46,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1555285111,persistent,,usr_prof_v2,eyJpYyI6M30%3D
-47,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/,FALSE,1560454720,persistent,,vidoraUserId,2d7opss87akmahfsjmfbdopbamfhfi
-48,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1555285121,persistent,,hok_seg,none
-49,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270727,persistent,,__gads,ID=753f20f154e313f0:T=1555198727:S=ALNI_MYC6EV5yl4SDxJdO6ii_OhBCe2lHw
-50,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/news/,FALSE,1893455999,persistent,,MicrosoftApplicationsTelemetryDeviceId,ad829fdf-9016-16b9-0630-97ee040a52fd
-51,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/news/,FALSE,1893455999,persistent,,MicrosoftApplicationsTelemetryFirstLaunchTime,1.56E+12
-52,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270963,persistent,,_ncg_sp_id.5378,05662bad-65e2-4cc5-baac-09abc2e39d2c.1555198549.1.1555198963.1555198549.04bca095-e8eb-441c-bcf5-f7bd68c3cd96
-53,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1555200763,persistent,,_ncg_sp_ses.5378,*
-54,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270963,persistent,,_ncg_id_,16a190e7060-fd1e9515-fdc9-436b-bcaf-e9d7e8219faa
-55,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1557790963,persistent,,bkuuid,lI9hwi2Q99ezRqJz
-56,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734963,persistent,,NaN_hash,ad76eb27LIPXMQXR1555198550986
-57,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1562974964,persistent,,_gcl_au,1.1.1958131881.1555198555
-58,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,_parsely_slot_click,{%22url%22:%22https://www.wsj.com/articles/mnuchin-says-trade-talks-near-final-round-11555188048%22%2C%22x%22:631%2C%22y%22:237%2C%22xpath%22:%22//*[@id=%5C%22full-header%5C%22]/div[1]/div[1]/div[1]/header[1]/nav[1]/div[1]/div[4]/div[1]/div[1]/ul[2]/li[2]/a[1]%22%2C%22href%22:%22https://www.wsj.com/video/browse/news/politics-and-campaign%22}
-59,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1555200788,persistent,,_parsely_session,{%22sid%22:1%2C%22surl%22:%22https://www.wsj.com/articles/the-final-minutes-of-ethiopian-airlines-doomed-boeing-737-max-11553876300?tier_1=paid_social_acquisition&tier_2=Facebook&tier_3=FB+-+Engagement+-+Split+Test&tier_4=Cell+1%253A+CBO+Link+Click+%2528Mobile+%2526+Desktop%2529&tier_5=The+Final+Minutes+of+Ethiopian+Doomed+Airplane&nan_pid=1865124553&ad_id=8721143%22%2C%22sref%22:%22https://www.facebook.com/%22%2C%22sts%22:1555198562056%2C%22slts%22:0}
-60,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270988,persistent,,_parsely_visitor,{%22id%22:%22e4ac2e1f-a893-47ba-94db-f5818c52b720%22%2C%22session_count%22:1%2C%22last_session_ts%22:1555198562056}
-61,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1557790988,persistent,,wsjregion,na%2Cus
-62,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1555285388,persistent,,usr_prof,e30%3D
-63,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1570750989,persistent,,optimizelyEndUserId,oeu1555198989070r0.03577524196338011
-64,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734989,persistent,,utag_main,v_id:016a190e975200221d37ac759a5001052014900f0093c$_sn:1$_ss:0$_st:1555200789304$ses_id:1555198547797%3Bexp-session$_pn:5%3Bexp-session$_prevpage:WSJ_Article_US_Mnuchin%20Says%20Trade%20Talks%20Near%20Final%20Round%20%3Bexp-1555202562355$vapi_domain:wsj.com
-65,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1618357391,persistent,,AMCV_CB68E4BA55144CAA0A4C98A5%40AdobeOrg,1099438348%7CMCIDTS%7C18000%7CMCMID%7C17954951567778362633357959000405405404%7CMCAAMLH-1555803791%7C7%7CMCAAMB-1555803791%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1555206191s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-18007%7CvVersion%7C2.1.0
-66,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,s_sq,djwsj%3D%2526c.%2526a.%2526activitymap.%2526page%253DWSJ_Article_US_Mnuchin%252520Says%252520Trade%252520Talks%252520Near%252520Final%252520Round%252520%2526link%253DPolitics%252520Video%2526region%253Dfull-header%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DWSJ_Article_US_Mnuchin%252520Says%252520Trade%252520Talks%252520Near%252520Final%252520Round%252520%2526pidt%253D1%2526oid%253Dhttps%25253A%25252F%25252Fwww.wsj.com%25252Fvideo%25252Fbrowse%25252Fnews%25252Fpolitics-and-campaign%2526ot%253DA
-67,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/,FALSE,0,session,,sc.ASP.NET_SESSIONID,rgllxw2ypo5ekgtsrix4br3g
-68,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1618184591,persistent,,_mibhv,anon-1555198549799-5046103952_4171
-69,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/,FALSE,1712965392,persistent,,ki_t,1555198992897%3B1555198992897%3B1555198992897%3B1%3B1
-70,Wall Street Journal,Wall Street Journal,36,,News,First Party,www.wsj.com,FALSE,/,FALSE,1712965392,persistent,,ki_r,
-71,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734992,persistent,,cX_P,jug52dqq5ngyjyc5
-72,Wall Street Journal,Wall Street Journal,36,,News,First Party,.wsj.com,TRUE,/,FALSE,1562974994,persistent,,_fbp,fb.1.1555198551167.1434389139
+37,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1870558535,persistent,,usr_bkt,91GjW1q7Zg
+38,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734535,persistent,,ab_uuid,d5ce1c1e-580f-4116-b199-037b000870d2
+39,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,AMCVS_CB68E4BA55144CAA0A4C98A5%40AdobeOrg,1
+40,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,s_cc,TRUE
+41,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1589067351,persistent,,__qca,P0-2006738067-1555198551673
+42,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/,FALSE,1589385251,persistent,,_sctr,1|1555128000000
+43,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,cX_S,jug52draninf2i99
+44,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734556,persistent,,cX_G,cx%3A24fp2ss8mmarv21ah8bvf060hs%3Aqmisnx67qi84
+45,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/,TRUE,1589385260,persistent,,_scid,31e71d4f-6def-40d6-a4a4-64877f467ae6
+46,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1555285111,persistent,,usr_prof_v2,eyJpYyI6M30%3D
+47,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/,FALSE,1560454720,persistent,,vidoraUserId,2d7opss87akmahfsjmfbdopbamfhfi
+48,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1555285121,persistent,,hok_seg,none
+49,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270727,persistent,,__gads,ID=753f20f154e313f0:T=1555198727:S=ALNI_MYC6EV5yl4SDxJdO6ii_OhBCe2lHw
+50,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/news/,FALSE,1893455999,persistent,,MicrosoftApplicationsTelemetryDeviceId,ad829fdf-9016-16b9-0630-97ee040a52fd
+51,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/news/,FALSE,1893455999,persistent,,MicrosoftApplicationsTelemetryFirstLaunchTime,1.56E+12
+52,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270963,persistent,,_ncg_sp_id.5378,05662bad-65e2-4cc5-baac-09abc2e39d2c.1555198549.1.1555198963.1555198549.04bca095-e8eb-441c-bcf5-f7bd68c3cd96
+53,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1555200763,persistent,,_ncg_sp_ses.5378,*
+54,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270963,persistent,,_ncg_id_,16a190e7060-fd1e9515-fdc9-436b-bcaf-e9d7e8219faa
+55,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1557790963,persistent,,bkuuid,lI9hwi2Q99ezRqJz
+56,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734963,persistent,,NaN_hash,ad76eb27LIPXMQXR1555198550986
+57,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1562974964,persistent,,_gcl_au,1.1.1958131881.1555198555
+58,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,_parsely_slot_click,{%22url%22:%22https://www.wsj.com/articles/mnuchin-says-trade-talks-near-final-round-11555188048%22%2C%22x%22:631%2C%22y%22:237%2C%22xpath%22:%22//*[@id=%5C%22full-header%5C%22]/div[1]/div[1]/div[1]/header[1]/nav[1]/div[1]/div[4]/div[1]/div[1]/ul[2]/li[2]/a[1]%22%2C%22href%22:%22https://www.wsj.com/video/browse/news/politics-and-campaign%22}
+59,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1555200788,persistent,,_parsely_session,{%22sid%22:1%2C%22surl%22:%22https://www.wsj.com/articles/the-final-minutes-of-ethiopian-airlines-doomed-boeing-737-max-11553876300?tier_1=paid_social_acquisition&tier_2=Facebook&tier_3=FB+-+Engagement+-+Split+Test&tier_4=Cell+1%253A+CBO+Link+Click+%2528Mobile+%2526+Desktop%2529&tier_5=The+Final+Minutes+of+Ethiopian+Doomed+Airplane&nan_pid=1865124553&ad_id=8721143%22%2C%22sref%22:%22https://www.facebook.com/%22%2C%22sts%22:1555198562056%2C%22slts%22:0}
+60,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1618270988,persistent,,_parsely_visitor,{%22id%22:%22e4ac2e1f-a893-47ba-94db-f5818c52b720%22%2C%22session_count%22:1%2C%22last_session_ts%22:1555198562056}
+61,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1557790988,persistent,,wsjregion,na%2Cus
+62,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1555285388,persistent,,usr_prof,e30%3D
+63,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1570750989,persistent,,optimizelyEndUserId,oeu1555198989070r0.03577524196338011
+64,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734989,persistent,,utag_main,v_id:016a190e975200221d37ac759a5001052014900f0093c$_sn:1$_ss:0$_st:1555200789304$ses_id:1555198547797%3Bexp-session$_pn:5%3Bexp-session$_prevpage:WSJ_Article_US_Mnuchin%20Says%20Trade%20Talks%20Near%20Final%20Round%20%3Bexp-1555202562355$vapi_domain:wsj.com
+65,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1618357391,persistent,,AMCV_CB68E4BA55144CAA0A4C98A5%40AdobeOrg,1099438348%7CMCIDTS%7C18000%7CMCMID%7C17954951567778362633357959000405405404%7CMCAAMLH-1555803791%7C7%7CMCAAMB-1555803791%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1555206191s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-18007%7CvVersion%7C2.1.0
+66,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,0,session,,s_sq,djwsj%3D%2526c.%2526a.%2526activitymap.%2526page%253DWSJ_Article_US_Mnuchin%252520Says%252520Trade%252520Talks%252520Near%252520Final%252520Round%252520%2526link%253DPolitics%252520Video%2526region%253Dfull-header%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DWSJ_Article_US_Mnuchin%252520Says%252520Trade%252520Talks%252520Near%252520Final%252520Round%252520%2526pidt%253D1%2526oid%253Dhttps%25253A%25252F%25252Fwww.wsj.com%25252Fvideo%25252Fbrowse%25252Fnews%25252Fpolitics-and-campaign%2526ot%253DA
+67,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/,FALSE,0,session,,sc.ASP.NET_SESSIONID,rgllxw2ypo5ekgtsrix4br3g
+68,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1618184591,persistent,,_mibhv,anon-1555198549799-5046103952_4171
+69,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/,FALSE,1712965392,persistent,,ki_t,1555198992897%3B1555198992897%3B1555198992897%3B1%3B1
+70,WSJ,WSJ,#N/A,,News,First Party,www.wsj.com,FALSE,/,FALSE,1712965392,persistent,,ki_r,
+71,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1586734992,persistent,,cX_P,jug52dqq5ngyjyc5
+72,WSJ,WSJ,#N/A,,News,First Party,.wsj.com,TRUE,/,FALSE,1562974994,persistent,,_fbp,fb.1.1555198551167.1434389139
 1,Google,Google,34,,Google,First Party,#HttpOnly_.google.com,TRUE,/complete/search,FALSE,1570977290,persistent,,CGIC,Cg1maXJlZm94LWItMS1kIj90ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjg
 2,Google,Google,34,,Google,First Party,#HttpOnly_.google.com,TRUE,/search,FALSE,1570977290,persistent,,CGIC,Cg1maXJlZm94LWItMS1kIj90ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjg
 3,Google,Google,34,,Google,First Party,#HttpOnly_.google.com,TRUE,/verify,TRUE,1571010015,persistent,,SNID,APNaz9-vNBbdAzT3fNA1QhHZE8iG3xwl1_l2iFRJAZDhHPLMzfeolduOT-soSdjv-fwV4MhXHK7qiqEG1_rH
@@ -1003,20 +1003,20 @@
 672,Open Table,Open Table,15,,Shopping,First Party,#HttpOnly_.opentable.com,TRUE,/,FALSE,1555210972,persistent,,bm_sv,DEF683B601907707365C031514B48EC2~SV1HqvyWgsZmo85PjZ05D+GawJehx2UbkI6LY8vttDpIQoRQZLi/f85p/Ill1zpOFwraUFC+/YNEDrYNU2qA1A0od82mhx2AydtkNXSAxuf1IyZdLWKMwoi77s1A44KCKM1t7CM8/Li1StZUhZS8WK7Oa2lRbBD6GA6tjrIx2tU=
 673,Open Table,Open Table,15,,Shopping,First Party,.opentable.com,TRUE,/,FALSE,1618275790,persistent,,_ga,GA1.2.880573447.1555203588
 674,Open Table,Open Table,15,,Shopping,First Party,.opentable.com,TRUE,/,FALSE,1555290190,persistent,,_gid,GA1.2.1989222477.1555203590
-441,YouTube,YouTube,14,,Entertainment & Info,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,0,session,,YSC,Po8DIwAgQYI
-442,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1555204766,persistent,,GPS,1
-443,YouTube,YouTube,14,,Entertainment & Info,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,1570754966,persistent,,VISITOR_INFO1_LIVE,cDSrwYgAoXc
-444,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1555203002,persistent,,ST-ayu5j1,itct=CHwQlDUYAyITCMmd_MKuzuECFYjgYAodRUQLmSiOHjIKZy1oaWdoLXJjaFoPRkV3aGF0X3RvX3dhdGNo&csn=loOyXMn6HYjBgwPFiK3ICQ
-445,YouTube,YouTube,14,,Entertainment & Info,First Party,accounts.youtube.com,FALSE,/accounts/,FALSE,1555203123,persistent,,CheckConnectionTempCookie809,715531
-446,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1618275165,persistent,,SID,TQcM74K7I6kh2dwLysV1Ek-8Js6brHqnt6SQCRLZa3EjqH2fY0YIjwoWBh6m5N7v-TUu-Q.
-447,YouTube,YouTube,14,,Entertainment & Info,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,1618275165,persistent,,HSID,A8xPkFzcroDpClWom
-448,YouTube,YouTube,14,,Entertainment & Info,First Party,#HttpOnly_.youtube.com,TRUE,/,TRUE,1618275165,persistent,,SSID,Am8qTCsCqNdIASMZu
-449,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1618275165,persistent,,APISID,Gb7XALlTmqSQhkaA/AA0GYzy_RRtHQhfbs
-450,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,TRUE,1618275165,persistent,,SAPISID,n29ACXmPui04vyrf/Aq7nDmtCG5s-nbXzF
-451,YouTube,YouTube,14,,Entertainment & Info,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,1618275166,persistent,,LOGIN_INFO,AFmmF2swRAIgY0ED2KV_JtQJ1yceCt-PQkXxtqTmWHdQ0t9fUrxrcwUCIHT7HxpOuCUICM5OFNlmICMjBxPGDi1PyPIc3UuNjeR5:QUQ3MjNmejlPS2MxVVhVekRBdXBZUmFWQ0duN2drc2QwcVJldWdWRFdoWWpaYXpQOTdJdFRSQVppWmI5bFJqNVlwV1gtc2JjQlhEQ2tuaFhkMDBoMzVsRk1mdlFkRlFXVk5MWDVJMXIxZmU5RTF2aEl3bkdsakdqajQ1cVEyWTY1eVFDMGl6MGdnMVlaUHF2cURJSlhCZmtqMzVkLWRaeEJIcXRRTUtXT1FfVTVnRUhoWlljNG5n
-452,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1576241163,persistent,,PREF,f4=4000000&al=en&f1=50000000
-453,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1555203800,persistent,,dkv,eb4b336d384484f3896fba9c00f2d71ae3QEAAAAdGxpcGmAhLJcMA==
-454,YouTube,YouTube,14,,Entertainment & Info,First Party,.youtube.com,TRUE,/,FALSE,1562979363,persistent,,SIDCC,AN0-TYs6OBSYUgnVITEbXZiM5ukyGGddcopBw2rwprKFGSTC2Nfv3NIL7b8meUSAYKl8AXZw1w
+441,YouTube,YouTube,14,,Entertainment,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,0,session,,YSC,Po8DIwAgQYI
+442,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1555204766,persistent,,GPS,1
+443,YouTube,YouTube,14,,Entertainment,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,1570754966,persistent,,VISITOR_INFO1_LIVE,cDSrwYgAoXc
+444,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1555203002,persistent,,ST-ayu5j1,itct=CHwQlDUYAyITCMmd_MKuzuECFYjgYAodRUQLmSiOHjIKZy1oaWdoLXJjaFoPRkV3aGF0X3RvX3dhdGNo&csn=loOyXMn6HYjBgwPFiK3ICQ
+445,YouTube,YouTube,14,,Entertainment,First Party,accounts.youtube.com,FALSE,/accounts/,FALSE,1555203123,persistent,,CheckConnectionTempCookie809,715531
+446,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1618275165,persistent,,SID,TQcM74K7I6kh2dwLysV1Ek-8Js6brHqnt6SQCRLZa3EjqH2fY0YIjwoWBh6m5N7v-TUu-Q.
+447,YouTube,YouTube,14,,Entertainment,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,1618275165,persistent,,HSID,A8xPkFzcroDpClWom
+448,YouTube,YouTube,14,,Entertainment,First Party,#HttpOnly_.youtube.com,TRUE,/,TRUE,1618275165,persistent,,SSID,Am8qTCsCqNdIASMZu
+449,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1618275165,persistent,,APISID,Gb7XALlTmqSQhkaA/AA0GYzy_RRtHQhfbs
+450,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,TRUE,1618275165,persistent,,SAPISID,n29ACXmPui04vyrf/Aq7nDmtCG5s-nbXzF
+451,YouTube,YouTube,14,,Entertainment,First Party,#HttpOnly_.youtube.com,TRUE,/,FALSE,1618275166,persistent,,LOGIN_INFO,AFmmF2swRAIgY0ED2KV_JtQJ1yceCt-PQkXxtqTmWHdQ0t9fUrxrcwUCIHT7HxpOuCUICM5OFNlmICMjBxPGDi1PyPIc3UuNjeR5:QUQ3MjNmejlPS2MxVVhVekRBdXBZUmFWQ0duN2drc2QwcVJldWdWRFdoWWpaYXpQOTdJdFRSQVppWmI5bFJqNVlwV1gtc2JjQlhEQ2tuaFhkMDBoMzVsRk1mdlFkRlFXVk5MWDVJMXIxZmU5RTF2aEl3bkdsakdqajQ1cVEyWTY1eVFDMGl6MGdnMVlaUHF2cURJSlhCZmtqMzVkLWRaeEJIcXRRTUtXT1FfVTVnRUhoWlljNG5n
+452,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1576241163,persistent,,PREF,f4=4000000&al=en&f1=50000000
+453,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1555203800,persistent,,dkv,eb4b336d384484f3896fba9c00f2d71ae3QEAAAAdGxpcGmAhLJcMA==
+454,YouTube,YouTube,14,,Entertainment,First Party,.youtube.com,TRUE,/,FALSE,1562979363,persistent,,SIDCC,AN0-TYs6OBSYUgnVITEbXZiM5ukyGGddcopBw2rwprKFGSTC2Nfv3NIL7b8meUSAYKl8AXZw1w
 1067,Amazon,Amazon,14,,Shopping,First Party,.amazon.com,TRUE,/,FALSE,0,session,,skin,noskin
 1068,Amazon,Amazon,14,,Shopping,First Party,.amazon.com,TRUE,/,FALSE,2082787201,persistent,,session-id,137-7386961-4725448
 1069,Amazon,Amazon,14,,Shopping,First Party,.amazon.com,TRUE,/,FALSE,2082787201,persistent,,session-id-time,2082787201l
@@ -1031,18 +1031,18 @@
 1078,Amazon,Amazon,14,,Shopping,First Party,.amazon.com,TRUE,/,FALSE,2082787201,persistent,,ubid-main,133-8669648-3354734
 1079,Amazon,Amazon,14,,Shopping,First Party,.amazon.com,TRUE,/,FALSE,2082787201,persistent,,x-wl-uid,1PQDYF7ZZkhitIPd+h3e/fK8VU1imTbJ9KeyIupYHGJaIcK82QNK699lGi2cKF01VHUkIw0oeYk6epxbmcKRV302w2rd/Uajgqv6B1A+qSCwIBZHl1tpcYepKVD/0NHnMEzV166UvHZI=
 1080,Amazon,Amazon,14,,Shopping,First Party,.amazon.com,TRUE,/,FALSE,2082787201,persistent,,session-token,caZrRzEDiWJHdyoIIHa/OzrAVnTCohhbviaRgOR74lubvWo23hIYjeLa57EfEzlHjedhsxOXqqitZXryFAs66skZ+FKNom/eLk4MQIRAmL12FzURwCMSBnpVtToDCIaCwaivnNR5kExZdOrInVL0Jy9OJ4PQZfdXPsj1vhoj3F8f/SgZFy3ceomtqtpBGGebybfmK8koQEr2wJftSMlqjte0smNlOxpYP4zFyCESZ49EWkQy92xjjzU776zhRni2oakBpfRKaGmxkegxD4E0lwGAM6gdIZCf
-297,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,TRUE,1618361684,persistent,,loid,00000000003lgrb67c.2.1555203284706.Z0FBQUFBQmNzb1RVeUsxOGV1dFJJeVhvb016Zk8yRTFHbmNCcVJWTGVJNVBBQkkwQjZNNURvcm9XWGhDOVNNVkI0SldBcjhTbmZLU2lOQlRIcVAzZ2VPRW42UWl1Wk5CYkZjVDJLNmxnanNUMldJSEVvMTlGUVlVQnJ5UXpmYS1ubXhCd1RDOWFsdl8
-298,Reddit,Reddit,12,,Entertainment & Info,First Party,#HttpOnly_.reddit.com,TRUE,/,TRUE,1618361684,persistent,,token,eyJhY2Nlc3NUb2tlbiI6Ii1TRFRlU19fb0MtSlRINW9uYnJFMTd6a3FpUW8iLCJ0b2tlblR5cGUiOiJiZWFyZXIiLCJleHBpcmVzIjoiMjAxOS0wNC0xNFQwMTo1NDo0NC43MjFaIiwic2NvcGUiOiIqIiwidW5zYWZlTG9nZ2VkT3V0Ijp0cnVlfQ==.2
-299,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,FALSE,1557795285,persistent,,rseor3,TRUE
-300,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,FALSE,1557795285,persistent,,rabt,
-301,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,TRUE,1618275284,persistent,,edgebucket,cxHAgdJS4QO5J0QAJO
-302,Reddit,Reddit,12,,Entertainment & Info,First Party,www.reddit.com,FALSE,/,FALSE,0,session,,aasd,1%7C1555203294631
-303,Reddit,Reddit,12,,Entertainment & Info,First Party,www.reddit.com,FALSE,/,FALSE,0,session,,__aaxsc,0
-304,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,TRUE,1555210496,persistent,,session_tracker,yXwZFHdPP9ZNJn3LPc.0.1555203297924.Z0FBQUFBQmNzb1RoLTFwUU9aQ2d5N2VuWDJmX2l2WnpmbjJiOUtfN01tMGJHa0x1RHk4LXVJcG53bzRpTWJwUDJCR2g4c1dic0tlWGVTaDUwMUlJbFJlZTI0b0RSaHNWam5mOEtBRlVjYkYzRlR4YktvNVR1aUdJcGNqUDUxbVUzV19penQyV2pGVHc
-305,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,FALSE,1618275298,persistent,,__gads,ID=a124286a6e9b47da:T=1555203298:S=ALNI_MZhrOfA8s2kptVIzZwHmreEUdDX3Q
-306,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,FALSE,1618361751,persistent,,recent_srs,t5_2qh1o%2Ct5_2x2oy%2C
-307,Reddit,Reddit,12,,Entertainment & Info,First Party,.reddit.com,TRUE,/,FALSE,1618275393,persistent,,reddaid,RCA6V2PNW6L4FZAB
-941,Reddit,Reddit,12,,Entertainment & Info,First Party,.redditmedia.com,TRUE,/,FALSE,1589072098,persistent,,__qca,P0-766923658-1555203298349
+297,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,TRUE,1618361684,persistent,,loid,00000000003lgrb67c.2.1555203284706.Z0FBQUFBQmNzb1RVeUsxOGV1dFJJeVhvb016Zk8yRTFHbmNCcVJWTGVJNVBBQkkwQjZNNURvcm9XWGhDOVNNVkI0SldBcjhTbmZLU2lOQlRIcVAzZ2VPRW42UWl1Wk5CYkZjVDJLNmxnanNUMldJSEVvMTlGUVlVQnJ5UXpmYS1ubXhCd1RDOWFsdl8
+298,Reddit,Reddit,12,,Entertainment,First Party,#HttpOnly_.reddit.com,TRUE,/,TRUE,1618361684,persistent,,token,eyJhY2Nlc3NUb2tlbiI6Ii1TRFRlU19fb0MtSlRINW9uYnJFMTd6a3FpUW8iLCJ0b2tlblR5cGUiOiJiZWFyZXIiLCJleHBpcmVzIjoiMjAxOS0wNC0xNFQwMTo1NDo0NC43MjFaIiwic2NvcGUiOiIqIiwidW5zYWZlTG9nZ2VkT3V0Ijp0cnVlfQ==.2
+299,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,FALSE,1557795285,persistent,,rseor3,TRUE
+300,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,FALSE,1557795285,persistent,,rabt,
+301,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,TRUE,1618275284,persistent,,edgebucket,cxHAgdJS4QO5J0QAJO
+302,Reddit,Reddit,12,,Entertainment,First Party,www.reddit.com,FALSE,/,FALSE,0,session,,aasd,1%7C1555203294631
+303,Reddit,Reddit,12,,Entertainment,First Party,www.reddit.com,FALSE,/,FALSE,0,session,,__aaxsc,0
+304,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,TRUE,1555210496,persistent,,session_tracker,yXwZFHdPP9ZNJn3LPc.0.1555203297924.Z0FBQUFBQmNzb1RoLTFwUU9aQ2d5N2VuWDJmX2l2WnpmbjJiOUtfN01tMGJHa0x1RHk4LXVJcG53bzRpTWJwUDJCR2g4c1dic0tlWGVTaDUwMUlJbFJlZTI0b0RSaHNWam5mOEtBRlVjYkYzRlR4YktvNVR1aUdJcGNqUDUxbVUzV19penQyV2pGVHc
+305,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,FALSE,1618275298,persistent,,__gads,ID=a124286a6e9b47da:T=1555203298:S=ALNI_MZhrOfA8s2kptVIzZwHmreEUdDX3Q
+306,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,FALSE,1618361751,persistent,,recent_srs,t5_2qh1o%2Ct5_2x2oy%2C
+307,Reddit,Reddit,12,,Entertainment,First Party,.reddit.com,TRUE,/,FALSE,1618275393,persistent,,reddaid,RCA6V2PNW6L4FZAB
+941,Reddit,Reddit,12,,Entertainment,First Party,.redditmedia.com,TRUE,/,FALSE,1589072098,persistent,,__qca,P0-766923658-1555203298349
 585,Pinterest,Pinterest,11,,Social,First Party,www.pinterest.com,FALSE,/,FALSE,1555246618,persistent,,sessionFunnelEventLogged,1
 586,Pinterest,Pinterest,11,,Social,First Party,.www.pinterest.com,TRUE,/,FALSE,2.53E+11,persistent,,G_ENABLED_IDPS,google
 587,Pinterest,Pinterest,11,,Social,First Party,.pinterest.com,TRUE,/,FALSE,1586825823,persistent,,fbm_274266067164,base_domain=.pinterest.com
@@ -1064,16 +1064,16 @@
 770,Facebook,Facebook,10,,Social,First Party,#HttpOnly_.facebook.com,TRUE,/,TRUE,1562978203,persistent,,fr,1yQ2LBKaa4ONcJMS2.AWWZAveQx8kE_jamqC76lUjsqNk.Bcsm_A.sr.Fyy.0.0.BcsoCb.AWWCLj-d
 771,Facebook,Facebook,10,,Social,First Party,.facebook.com,TRUE,/,TRUE,1555807733,persistent,,wd,1440x488
 772,Facebook,Facebook,10,,Social,First Party,.facebook.com,TRUE,/,TRUE,0,session,,presence,EDvF3EtimeF1555203841EuserFA21374995183A2EstateFDt3F_5b_5dG555203841135CEchFDp_5f1374995183F5CC
-840,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,0,session,,clSharedContext,0cee7648-7683-45d0-93ed-19c5ba4a28b7
-841,Netflix,Netflix,10,,Entertainment & Info,First Party,#HttpOnly_.netflix.com,TRUE,/,FALSE,1586760359,persistent,,NetflixId,v%3D2%26ct%3DBQAOAAEBEPWz4x9Y-LrhW-25kwy9lGyBsBVt9uz9nHpDKQJD90-R8oHzsXvbdq3WmrMEuggYsBjX9XnJCcqosJE1QPPvcBnDul32FzaH43kjvmA4RWUWYBrRrz6lzwJ96UDEefHwmkcif5VO47zAYATXqlCZVo7R3G9ufUvsk7g8WpC-h4-FmwCYJQgCUHq5gQ7c7Xh9Zrahke6FOTBqAsrvznFfYJFq2ghKP1vqq6GtjOO8EWDozGA5-w4G5dvvOaEK59DTIr72GgmG4MYqufuNbGF76Vsm5BmOzXkQO6ded0hReQzrC9hriIA_Oxnve-OaKML5V8KCKJKL8wNenYLYmqO0Eh9H6zXnU2oUwV1G2S9Lq2T82CtLiWqBHN6mVM0arWVAWOCAj_Pk84QenBrOcZUDV5wIc6NWafk5zIPZug2LSjiJXQEMLeW9zkFcblVQ1KW_5TSJBq1p14L2NBREpODGWmluy6i9Yg0jC_zWKhdF7w1lrrn1f8CStBWUFqiwBUBbpvNUDMHJOK1Gk96VON5Mu2vDLgK00VVWLl1cf1pirv8KYxuFcp9QeDFR3NDkmNncuoOYNn__X1o-1eHikI3EEa-TOg..%26bt%3Ddbl%26ch%3DAQEAEAABABT_4p70YZSBCmYJpTm-wJRfRbZszA7mTzo.%26mac%3DAQEAEAABABSCYTFhpSnkBQ98mINhWYcVrIdQo40EQAo.
-842,Netflix,Netflix,10,,Entertainment & Info,First Party,#HttpOnly_.netflix.com,TRUE,/,TRUE,2145916800,persistent,,SecureNetflixId,v%3D2%26mac%3DAQEAEQABABR6bKzRIG-BkV_Wi8y-y9YI4PGMICKhlAw.%26dt%3D1555203433576
-843,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,1581469033,persistent,,nfvdid,BQFmAAEBEOjKKr3p6QQzkgsgFeJQMn1gtRaJvFADf05RI2mbvYdD%2FUTybq058rPhvDeQdP3g6490Yyp%2Bp97wBmJcDTlNSSo8ENesHvx1u0u2IK7ltCoOFgluLTB1FpzCU3fg9RlP3A7RAtLsj3ICWFWvcsK379Qd
-844,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,1555214233,persistent,,flwssn,dabe8bb2-b19d-42b5-90e1-c832f6f4f926
-845,Netflix,Netflix,10,,Entertainment & Info,First Party,.www.netflix.com,TRUE,/,FALSE,0,session,,cL,1555203435229%7C155520342378928012%7C155520342328414963%7C%7C4%7Cnull
-846,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,1555205242,persistent,,profilesNewSession,0
-847,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,1555246634,persistent,,lhpuuidh-browse-6LUJXOJZZFHT5ARSCEB2AICEPA,US%3AEN-US%3A5151b493-77fb-41cc-8b62-99c2f480a7da_ROOT
-848,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,1555246634,persistent,,lhpuuidh-browse-6LUJXOJZZFHT5ARSCEB2AICEPA-T,1.56E+12
-849,Netflix,Netflix,10,,Entertainment & Info,First Party,.netflix.com,TRUE,/,FALSE,1586739763,persistent,,memclid,0776528e-75d0-45ab-baf7-e4230c561aa9
+840,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,0,session,,clSharedContext,0cee7648-7683-45d0-93ed-19c5ba4a28b7
+841,Netflix,Netflix,10,,Entertainment,First Party,#HttpOnly_.netflix.com,TRUE,/,FALSE,1586760359,persistent,,NetflixId,v%3D2%26ct%3DBQAOAAEBEPWz4x9Y-LrhW-25kwy9lGyBsBVt9uz9nHpDKQJD90-R8oHzsXvbdq3WmrMEuggYsBjX9XnJCcqosJE1QPPvcBnDul32FzaH43kjvmA4RWUWYBrRrz6lzwJ96UDEefHwmkcif5VO47zAYATXqlCZVo7R3G9ufUvsk7g8WpC-h4-FmwCYJQgCUHq5gQ7c7Xh9Zrahke6FOTBqAsrvznFfYJFq2ghKP1vqq6GtjOO8EWDozGA5-w4G5dvvOaEK59DTIr72GgmG4MYqufuNbGF76Vsm5BmOzXkQO6ded0hReQzrC9hriIA_Oxnve-OaKML5V8KCKJKL8wNenYLYmqO0Eh9H6zXnU2oUwV1G2S9Lq2T82CtLiWqBHN6mVM0arWVAWOCAj_Pk84QenBrOcZUDV5wIc6NWafk5zIPZug2LSjiJXQEMLeW9zkFcblVQ1KW_5TSJBq1p14L2NBREpODGWmluy6i9Yg0jC_zWKhdF7w1lrrn1f8CStBWUFqiwBUBbpvNUDMHJOK1Gk96VON5Mu2vDLgK00VVWLl1cf1pirv8KYxuFcp9QeDFR3NDkmNncuoOYNn__X1o-1eHikI3EEa-TOg..%26bt%3Ddbl%26ch%3DAQEAEAABABT_4p70YZSBCmYJpTm-wJRfRbZszA7mTzo.%26mac%3DAQEAEAABABSCYTFhpSnkBQ98mINhWYcVrIdQo40EQAo.
+842,Netflix,Netflix,10,,Entertainment,First Party,#HttpOnly_.netflix.com,TRUE,/,TRUE,2145916800,persistent,,SecureNetflixId,v%3D2%26mac%3DAQEAEQABABR6bKzRIG-BkV_Wi8y-y9YI4PGMICKhlAw.%26dt%3D1555203433576
+843,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,1581469033,persistent,,nfvdid,BQFmAAEBEOjKKr3p6QQzkgsgFeJQMn1gtRaJvFADf05RI2mbvYdD%2FUTybq058rPhvDeQdP3g6490Yyp%2Bp97wBmJcDTlNSSo8ENesHvx1u0u2IK7ltCoOFgluLTB1FpzCU3fg9RlP3A7RAtLsj3ICWFWvcsK379Qd
+844,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,1555214233,persistent,,flwssn,dabe8bb2-b19d-42b5-90e1-c832f6f4f926
+845,Netflix,Netflix,10,,Entertainment,First Party,.www.netflix.com,TRUE,/,FALSE,0,session,,cL,1555203435229%7C155520342378928012%7C155520342328414963%7C%7C4%7Cnull
+846,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,1555205242,persistent,,profilesNewSession,0
+847,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,1555246634,persistent,,lhpuuidh-browse-6LUJXOJZZFHT5ARSCEB2AICEPA,US%3AEN-US%3A5151b493-77fb-41cc-8b62-99c2f480a7da_ROOT
+848,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,1555246634,persistent,,lhpuuidh-browse-6LUJXOJZZFHT5ARSCEB2AICEPA-T,1.56E+12
+849,Netflix,Netflix,10,,Entertainment,First Party,.netflix.com,TRUE,/,FALSE,1586739763,persistent,,memclid,0776528e-75d0-45ab-baf7-e4230c561aa9
 968,Instagram,Instagram,10,,Social,First Party,#HttpOnly_.instagram.com,TRUE,/,TRUE,0,session,,rur,FRC
 969,Instagram,Instagram,10,,Social,First Party,.instagram.com,TRUE,/,TRUE,1870562581,persistent,,mid,XLKCFQAEAAE98c2-QGk0zBBhofVt
 970,Instagram,Instagram,10,,Social,First Party,.instagram.com,TRUE,/,FALSE,1586826228,persistent,,fbm_124024574287414,base_domain=.instagram.com
@@ -1084,15 +1084,15 @@
 975,Instagram,Instagram,10,,Social,First Party,.instagram.com,TRUE,/,TRUE,1562980019,persistent,,ds_user_id,11834019
 976,Instagram,Instagram,10,,Social,First Party,#HttpOnly_.instagram.com,TRUE,/,TRUE,0,session,,urlgen,"{\192.76.177.125\"": 12}:1hFTbn:JuWCqlnkbGQrxitjiVfZ3ePrhPM"""
 977,Instagram,Instagram,10,,Social,First Party,.instagram.com,TRUE,/,TRUE,1586653619,persistent,,csrftoken,bfJtpxUQtZc9peRFwLeTW1SirK4k76Ux
-752,Quora,Quora,9,,Entertainment & Info,First Party,.quora.com,TRUE,/,FALSE,1618319249,persistent,,m-early_v,994e287ba181cee9
-753,Quora,Quora,9,,Entertainment & Info,First Party,.quora.com,TRUE,/,FALSE,1712884050,persistent,,m-tz,240
-754,Quora,Quora,9,,Entertainment & Info,First Party,.quora.com,TRUE,/,FALSE,1586740051,persistent,,m-css_v,main-5ddce0f8370e1628
-755,Quora,Quora,9,,Entertainment & Info,First Party,.quora.com,TRUE,/,FALSE,1555290451,persistent,,m-wf-loaded,q-icons-q_serif
-756,Quora,Quora,9,,Entertainment & Info,First Party,.quora.com,TRUE,/,FALSE,1618276051,persistent,,_ga,GA1.2.984736560.1555204052
-757,Quora,Quora,9,,Entertainment & Info,First Party,.quora.com,TRUE,/,FALSE,1555290451,persistent,,_gid,GA1.2.1472591442.1555204052
-758,Quora,Quora,9,,Entertainment & Info,First Party,.www.quora.com,TRUE,/,FALSE,2.53E+11,persistent,,G_ENABLED_IDPS,google
-759,Quora,Quora,9,,Entertainment & Info,First Party,#HttpOnly_.quora.com,TRUE,/,TRUE,1618276053,persistent,,m-b,hJEV55eyGKeAPervrhdlog\075\075
-760,Quora,Quora,9,,Entertainment & Info,First Party,#HttpOnly_.quora.com,TRUE,/,TRUE,1618276053,persistent,,m-s,Nm5b-nzmvimayJfIXTD0Ew\075\075
+752,Quora,Quora,9,,Entertainment,First Party,.quora.com,TRUE,/,FALSE,1618319249,persistent,,m-early_v,994e287ba181cee9
+753,Quora,Quora,9,,Entertainment,First Party,.quora.com,TRUE,/,FALSE,1712884050,persistent,,m-tz,240
+754,Quora,Quora,9,,Entertainment,First Party,.quora.com,TRUE,/,FALSE,1586740051,persistent,,m-css_v,main-5ddce0f8370e1628
+755,Quora,Quora,9,,Entertainment,First Party,.quora.com,TRUE,/,FALSE,1555290451,persistent,,m-wf-loaded,q-icons-q_serif
+756,Quora,Quora,9,,Entertainment,First Party,.quora.com,TRUE,/,FALSE,1618276051,persistent,,_ga,GA1.2.984736560.1555204052
+757,Quora,Quora,9,,Entertainment,First Party,.quora.com,TRUE,/,FALSE,1555290451,persistent,,_gid,GA1.2.1472591442.1555204052
+758,Quora,Quora,9,,Entertainment,First Party,.www.quora.com,TRUE,/,FALSE,2.53E+11,persistent,,G_ENABLED_IDPS,google
+759,Quora,Quora,9,,Entertainment,First Party,#HttpOnly_.quora.com,TRUE,/,TRUE,1618276053,persistent,,m-b,hJEV55eyGKeAPervrhdlog\075\075
+760,Quora,Quora,9,,Entertainment,First Party,#HttpOnly_.quora.com,TRUE,/,TRUE,1618276053,persistent,,m-s,Nm5b-nzmvimayJfIXTD0Ew\075\075
 950,LinkedIn,LinkedIn,7,,Social,First Party,.ads.linkedin.com,TRUE,/,TRUE,1557794319,persistent,,BizoID,927f9019-830b-403d-91ac-9f4820b491fd
 951,LinkedIn,LinkedIn,7,,Social,First Party,.ads.linkedin.com,TRUE,/,FALSE,0,session,,lang,v=2&lang=en-us
 952,LinkedIn,LinkedIn,7,,Social,First Party,.linkedin.com,TRUE,/,FALSE,1555288719,persistent,,lidc,b=VGST06:g=1216:u=1:i=1555202319:t=1555288719:s=AQEXnxx1PvjTY03zukC7iasPuZN5Wujc
@@ -1100,19 +1100,19 @@
 954,LinkedIn,LinkedIn,7,,Social,First Party,.linkedin.com,TRUE,/,FALSE,0,session,,lang,v=2&lang=en-us
 955,LinkedIn,LinkedIn,7,,Social,First Party,.linkedin.com,TRUE,/,FALSE,1618316173,persistent,,bcookie,v=2&31c67001-7a7c-4bda-84f1-27f4bfb1e7aa
 956,LinkedIn,LinkedIn,7,,Social,First Party,#HttpOnly_.www.linkedin.com,TRUE,/,TRUE,1618316173,persistent,,bscookie,v=1&2019041400384114c3ab84-9367-4518-85c1-53b3daf7c5e8AQF8_sfBdTEGRnIXPLOxH5_BrZgFvbW8
-425,IMDB,IMDB,6,,Entertainment & Info,First Party,.imdb.com,TRUE,/,TRUE,3702687194,persistent,,uu,BCYkEXY1yJrdvuuMNSGdaX6Exj8mU0NGCjhHKgVfFa_8Tc6fvEPeB-SMP5WOw7nnMINttvSrfU0f%0D%0ADZTeA9cwe8skgOCg7Omnyq7Zq3eqjWeZgsmka0iIXbMqHNNOxNrGjaDuBNL3A6GhD6naglPSdQI5%0D%0AGA%0D%0A
-426,IMDB,IMDB,6,,Entertainment & Info,First Party,.imdb.com,TRUE,/,TRUE,3702687313,persistent,,session-id,143-1179652-0622350
-427,IMDB,IMDB,6,,Entertainment & Info,First Party,.imdb.com,TRUE,/,TRUE,3702687313,persistent,,session-id-time,2185923665
-428,IMDB,IMDB,6,,Entertainment & Info,First Party,.imdb.com,TRUE,/,FALSE,1555225212,persistent,,as,%7B%22h%22%3A%7B%22t%22%3A%5B1008%2C135%5D%2C%22tr%22%3A%5B300%2C250%5D%2C%22ib%22%3A%5B0%2C0%5D%7D%2C%22n%22%3A%7B%22t%22%3A%5B1008%2C135%5D%2C%22tr%22%3A%5B300%2C250%5D%2C%22in%22%3A%5B0%2C0%5D%2C%22ib%22%3A%5B0%2C0%5D%7D%7D
-429,IMDB,IMDB,6,,Entertainment & Info,First Party,.imdb.com,TRUE,/,FALSE,1586739678,persistent,,adblk,adblk_no
-430,IMDB,IMDB,6,,Entertainment & Info,First Party,www.imdb.com,FALSE,/,FALSE,1615683789,persistent,,csm-hit,adb:adblk_no&t:1555203789262&tb:6456WSDJBP6QFRKCH2HW+s-4V9G4KP67XFXQ5TN803P|1555203789261
-139,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,#HttpOnly_en.wikipedia.org,FALSE,/,TRUE,1557964800,persistent,,WMF-Last-Access,43569
-140,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,#HttpOnly_.wikipedia.org,TRUE,/,TRUE,1557964800,persistent,,WMF-Last-Access-Global,43569
-141,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,.wikipedia.org,TRUE,/,TRUE,0,session,,GeoIP,US:NY:New_York:40.74:-73.99:v4
-142,Wikipedia,Wikipedia,4,,Entertainment & Info,First Party,en.wikipedia.org,FALSE,/,FALSE,1560386956,persistent,,mwPhp7Seed,e95
-1057,Mozilla,Mozilla,4,,Entertainment & Info,First Party,#HttpOnly_addons.mozilla.org,FALSE,/,TRUE,0,session,,taarId,dfa33bc2c16d1d1adc8df77eb66d08aaea330cc4285a57a270496d76da9ac5c5
-1058,Mozilla,Mozilla,4,,Entertainment & Info,First Party,.mozilla.org,TRUE,/,FALSE,1618270820,persistent,,_ga,GA1.2.218236735.1555198820
-1059,Mozilla,Mozilla,4,,Entertainment & Info,First Party,.mozilla.org,TRUE,/,FALSE,1555285220,persistent,,_gid,GA1.2.1268325900.1555198820
-1060,Mozilla,Mozilla,4,,Entertainment & Info,First Party,.mozilla.org,TRUE,/,FALSE,1555198880,persistent,,_gat,1
-413,Yahoo,Yahoo,2,,Entertainment & Info,First Party,.finance.yahoo.com,TRUE,/,FALSE,1618317478,persistent,,PRF,t%3DFB
-414,Yahoo,Yahoo,2,,Entertainment & Info,First Party,.yahoo.com,TRUE,/,FALSE,1586739718,persistent,,B,24k3cldeb4s5l&b=3&s=09
+425,IMDB,IMDB,6,,Entertainment,First Party,.imdb.com,TRUE,/,TRUE,3702687194,persistent,,uu,BCYkEXY1yJrdvuuMNSGdaX6Exj8mU0NGCjhHKgVfFa_8Tc6fvEPeB-SMP5WOw7nnMINttvSrfU0f%0D%0ADZTeA9cwe8skgOCg7Omnyq7Zq3eqjWeZgsmka0iIXbMqHNNOxNrGjaDuBNL3A6GhD6naglPSdQI5%0D%0AGA%0D%0A
+426,IMDB,IMDB,6,,Entertainment,First Party,.imdb.com,TRUE,/,TRUE,3702687313,persistent,,session-id,143-1179652-0622350
+427,IMDB,IMDB,6,,Entertainment,First Party,.imdb.com,TRUE,/,TRUE,3702687313,persistent,,session-id-time,2185923665
+428,IMDB,IMDB,6,,Entertainment,First Party,.imdb.com,TRUE,/,FALSE,1555225212,persistent,,as,%7B%22h%22%3A%7B%22t%22%3A%5B1008%2C135%5D%2C%22tr%22%3A%5B300%2C250%5D%2C%22ib%22%3A%5B0%2C0%5D%7D%2C%22n%22%3A%7B%22t%22%3A%5B1008%2C135%5D%2C%22tr%22%3A%5B300%2C250%5D%2C%22in%22%3A%5B0%2C0%5D%2C%22ib%22%3A%5B0%2C0%5D%7D%7D
+429,IMDB,IMDB,6,,Entertainment,First Party,.imdb.com,TRUE,/,FALSE,1586739678,persistent,,adblk,adblk_no
+430,IMDB,IMDB,6,,Entertainment,First Party,www.imdb.com,FALSE,/,FALSE,1615683789,persistent,,csm-hit,adb:adblk_no&t:1555203789262&tb:6456WSDJBP6QFRKCH2HW+s-4V9G4KP67XFXQ5TN803P|1555203789261
+139,Wikipedia,Wikipedia,4,,Entertainment,First Party,#HttpOnly_en.wikipedia.org,FALSE,/,TRUE,1557964800,persistent,,WMF-Last-Access,43569
+140,Wikipedia,Wikipedia,4,,Entertainment,First Party,#HttpOnly_.wikipedia.org,TRUE,/,TRUE,1557964800,persistent,,WMF-Last-Access-Global,43569
+141,Wikipedia,Wikipedia,4,,Entertainment,First Party,.wikipedia.org,TRUE,/,TRUE,0,session,,GeoIP,US:NY:New_York:40.74:-73.99:v4
+142,Wikipedia,Wikipedia,4,,Entertainment,First Party,en.wikipedia.org,FALSE,/,FALSE,1560386956,persistent,,mwPhp7Seed,e95
+1057,Mozilla,Mozilla,4,,Technical,First Party,#HttpOnly_addons.mozilla.org,FALSE,/,TRUE,0,session,,taarId,dfa33bc2c16d1d1adc8df77eb66d08aaea330cc4285a57a270496d76da9ac5c5
+1058,Mozilla,Mozilla,4,,Technical,First Party,.mozilla.org,TRUE,/,FALSE,1618270820,persistent,,_ga,GA1.2.218236735.1555198820
+1059,Mozilla,Mozilla,4,,Technical,First Party,.mozilla.org,TRUE,/,FALSE,1555285220,persistent,,_gid,GA1.2.1268325900.1555198820
+1060,Mozilla,Mozilla,4,,Technical,First Party,.mozilla.org,TRUE,/,FALSE,1555198880,persistent,,_gat,1
+413,Yahoo,Yahoo,2,,Entertainment,First Party,.finance.yahoo.com,TRUE,/,FALSE,1618317478,persistent,,PRF,t%3DFB
+414,Yahoo,Yahoo,2,,Entertainment,First Party,.yahoo.com,TRUE,/,FALSE,1586739718,persistent,,B,24k3cldeb4s5l&b=3&s=09

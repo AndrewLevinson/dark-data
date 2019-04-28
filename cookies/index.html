@@ -11,8 +11,12 @@
 
     <!-- style -->
     <!-- google font -->
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,700"
       rel="stylesheet"
     />
     <!-- local sheets -->
@@ -53,18 +57,31 @@
           <p>
             Cookies are one of the most misunderstood pieces of the modern web.
             While technically a cookie is just a simple
-            <a href="#">.txt</a> file that gets stored on your computer when you
-            visit websites, it's purposes are often confusing. The same piece of
-            technology that allows basic online shopping functionality to work
-            on the web is the same piece of technology that allows third parties
-            to track your movement across all your online activites.
+            <a
+              href="#"
+              @mouseover="showHoverTip = !showHoverTip, hoverTip('txtImg')"
+              @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
+              >.txt</a
+            >
+            file that gets stored on your computer when you visit websites, its
+            purposes are often confusing. The same technology that enables basic
+            online shopping functionality is the same technology that allows
+            third parties to track your movement across all your online
+            activities years after you visit a website.
           </p>
           <p>
             That raw power makes this worthy of a deeper dive. To illustrate
-            this, I browsed the US internet's most popular websites
-            <sup>[1]</sup>
-            for one uninteruped hour and exported the 1,117 cookies that were
-            stored on my computer through a Firefox plugin (link and image).
+            this, I browsed the US internet's most popular websites<sup
+              >[1]</sup
+            >
+            for one uninterrupted hour and exported the
+            <span class="datum">1,117</span> cookies that were stored on my
+            computer through a
+            <a
+              href="https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/"
+              target="_blank"
+              >Firefox plugin</a
+            >.
           </p>
         </div>
       </div>
@@ -73,51 +90,6 @@
           <div id="graph-title">
             <h3>{{ graphTitle }}</h3>
           </div>
-          <div id="filters">
-            <span>Filters:</span>
-            <!-- exp date filter -->
-            <select type="dropdown" v-model="myFilters.exp">
-              <option disabled>Filter by Expiration Date</option>
-              <option value="0" :aria-placeholder="myFilters.exp"
-                >All Durations</option
-              >
-              <option value="1">More than 1 day</option>
-              <option value="50">More than 50 days</option>
-            </select>
-
-            <!-- party type filter -->
-            <select type="dropdown" v-model="myFilters.party">
-              <option disabled>Filter by Cookie Type</option>
-              <option value="all" :aria-placeholder="myFilters.party"
-                >All Types</option
-              >
-              <option value="first party">First Party Only</option>
-              <option value="third party">Third Party Only</option>
-            </select>
-
-            <!-- category filter -->
-            <select type="dropdown" v-model="myFilters.category">
-              <option disabled>Filter by Category</option>
-              <option value="all" :aria-placeholder="myFilters.category"
-                >All Categories</option
-              >
-              <option value="news">News</option>
-              <option value="social">Social</option>
-              <option value="google">Google</option>
-              <option value="ecommerce">ecommerce</option>
-            </select>
-            <!-- site filter -->
-            <select type="dropdown" v-model="myFilters.site">
-              <option disabled>Filter by Site</option>
-              <option value="all" :aria-placeholder="myFilters.site"
-                >All Sites</option
-              >
-              <option value="Facebook">Facebook</option>
-              <option value="Google">Google</option>
-              <option value="Amazon">Amazon</option>
-              <option value="Wired">Wired</option>
-            </select>
-          </div>
           <div id="legend">
             <div class="news">
               <div></div>
@@ -125,7 +97,7 @@
             </div>
             <div class="ent">
               <div></div>
-              <span>Entertainment & Info</span>
+              <span>Entertainment</span>
             </div>
             <div class="social">
               <div></div>
@@ -184,9 +156,9 @@
               it comes from a different, third party domain (i.e. ads.com).
             </p>
             <p>
-              A total of <span class="emphasis">472</span> first party cookies
-              and <span class="emphasis">660</span> third party cookies were
-              placed on my computer from visiting 25 websites in one hour.
+              A total of <span class="datum">472</span> first party cookies and
+              <span class="datum">660</span> third party cookies were placed on
+              my computer from visiting 25 websites in one hour.
             </p>
             <p>
               That sounds like a lot for such a short amount of time. Let's take
@@ -206,8 +178,38 @@
             <!-- <h5 class="total">First Party Cookies Only</h5> -->
             <p>
               Every site I visited placed at least 2 first party cookies on my
-              computer. Yahoo stored just two cookies on my computer while
-              Wired.com placed 60 while I was reading a single article.
+              computer. Yahoo stored just <span class="datum">two</span> cookies
+              on my computer while Wired.com placed
+              <span class="datum">60</span> while I was reading a single
+              article.
+            </p>
+            <p>
+              Do you ever get that feeling that the same ads are following you
+              everywhere you go? Well, cookies make that possible and
+              <a
+                href="#"
+                @mouseover="showHoverTip = !showHoverTip, hoverTip('everOne')"
+                @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
+                >Everlane.</a
+              >
+              <a
+                href="#"
+                @mouseover="showHoverTip = !showHoverTip, hoverTip('everTwo')"
+                @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
+                >FOLLOWED.</a
+              >
+              <a
+                href="#"
+                @mouseover="showHoverTip = !showHoverTip, hoverTip('everThree')"
+                @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
+                >ME.</a
+              >
+              <a
+                href="#"
+                @mouseover="showHoverTip = !showHoverTip, hoverTip('everFour')"
+                @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
+                >EVERYWHERE.</a
+              >
             </p>
           </div>
           <div class="text-area">
@@ -232,11 +234,12 @@
             <h5 class="total">Including Third Party</h5>
             <p>
               The first thing you notice if we include third party cookies in
-              this plot—aside from the volume—is that many of these have unknown
+              this plot—aside from the volume—is that many of these have
+              <span class="emphasis">unknown</span>
               origins. While some context clues can help determine what category
-              of domain I was browsing, there is no easy way to definitevly say
-              what site I was on when these third party cookies were plaed on my
-              computer.
+              of domain I was browsing, there is no easy way to definitively say
+              what site I was on when these third party cookies were placed on
+              my computer.
             </p>
           </div>
           <div class="text-area">
@@ -249,20 +252,20 @@
               stored on your computed while you're browsing and are deleted as
               soon as you close your window. Persistent cookies, on the other
               hand, have an expiration date. During my one hour of browsing,
-              <span class="emphasis">92%</span> of the cookies stored were the
+              <span class="datum">92%</span> of the cookies stored were the
               persistent type.
             </p>
             <p>
               In general, session cookies are used for functional purposes like
-              keeping you logged into a website or maintining the state of your
+              keeping you logged into a website or maintaining the state of your
               shopping cart across pages on a single domain. On the other hand,
-              persistent cookies are often used for targetting and advertising
+              persistent cookies are often used for targeting and advertising
               purposes.
             </p>
             <p>
-              As of this writing, there are no laws or rules that limit
-              expiration dates of cookies. Let's take a look at how long these
-              1,029 persistent cookies will be stored on my computer.
+              Let's take a look at how long these
+              <span class="datum">1,029</span> persistent cookies will be stored
+              on my computer.
             </p>
           </div>
           <div class="text-area">
@@ -270,7 +273,8 @@
             <p>
               The average duration for each persistent cookie was [[calculate]]
               days with the longest being a 3rd party cookie that will be on my
-              machine for 36,500 days (100 years).
+              machine for
+              <span class="datum">36,500 days (that's 100 years)</span>.
             </p>
 
             <div id="slider">
@@ -296,19 +300,14 @@
       <div class="body-text">
         <!-- <h5 class="total">Expiration Dates</h5> -->
         <p>
-          Summary Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit, placeat non perferendis laborum rem ducimus
-          exercitationem excepturi eius laudantium maxime ad eveniet eligendi
-          eos? Commodi ratione harum consectetur corrupti fugit dolorem incidunt
-          veniam quae nihil, veritatis quod eveniet facere quis atque omnis odio
-          necessitatibus? Sint, quos tempora modi enim veritatis nisi ipsum
-          similique ad, voluptate consectetur tenetur rem id est fuga iusto
-          accusantium ea, cupiditate dolores dicta repellat magnam quaerat?
-          Harum sit obcaecati eum inventore delectus, nisi accusamus
-          perspiciatis dolores. Laboriosam cumque in explicabo repellat dolorem
-          odit eveniet deleniti harum consectetur et. Ad excepturi qui ea
-          dolorem explicabo aliquam dolore.
+          While cookies are not inherently malicious, and sometimes necessary
+          for functionality, they do have considerable impact on your browsing
+          experience. When third party cookies of unclear origins store files on
+          your computer for up to 100 years meant to track your online activity
+          for the explicity purpose of ad targeting, we should be conncerned
+          about privacy on the web.
         </p>
+        <p>2100281437</p>
       </div>
       <div class="footnotes">
         <hr class="footer" />

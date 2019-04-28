@@ -10,25 +10,33 @@ html {
   font-size: 62.5%;
 }
 
+/* load fonts */
+@font-face {
+  font-family: "GT Super";
+  src: url("../assets/fonts/GT-Super-Text-Black.woff") format("woff2"),
+    url("../assets/fonts/GT-Super-Text-Black.woff2") format("woff");
+}
+
 body {
   font-size: 1.7em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 300;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "IBM Plex Mono", monospace;
   color: #3b3b3d;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
 .text-area {
-  font-size: 1.8rem;
-  line-height: 1.5;
+  font-size: 1.7rem;
+  line-height: 1.45;
 }
-/* g {
-  font-size: 1.25rem;
-  font-family: monospace;
-} */
+g {
+  /* font-size: 1.25rem; */
+  font-family: "IBM Plex Mono", monospace;
+}
 
 /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -42,7 +50,7 @@ h6 {
   /* margin-top: 0rem; */
   margin-bottom: 2.2rem;
   font-weight: 900;
-  /* font-family: "IBM Plex Mono", monospace; */
+  font-family: "GT Super", serif;
   /* color: #3d3d3d; */
 }
 
@@ -109,8 +117,8 @@ h6 {
     margin-top: 0;
   }
   body {
-    font-size: 2rem;
-    line-height: 1.45;
+    font-size: 1.8rem;
+    line-height: 1.35;
   }
   /* .text-content > p {
     font-size: 1.8rem;

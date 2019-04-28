@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #f7f7f7;
+  /* --main-bg-color: #fff; */
   --main-text-color: #3b3b3d;
   --link-color: #5f90de;
   --emphasis: lightcoral;
@@ -17,6 +18,10 @@ input {
   background-color: var(--main-bg-color);
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 select {
   font-size: 80%;
 }
@@ -32,7 +37,7 @@ select:hover {
 
 #slider p {
   margin-top: 2.5rem;
-  font-family: "helvetica", sans-serif;
+  /* font-family: "helvetica", sans-serif; */
 }
 #slider input {
   /* margin-top: 0.5rem; */
@@ -65,11 +70,6 @@ button:hover:after {
   content: url("../assets/refresh_hover.svg");
 }
 
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -85,8 +85,20 @@ a:hover {
 }
 
 sup {
-  color: var(--link-color);
+  color: var(--emphasis);
   font-weight: 600;
+}
+
+ol {
+  margin-bottom: 3rem;
+  margin-left: 1px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+
+ul {
+  margin: 2px 0px 12px 0px;
+  list-style-position: outside;
 }
 
 p {
@@ -194,8 +206,8 @@ p {
   justify-content: space-between;
   padding-bottom: 1.5rem;
   margin-top: -0.5rem;
-  font-size: 1.5rem;
-  font-family: "helvetica", sans-serif;
+  font-size: 1.35rem;
+  /* font-family: "helvetica", sans-serif; */
   padding-left: 5px;
 }
 
@@ -248,7 +260,7 @@ p {
 
 /* graph elements */
 g {
-  font-family: "helvetica", sans-serif;
+  /* font-family: "helvetica", sans-serif; */
   font-weight: 300;
   font-size: 1.3rem;
 }
@@ -348,7 +360,7 @@ div.tooltip {
 }
 
 .tooltip p {
-  font-family: "helvetica", sans-serif;
+  /* font-family: "helvetica", sans-serif; */
   margin-bottom: 1rem;
 }
 #tip-band {
@@ -405,7 +417,7 @@ hr.footer {
   opacity: 1;
 }
 .footnotes {
-  opacity: 0.75;
+  opacity: 0.8;
   font-size: 75%;
   width: 50%;
   padding-top: 10rem;
