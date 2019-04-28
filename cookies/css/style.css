@@ -91,15 +91,15 @@ sup {
 }
 
 ol {
-  margin-bottom: 3rem;
-  margin-left: 1px;
+  margin: 2px 0px 12px 2.25rem;
   padding-left: 0px;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 ul {
-  margin: 2px 0px 12px 0px;
-  list-style-position: outside;
+  margin: 2px 0px 12px 2.25rem;
+  padding-left: 0px;
+  list-style-position: circle outside;
 }
 
 p {
@@ -160,6 +160,7 @@ p {
   position: -webkit-sticky;
   top: 20px;
   height: 100vh;
+  width: auto;
 }
 
 #sections {
@@ -185,22 +186,6 @@ p {
   margin-top: 10rem;
   /* font-size: 90%; */
   padding: 0;
-}
-
-@media (max-width: 925px) {
-  .text-area {
-    transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
-    width: 30%;
-    /* max-width: 800px; */
-    padding: 2rem;
-    margin: 0 auto;
-    margin-bottom: 60rem;
-    z-index: 999;
-    background-color: #fff;
-    border: 1px solid lightgray;
-    border-radius: 6px;
-    filter: drop-shadow(0px 2px 4px rgba(59, 59, 61, 0.4));
-  }
 }
 
 /* legend and title */
@@ -404,6 +389,7 @@ span.emphasis {
 .total {
   font-weight: 600;
   margin-bottom: 0.5rem;
+  margin-top: 4rem;
   /* border-bottom: 2px dashed #68696b; */
 }
 .datum {
@@ -413,6 +399,11 @@ span.emphasis {
 
 #filters {
   display: none;
+}
+
+#happy {
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
 }
 
 /* footer */
@@ -426,5 +417,59 @@ hr.footer {
   font-size: 75%;
   width: 50%;
   padding-top: 10rem;
+  padding-bottom: 3rem;
   margin: 0 auto;
+}
+
+/* responsive */
+@media (max-width: 925px) {
+  #chart {
+    display: block;
+    width: 100%;
+  }
+  .text-area {
+    transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+    width: 90%;
+    /* max-width: 800px; */
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 60rem;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    filter: drop-shadow(0px 2px 4px rgba(59, 59, 61, 0.4));
+  }
+
+  .total {
+    margin-top: 0.25rem;
+  }
+
+  .footnotes {
+    width: 100%;
+  }
+
+  #title {
+    text-align: left;
+  }
+
+  .container {
+    padding-top: 1rem;
+    width: 95%;
+    text-align: left;
+  }
+
+  #graph {
+    width: 95%;
+  }
+
+  #intro-content,
+  .body-text {
+    max-width: none;
+    margin: 0rem auto;
+  }
+  #graph-title,
+  #legend {
+    margin-left: 0px;
+  }
 }

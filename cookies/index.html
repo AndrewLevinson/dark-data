@@ -60,13 +60,12 @@
             <a
               @mouseover="showHoverTip = !showHoverTip, hoverTip('txtImg')"
               @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
-              >text file (.txt)</a
+              >text (.txt) file</a
             >
-            file that gets stored on your computer when you visit websites, its
-            purposes are often confusing. The technology that enables basic
-            online shopping functionality is the same technology that allows
-            third parties to track your movement across all your online
-            activities.
+            stored on your computer when you visit websites, its purposes are
+            often confusing. The technology that enables basic online shopping
+            functionality is the same technology that allows third parties to
+            track your movement across all your online activities.
           </p>
           <p>
             That raw power makes this worthy of a deeper dive. To illustrate
@@ -277,8 +276,11 @@
           <div class="text-area">
             <h5 class="total">Persistent Cookies Expiration</h5>
             <p>
-              The average duration for each persistent cookie was [[calculate]]
-              days with the longest being a 3rd party cookie that will be on my
+              The average duration for each persistent cookie was
+              <span class="datum"
+                >{{ numFormater(timeConvert(2100281437)) }} days</span
+              >
+              with the longest being a 3rd party cookie that will be on my
               machine for
               <span class="datum">36,500 days (that's 100 years)</span>.
             </p>
@@ -294,7 +296,7 @@
               <input
                 name="domainXSlider"
                 type="range"
-                min="0"
+                min="1"
                 max="40000"
                 value="40000"
                 v-model="domainX.max"
@@ -307,9 +309,9 @@
         <h5 class="total">Reflections</h5>
         <p>
           Cookies are not inherently malicious. Often they are necessary for
-          critical functionality that impacts your experience on the web in
-          positive ways. However, when unknown third parties with unrecognizable
-          names store cookies on your computer for up to 100 years for the sole
+          functionality that impacts your experience on the web in positive
+          ways. However, when unknown third parties with unrecognizable names
+          store cookies on your computer for up to 100 years with the sole
           purpose of tracking your online activity to serve targeted
           advertisements, we should be concerned about privacy on the web.
         </p>
@@ -319,14 +321,22 @@
             >General Data Protection Regulation (GDPR)</a
           >
           in the European Union have set new standards for tracking consent on
-          the web—the reason you've seen these cookie notifications every time
-          you visit a new site—most companies in the US are doing the bare
-          minimum to provide transparency on their cookie usage. The EU
-          continues to lead the charge and will potentially provide more clarity
-          on cookies consent in an ePrivacy directive revamp that may come as
-          soon as Summer 2019, but that still only affects companies processing
-          EU residents data. The experience for internet users in the United
-          States may largely stay the same.
+          the web——<a
+            @mouseover="showHoverTip = !showHoverTip, hoverTip('consent')"
+            @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
+            >the reason you've seen these cookie notifications every time you
+            visit a new site</a
+          >——most companies in the US are doing the bare minimum to provide
+          transparency on their cookie usage. The EU continues to lead the
+          charge and will potentially provide more clarity on cookies consent in
+          an
+          <a
+            href="https://techcrunch.com/2018/10/07/eprivacy-an-overview-of-europes-other-big-privacy-rule-change/"
+            >ePrivacy directive revamp</a
+          >
+          that may come as soon as Summer 2019, but that still only affects
+          companies processing EU residents data. The experience for internet
+          users in the United States may largely stay the same.
         </p>
         <p>
           Vitaly Friedman, in an
@@ -347,22 +357,21 @@
 
         <p>
           If you're concerned like I was after my research, one of the easiest
-          steps you can take is to turn off third party cookies. Every major
+          steps you can take is to block third party cookies. Every major
           browser has this option. Safari already has third party cookies
           disabled by default and Firefox will be disabling them by default in
           <a
             href="https://blog.mozilla.org/futurereleases/2018/08/30/changing-our-approach-to-anti-tracking/"
             >Firefox 65</a
-          >. But if you're like me and the other 63% of internet users, you most
-          likely use Chrome. You can turn off third party cookies manually by
+          >. But if you're like me and the other 63% of internet
+          users<sup>[4]</sup>, you most likely use Chrome, which does not block
+          them by default. You can manually block third party cookies by
           <a
             href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en"
             >following these instructions</a
           >.
         </p>
-        <span class="datum"><i>Happy browsing.</i></span>
-
-        <!-- <p>2100281437</p> -->
+        <span id="happy" class="datum"><i>Happy browsing...</i></span>
       </div>
       <div class="footnotes">
         <hr class="footer" />
@@ -376,7 +385,10 @@
           of Design // The New School.
         </p>
         <p>
-          Data was collected using the
+          Data was collected through the Firefox browser with the help of the
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/"
+            >cookies.txt plugin</a
+          >
         </p>
         <p>
           The scroll events were made possible by use of the
@@ -385,7 +397,7 @@
           >
           JavaScript library.
         </p>
-        <p>Footnotes:</p>
+        <p>Footnotes & Sources:</p>
         <ol>
           <li>
             <a
@@ -393,20 +405,25 @@
               >Wikipedia List of Most Popular Websites in the US</a
             >
           </li>
-          <li></li>
-          <li></li>
-        </ol>
-        <p>Sources:</p>
-        <ol>
           <li>
             <a href="https://cookiepedia.co.uk/"
               >Cookiepedia: The world's largest database of pre-categorized
               cookies</a
             >
           </li>
-
-          <li></li>
-          <li></li>
+          <li>
+            <a
+              href="https://ico.org.uk/media/for-organisations/documents/1545/cookies_guidance.pdf"
+              >Guidance on the rules on use of cookies and similar technologies
+              by the Information Commissioner's Office</a
+            >
+          </li>
+          <li>
+            <a
+              href="http://gs.statcounter.com/browser-market-share#monthly-201707-201707-map"
+              >Statcounter browser share statistics</a
+            >
+          </li>
         </ol>
         <p>
           Feel free to

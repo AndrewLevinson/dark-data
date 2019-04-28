@@ -4,7 +4,6 @@ var app = new Vue({
   data() {
     return {
       graphTitle: "Cookies",
-      svgWidth: window.innerWidth * 0.55,
       svgHeight: window.innerHeight * 0.825,
       margin: { top: 25, left: 130, bottom: 25, right: 25 },
       cookies: [{}],
@@ -16,12 +15,14 @@ var app = new Vue({
         everOne: "./assets/crop/everlane.png",
         everTwo: "./assets/crop/everlane2.png",
         everThree: "./assets/crop/everlane3.png",
-        everFour: "./assets/crop/everlane4.png"
+        everFour: "./assets/crop/everlane4.png",
+        consent: "./assets/consent.png"
       },
       activeLink: null,
       iSelected: null,
       activeIndex: 0,
       domainSelected: null,
+      fixedTip: false,
       special: false,
       myCount: null,
       nested_data: [{}],
@@ -45,7 +46,13 @@ var app = new Vue({
       );
       return filteredData;
     },
-
+    svgWidth() {
+      if (window.innerWidth < 926) {
+        return window.innerWidth * 0.9;
+      } else {
+        return window.innerWidth * 0.55;
+      }
+    },
     width() {
       return this.svgWidth - this.margin.left - this.margin.right;
     },
@@ -122,10 +129,12 @@ var app = new Vue({
       })
         .then(d => {
           // add property for converted expiration time to days
-          let convertedData = d.map(d => ({
-            ...d,
-            days: this.timeConvert(d.exp)
-          }));
+          let convertedData = d
+            .filter(d => d.domain != "Mozilla")
+            .map(d => ({
+              ...d,
+              days: this.timeConvert(d.exp)
+            }));
           return (this.cookies = convertedData);
         })
         .then(() => {
@@ -162,6 +171,7 @@ var app = new Vue({
       // this.domainSelected = d;
     },
     initTooltip() {
+      let self = this;
       tooltip = {
         element: null,
         init: function() {
@@ -176,16 +186,36 @@ var app = new Vue({
             .html(t)
             .transition()
             .duration(200)
-            .style("left", `${event.x + 30}px`)
-            .style("bottom", `${window.innerHeight - event.y + 20}px`)
+            .style(
+              "left",
+              `${self.fixedTip ? window.innerWidth * 0.35 : event.x + 30}px`
+            )
+            .style(
+              "bottom",
+              `${
+                self.fixedTip
+                  ? window.innerHeight * 0.35
+                  : window.innerHeight - event.y + 20
+              }px`
+            )
             .style("opacity", 0.925);
         },
         move: function() {
           this.element
             .transition()
             .duration(30)
-            .style("left", `${event.x + 30}px`)
-            .style("bottom", `${window.innerHeight - event.y + 20}px`)
+            .style(
+              "left",
+              `${self.fixedTip ? window.innerWidth * 0.35 : event.x + 30}px`
+            )
+            .style(
+              "bottom",
+              `${
+                self.fixedTip
+                  ? window.innerHeight * 0.35
+                  : window.innerHeight - event.y + 20
+              }px`
+            )
             .style("opacity", 0.925);
         },
         hide: function() {
@@ -356,6 +386,7 @@ var app = new Vue({
               this.select(null);
               this.showLabelAuto = false;
               this.myTooltip(null);
+              this.fixedTip = false;
 
               break;
             case 3:
@@ -368,6 +399,7 @@ var app = new Vue({
               this.domainX.max = 70;
               this.filterKey = "3rd Party";
 
+              this.fixedTip = true;
               this.randomID();
 
               break;
@@ -390,6 +422,7 @@ var app = new Vue({
               this.select(null);
               this.showLabelAuto = false;
               this.myTooltip(null);
+              this.fixedTip = false;
 
               break;
 
