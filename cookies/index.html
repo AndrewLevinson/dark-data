@@ -58,30 +58,30 @@
             Cookies are one of the most misunderstood pieces of the modern web.
             While technically a cookie is just a simple
             <a
-              href="#"
               @mouseover="showHoverTip = !showHoverTip, hoverTip('txtImg')"
               @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
-              >.txt</a
+              >text file (.txt)</a
             >
             file that gets stored on your computer when you visit websites, its
-            purposes are often confusing. The same technology that enables basic
+            purposes are often confusing. The technology that enables basic
             online shopping functionality is the same technology that allows
             third parties to track your movement across all your online
-            activities years after you visit a website.
+            activities.
           </p>
           <p>
             That raw power makes this worthy of a deeper dive. To illustrate
-            this, I browsed the US internet's most popular websites<sup
-              >[1]</sup
-            >
-            for one uninterrupted hour and exported the
-            <span class="datum">1,117</span> cookies that were stored on my
-            computer through a
+            this, I did my own experiment. Starting with a clean slate of
+            cleared browsing history, cache, and cookies, I browsed the US
+            internet's most popular websites<sup>[1]</sup> for one uninterrupted
+            hour. At the end of the hour, I exported the
+            <span class="datum">1,117</span> new cookies that were placed on my
+            computer during that time with the help of a
             <a
               href="https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/"
               target="_blank"
               >Firefox plugin</a
-            >.
+            >
+            and analysed the results.
           </p>
         </div>
       </div>
@@ -177,38 +177,35 @@
           <div class="text-area">
             <!-- <h5 class="total">First Party Cookies Only</h5> -->
             <p>
-              Every site I visited placed at least 2 first party cookies on my
+              Every site I visited placed at least two first party cookies on my
               computer. Yahoo stored just <span class="datum">two</span> cookies
               on my computer while Wired.com placed
-              <span class="datum">60</span> while I was reading a single
-              article.
+              <span class="datum">60</span> as I was reading a single article.
             </p>
             <p>
-              Do you ever get that feeling that the same ads are following you
-              everywhere you go? Well, cookies make that possible and
+              Second to Wired.com was the clothing company, Everlane. Do you
+              ever get that feeling that the same ads are
+              <i>following you everywhere you go?</i> <br /><br />Well, cookies
+              make that possible and
               <a
-                href="#"
                 @mouseover="showHoverTip = !showHoverTip, hoverTip('everOne')"
                 @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
                 >Everlane.</a
               >
               <a
-                href="#"
                 @mouseover="showHoverTip = !showHoverTip, hoverTip('everTwo')"
                 @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
-                >FOLLOWED.</a
+                >Followed.</a
               >
               <a
-                href="#"
                 @mouseover="showHoverTip = !showHoverTip, hoverTip('everThree')"
                 @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
-                >ME.</a
+                >Me.</a
               >
               <a
-                href="#"
                 @mouseover="showHoverTip = !showHoverTip, hoverTip('everFour')"
                 @mouseleave="showHoverTip = !showHoverTip, hoverTip()"
-                >EVERYWHERE.</a
+                >Everywhere.</a
               >
             </p>
           </div>
@@ -216,6 +213,15 @@
             <!-- <h5 class="total">Cookie Information</h5> -->
             <p>
               What kind of information do we know about each cookie?
+              Unfortunately, the standard cookie file format does not include a
+              purpose or description which means it's impossible to know with
+              certainty how the cookies on my computer are being used.
+            </p>
+            <p>
+              However, there are a few sites dedicated to cataloging cookies and
+              their purpose. I used
+              <a href="https://cookiepedia.co.uk/">Cookiepedia</a> to do my
+              research.
             </p>
             <p>
               Click the button below to select a random cookie or hover over any
@@ -233,8 +239,8 @@
           <div class="text-area">
             <h5 class="total">Including Third Party</h5>
             <p>
-              The first thing you notice if we include third party cookies in
-              this plot—aside from the volume—is that many of these have
+              In addition to the sheer volume of third party cookies, it's
+              immediately clear that most of these cookies have
               <span class="emphasis">unknown</span>
               origins. While some context clues can help determine what category
               of domain I was browsing, there is no easy way to definitively say
@@ -249,7 +255,7 @@
               cookies can also be classified as
               <span class="emphasis">persistent</span> vs.
               <span class="emphasis">session</span>. Session cookies are only
-              stored on your computed while you're browsing and are deleted as
+              stored on your computer while you're browsing and are deleted as
               soon as you close your window. Persistent cookies, on the other
               hand, have an expiration date. During my one hour of browsing,
               <span class="datum">92%</span> of the cookies stored were the
@@ -260,7 +266,7 @@
               keeping you logged into a website or maintaining the state of your
               shopping cart across pages on a single domain. On the other hand,
               persistent cookies are often used for targeting and advertising
-              purposes.
+              purposes that follow you across sites.
             </p>
             <p>
               Let's take a look at how long these
@@ -297,17 +303,66 @@
           </div>
         </section>
       </div>
-      <div class="body-text">
-        <!-- <h5 class="total">Expiration Dates</h5> -->
+      <div id="conclusion" class="body-text">
+        <h5 class="total">Reflections</h5>
         <p>
-          While cookies are not inherently malicious, and sometimes necessary
-          for functionality, they do have considerable impact on your browsing
-          experience. When third party cookies of unclear origins store files on
-          your computer for up to 100 years meant to track your online activity
-          for the explicity purpose of ad targeting, we should be conncerned
-          about privacy on the web.
+          Cookies are not inherently malicious. Often they are necessary for
+          critical functionality that impacts your experience on the web in
+          positive ways. However, when unknown third parties with unrecognizable
+          names store cookies on your computer for up to 100 years for the sole
+          purpose of tracking your online activity to serve targeted
+          advertisements, we should be concerned about privacy on the web.
         </p>
-        <p>2100281437</p>
+        <p>
+          While new regulations like the
+          <a href="https://eugdpr.org/"
+            >General Data Protection Regulation (GDPR)</a
+          >
+          in the European Union have set new standards for tracking consent on
+          the web—the reason you've seen these cookie notifications every time
+          you visit a new site—most companies in the US are doing the bare
+          minimum to provide transparency on their cookie usage. The EU
+          continues to lead the charge and will potentially provide more clarity
+          on cookies consent in an ePrivacy directive revamp that may come as
+          soon as Summer 2019, but that still only affects companies processing
+          EU residents data. The experience for internet users in the United
+          States may largely stay the same.
+        </p>
+        <p>
+          Vitaly Friedman, in an
+          <a
+            href="https://www.smashingmagazine.com/2019/04/privacy-ux-better-cookie-consent-experiences/"
+            >article</a
+          >
+          published in Smashing Magazine, addressed issues surrounding cookies
+          and tracking consent from a nuanced design perspective. In an ideal
+          state, all websites that use your data would provide cookie management
+          settings that allow users to see the purpose and expiration of every
+          cookie. Additionally, the ability to toggle different cookies on and
+          off would provide complete consent, but that obviously is not in the
+          best interest of advertisers who want to place a lot of lengthy third
+          party tracking cookies on your computer.
+        </p>
+        <h5 class="total">What can you do?</h5>
+
+        <p>
+          If you're concerned like I was after my research, one of the easiest
+          steps you can take is to turn off third party cookies. Every major
+          browser has this option. Safari already has third party cookies
+          disabled by default and Firefox will be disabling them by default in
+          <a
+            href="https://blog.mozilla.org/futurereleases/2018/08/30/changing-our-approach-to-anti-tracking/"
+            >Firefox 65</a
+          >. But if you're like me and the other 63% of internet users, you most
+          likely use Chrome. You can turn off third party cookies manually by
+          <a
+            href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en"
+            >following these instructions</a
+          >.
+        </p>
+        <span class="datum"><i>Happy browsing.</i></span>
+
+        <!-- <p>2100281437</p> -->
       </div>
       <div class="footnotes">
         <hr class="footer" />
@@ -343,7 +398,12 @@
         </ol>
         <p>Sources:</p>
         <ol>
-          <li></li>
+          <li>
+            <a href="https://cookiepedia.co.uk/"
+              >Cookiepedia: The world's largest database of pre-categorized
+              cookies</a
+            >
+          </li>
 
           <li></li>
           <li></li>

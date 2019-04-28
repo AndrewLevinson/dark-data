@@ -77,6 +77,7 @@ a {
 a:hover {
   color: var(--emphasis);
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 
 .link-contain {
@@ -138,6 +139,10 @@ p {
 .body-text {
   max-width: 65rem;
   margin: 3rem auto;
+}
+
+#conclusion {
+  margin-top: 5rem;
 }
 
 /* chart */

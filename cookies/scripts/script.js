@@ -12,7 +12,7 @@ var app = new Vue({
       showLabelAuto: false,
       showHoverTip: false,
       links: {
-        txtImg: "./assets/crop/cookietxt.png",
+        txtImg: "./assets/cookietxt.png",
         everOne: "./assets/crop/everlane.png",
         everTwo: "./assets/crop/everlane2.png",
         everThree: "./assets/crop/everlane3.png",
@@ -177,7 +177,7 @@ var app = new Vue({
             .transition()
             .duration(200)
             .style("left", `${event.x + 30}px`)
-            .style("bottom", `${window.innerHeight - event.y + 10}px`)
+            .style("bottom", `${window.innerHeight - event.y + 20}px`)
             .style("opacity", 0.925);
         },
         move: function() {
@@ -185,7 +185,7 @@ var app = new Vue({
             .transition()
             .duration(30)
             .style("left", `${event.x + 30}px`)
-            .style("bottom", `${window.innerHeight - event.y + 10}px`)
+            .style("bottom", `${window.innerHeight - event.y + 20}px`)
             .style("opacity", 0.925);
         },
         hide: function() {
