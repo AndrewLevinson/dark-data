@@ -192,7 +192,7 @@ var app = new Vue({
             )
             .style(
               "top",
-              `${self.fixedTip ? window.innerHeight * 0.35 : event.y + 10}px`
+              `${self.fixedTip ? window.innerHeight * 0.5 : event.y + 10}px`
             )
             .style("opacity", 0.925);
         },
@@ -206,7 +206,7 @@ var app = new Vue({
             )
             .style(
               "top",
-              `${self.fixedTip ? window.innerHeight * 0.35 : event.y + 10}px`
+              `${self.fixedTip ? window.innerHeight * 0.5 : event.y + 10}px`
             )
             .style("opacity", 0.925);
         },
