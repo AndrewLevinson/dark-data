@@ -191,12 +191,8 @@ var app = new Vue({
               `${self.fixedTip ? window.innerWidth * 0.35 : event.x + 30}px`
             )
             .style(
-              "bottom",
-              `${
-                self.fixedTip
-                  ? window.innerHeight * 0.35
-                  : window.innerHeight - event.y + 20
-              }px`
+              "top",
+              `${self.fixedTip ? window.innerHeight * 0.35 : event.y + 10}px`
             )
             .style("opacity", 0.925);
         },
@@ -209,12 +205,8 @@ var app = new Vue({
               `${self.fixedTip ? window.innerWidth * 0.35 : event.x + 30}px`
             )
             .style(
-              "bottom",
-              `${
-                self.fixedTip
-                  ? window.innerHeight * 0.35
-                  : window.innerHeight - event.y + 20
-              }px`
+              "top",
+              `${self.fixedTip ? window.innerHeight * 0.35 : event.y + 10}px`
             )
             .style("opacity", 0.925);
         },
@@ -340,7 +332,7 @@ var app = new Vue({
               break;
 
             case 1:
-              this.graphTitle = "First Party Cookies by Category";
+              this.graphTitle = "First-Party Cookies by Category";
               // set shown 2
               this.setShown = 2;
               this.nested_data = d3
@@ -367,7 +359,7 @@ var app = new Vue({
               this.myTooltip(null);
               break;
             case 2:
-              this.graphTitle = "First Party Cookies by Website";
+              this.graphTitle = "First-Party Cookies by Website";
               // set shown 1
               this.setShown = 1;
               // set nesting for domain
@@ -390,7 +382,7 @@ var app = new Vue({
 
               break;
             case 3:
-              this.graphTitle = "First Party Cookies by Website";
+              this.graphTitle = "First-Party Cookies by Website";
               // set shown 1
               this.setShown = 1;
               // presorting for smoother animation in next case
