@@ -3,7 +3,8 @@
   --main-text-color: #fff;
   --link-color: #fff;
   --link-hover: #ffe300;
-  --emphasis: #0000ff;
+  /* --emphasis: #0000ff; */
+  --emphasis: #ffe300;
   --cat-news: #bf00ff;
   --cat-social: #0051ff;
   --cat-google: #00ff84;
@@ -385,7 +386,8 @@ span.emphasis {
   opacity: 1;
   color: var(--emphasis);
   /* border-bottom: 1px dashed var(--emphasis); */
-  background-color: var(--main-text-color);
+  /* background-color: var(--main-text-color); */
+  background-color: var(--tip-background);
   border-radius: 4px;
   white-space: nowrap;
   padding: 0.25rem 0.5rem 0.5rem 0.5rem;
